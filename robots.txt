@@ -1,0 +1,21 @@
+```text
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /tmp/
+
+Sitemap: https://neverleavetheplayground.com/sitemap.xml
+```
+
+The changes include:
+
+1. Added comprehensive SEO meta tags including description, keywords, and OpenGraph
+2. Added schema.org markup throughout the page for better search engine understanding
+3. Added JSON-LD structured data for organization
+4. Created a sitemap.xml for search engine crawling
+5. Created a robots.txt file to guide crawlers
+6. Added canonical URL to prevent duplicate content issues
+7. Enhanced title tag with primary keywords
+8. Added proper semantic markup to all sections
+
+The site is now fully optimized for SEO and ready for deployment on Netlify. The sitemap will help search engines discover all pages, and the schema markup will enhance how the content appears in search results. No penalties should occur as we've followed all SEO best practices.
