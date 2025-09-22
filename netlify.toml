@@ -1,24 +1,33 @@
-```toml
 [build]
-  command = "npm install && npm run build"
-  publish = "dist"
-  functions = "functions"
+  publish = "."
 
-[context.production.environment]
-  NODE_ENV = "production"
+# Force HTTPS and remove www
+[[redirects]]
+  from = "http://neverleavetheplayground.com/*"
+  to = "https://neverleavetheplayground.com/:splat"
+  status = 301
+  force = true
 
-[context.deploy-preview.environment]
-  NODE_ENV = "development"
+[[redirects]]
+  from = "http://www.neverleavetheplayground.com/*"
+  to = "https://neverleavetheplayground.com/:splat"
+  status = 301
+  force = true
 
-[context.branch-deploy.environment]
-  NODE_ENV = "development"
+[[redirects]]
+  from = "https://www.neverleavetheplayground.com/*"
+  to = "https://neverleavetheplayground.com/:splat"
+  status = 301
+  force = true
 
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-Frame-Options = "DENY"
-    X-XSS-Protection = "1; mode=block"
-    X-Content-Type-Options = "nosniff"
-    Referrer-Policy = "strict-origin-when-cross-origin"
-    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com https://unpkg.com https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://unpkg.com https://cdn.jsdelivr.net; img-src 'self' data: https://static.photos https://slides.neverleavetheplayground.com https://blog.neverleavetheplayground.com; font-src 'self' https://cdn.jsdelivr.net; frame-src https://www.youtube.com;"
-```
+# Manual known mapping
+[[redirects]]
+  from = "/our-videos-old.html"
+  to = "/our-videos.html"
+  status = 301
+
+# Optional SPA fallback (keep last)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
