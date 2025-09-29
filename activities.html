@@ -54,33 +54,45 @@
 </head>
 <body class="antialiased">
 <!-- Navigation -->
-<nav class="bg-white shadow-sm sticky top-0 z-50">
+<nav class="bg-gray-950/95 backdrop-blur border-b border-white/10 sticky top-0 z-50">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-<div class="flex items-center">
+<div class="flex items-center justify-between h-16">
 <a class="text-xl font-bold playful-text flex items-center" href="index.html">
 <img alt="NeverLeaveThePlayground" class="h-8 w-8 mr-2" src="https://slides.neverleavetheplayground.com/assets/img/icon-222.png"/>
                         NeverLeaveThePlayground
                     </a>
-</div>
-<div class="hidden md:flex items-center space-x-8">
-<a class="text-gray-700 hover:text-purple-600 transition-smooth" href="index.html">Home</a>
-<a class="text-gray-700 hover:text-purple-600 transition-smooth" href="index.html#features">Features</a>
-<a class="text-gray-700 hover:text-purple-600 transition-smooth" href="index.html#about">About</a>
-<a class="text-gray-700 hover:text-purple-600 transition-smooth" href="our-videos.html">Our Videos</a>
-<a class="text-purple-600 font-medium transition-smooth" href="activities.html">Activities</a>
-<a class="text-gray-700 hover:text-purple-600 transition-smooth" href="news.html">News</a>
-<a class="text-gray-700 hover:text-purple-600 transition-smooth" href="index.html#contact">Contact</a>
-<a class="bg-purple-600 text-white px-4 py-2 rounded-full hover:bg-purple-700 transition-smooth" href="https://shop.neverleavetheplayground.com/" target="_blank">
+<div class="hidden md:flex items-center space-x-8 text-sm">
+<a class="text-gray-200 hover:text-white transition-smooth" href="index.html">Home</a>
+<a class="text-gray-200 hover:text-white transition-smooth" href="index.html#features">Features</a>
+<a class="text-gray-200 hover:text-white transition-smooth" href="index.html#about">About</a>
+<a class="text-gray-200 hover:text-white transition-smooth" href="our-videos.html">Our Videos</a>
+<a class="text-white font-semibold transition-smooth" href="activities.html">Activities</a>
+<a class="text-gray-200 hover:text-white transition-smooth" href="news.html">News</a>
+<a class="text-gray-200 hover:text-white transition-smooth" href="index.html#contact">Contact</a>
+<a class="bg-purple-600 text-white px-4 py-2 rounded-full hover:bg-purple-500 transition-smooth shadow-lg shadow-purple-500/30" href="https://shop.neverleavetheplayground.com/" target="_blank">
                         Visit Shop
                     </a>
 </div>
 <div class="md:hidden flex items-center">
-<button class="text-gray-700 hover:text-purple-600">
-<i data-feather="menu"></i>
+<button aria-controls="mobile-menu" aria-expanded="false" class="inline-flex items-center justify-center p-2 rounded-md text-gray-200 hover:text-white hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:ring-offset-gray-900 transition" id="mobile-menu-button" type="button">
+<span class="sr-only">Open main menu</span>
+<i class="h-6 w-6" data-feather="menu"></i>
 </button>
 </div>
 </div>
-
+</div>
+<div class="hidden md:hidden transform origin-top scale-y-95 opacity-0 -translate-y-2 transition-all duration-200 ease-out bg-gray-950 text-white shadow-xl ring-1 ring-white/10" id="mobile-menu">
+<div class="px-4 pb-6 pt-4 space-y-2 text-sm">
+<a class="block rounded-lg px-4 py-3 bg-white/5 text-white font-medium hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-purple-500" href="index.html">Home</a>
+<a class="block rounded-lg px-4 py-3 text-gray-200 hover:text-white hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-purple-500" href="index.html#features">Features</a>
+<a class="block rounded-lg px-4 py-3 text-gray-200 hover:text-white hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-purple-500" href="index.html#about">About</a>
+<a class="block rounded-lg px-4 py-3 text-gray-200 hover:text-white hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-purple-500" href="our-videos.html">Our Videos</a>
+<a class="block rounded-lg px-4 py-3 text-white font-semibold bg-white/5 hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-purple-500" href="activities.html">Activities</a>
+<a class="block rounded-lg px-4 py-3 text-gray-200 hover:text-white hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-purple-500" href="news.html">News</a>
+<a class="block rounded-lg px-4 py-3 text-gray-200 hover:text-white hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-purple-500" href="index.html#contact">Contact</a>
+<a class="block rounded-lg px-4 py-3 text-white bg-purple-600 hover:bg-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-500" href="https://shop.neverleavetheplayground.com/" target="_blank">Visit Shop</a>
+</div>
+</div>
 </nav>
 <!-- Hero Section -->
 <section class="hero-gradient text-white py-20">
@@ -199,7 +211,7 @@
                             Our active playground skills video featuring multiple exciting activities and techniques to keep you engaged for hours.
                         </p>
 <div class="flex justify-between items-center">
-<a _blank"="" class="bg-purple-600 text-white px-6 py-2 rounded-full hover:bg-purple-700 transition-smooth" href="">
+<a _blank"" class="bg-purple-600 text-white px-6 py-2 rounded-full hover:bg-purple-700 transition-smooth" href="">
                                 Video Collection
                             </a>
 <a class="payhip-buy-button" data-product="Mgw7n" data-theme="blue" href="https://payhip.com/b/Mgw7n">Buy Now</a>
@@ -298,6 +310,99 @@
 </div>
 </footer>
 <script>
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const focusableSelector = 'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])';
+        const openClasses = ['opacity-100', 'scale-y-100', 'translate-y-0'];
+        const closedClasses = ['opacity-0', 'scale-y-95', '-translate-y-2'];
+        let previousFocus = null;
+        let closeMenuTimeout = null;
+
+        const getFocusableElements = () => {
+            return Array.from(mobileMenu.querySelectorAll(focusableSelector)).filter((el) => !el.hasAttribute('disabled'));
+        };
+
+        const handleKeydown = (event) => {
+            if (!mobileMenu || mobileMenu.classList.contains('hidden')) {
+                return;
+            }
+
+            if (event.key === 'Escape') {
+                event.preventDefault();
+                toggleMenu(false);
+                return;
+            }
+
+            if (event.key === 'Tab') {
+                const focusableElements = getFocusableElements();
+                if (focusableElements.length === 0) {
+                    event.preventDefault();
+                    return;
+                }
+
+                const firstElement = focusableElements[0];
+                const lastElement = focusableElements[focusableElements.length - 1];
+
+                if (!event.shiftKey && document.activeElement === lastElement) {
+                    event.preventDefault();
+                    firstElement.focus();
+                } else if (event.shiftKey && document.activeElement === firstElement) {
+                    event.preventDefault();
+                    lastElement.focus();
+                }
+            }
+        };
+
+        const toggleMenu = (shouldOpen) => {
+            if (!mobileMenuButton || !mobileMenu) {
+                return;
+            }
+
+            const isExpanded = mobileMenuButton.getAttribute('aria-expanded') === 'true';
+            const willOpen = typeof shouldOpen === 'boolean' ? shouldOpen : !isExpanded;
+
+            if (closeMenuTimeout) {
+                clearTimeout(closeMenuTimeout);
+            }
+
+            if (willOpen) {
+                previousFocus = document.activeElement;
+                mobileMenu.classList.remove('hidden');
+                mobileMenu.classList.remove(...closedClasses);
+                requestAnimationFrame(() => {
+                    mobileMenu.classList.add(...openClasses);
+                });
+                mobileMenuButton.setAttribute('aria-expanded', 'true');
+                document.addEventListener('keydown', handleKeydown);
+
+                const focusableElements = getFocusableElements();
+                if (focusableElements.length > 0) {
+                    focusableElements[0].focus();
+                }
+            } else {
+                mobileMenu.classList.remove(...openClasses);
+                mobileMenu.classList.add(...closedClasses);
+                mobileMenuButton.setAttribute('aria-expanded', 'false');
+                document.removeEventListener('keydown', handleKeydown);
+                closeMenuTimeout = window.setTimeout(() => {
+                    mobileMenu.classList.add('hidden');
+                }, 200);
+
+                if (previousFocus) {
+                    mobileMenuButton.focus();
+                    previousFocus = null;
+                }
+            }
+        };
+
+        if (mobileMenuButton && mobileMenu) {
+            mobileMenu.classList.add(...closedClasses);
+            mobileMenuButton.addEventListener('click', () => {
+                const expanded = mobileMenuButton.getAttribute('aria-expanded') === 'true';
+                toggleMenu(!expanded);
+            });
+        }
+
         AOS.init({
             duration: 800,
             once: true
