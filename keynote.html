@@ -327,6 +327,18 @@
 <p class="text-gray-400">stephen@jepson.com</p>
 </div>
 </section>
+    <div class="fixed inset-0 z-50 hidden items-center justify-center bg-black/80 px-4 py-8" id="videoLightbox">
+        <div class="relative w-full max-w-4xl">
+            <button aria-label="Close video" class="absolute -right-2 -top-2 rounded-full bg-white/10 p-2 text-white transition hover:bg-white/20" onclick="closeLightbox()" type="button">
+                <i class="h-5 w-5" data-feather="x"></i>
+            </button>
+            <div class="overflow-hidden rounded-xl bg-black shadow-2xl">
+                <div class="aspect-video">
+                    <iframe allow="autoplay; encrypted-media" allowfullscreen class="h-full w-full" id="ytiframe" loading="lazy" src="about:blank" title="YouTube video player"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
 </main>
 <footer class="bg-gray-800 py-12">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -469,6 +481,11 @@
         function openLightbox(videoId) {
             const lightbox = document.getElementById('videoLightbox');
             const iframe = document.getElementById('ytiframe');
+
+            if (!lightbox || !iframe) {
+                return;
+            }
+
             iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1&showinfo=0`;
             lightbox.classList.remove('hidden');
             document.body.style.overflow = 'hidden';
@@ -477,17 +494,25 @@
         function closeLightbox() {
             const lightbox = document.getElementById('videoLightbox');
             const iframe = document.getElementById('ytiframe');
+
+            if (!lightbox || !iframe) {
+                return;
+            }
+
             iframe.src = '';
             lightbox.classList.add('hidden');
             document.body.style.overflow = '';
         }
 
         // Close lightbox when clicking outside video or pressing ESC
-        document.getElementById('videoLightbox').addEventListener('click', function(e) {
-            if (e.target === this) {
-                closeLightbox();
-            }
-        });
+        const lightboxElement = document.getElementById('videoLightbox');
+        if (lightboxElement) {
+            lightboxElement.addEventListener('click', function(e) {
+                if (e.target === this) {
+                    closeLightbox();
+                }
+            });
+        }
 
         document.addEventListener('keydown', function(e) {
             if (e.key === 'Escape') {
