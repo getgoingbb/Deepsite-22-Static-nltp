@@ -23,32 +23,39 @@
     </style>
 </head>
 <body class="bg-gray-900 text-white">
-<nav class="bg-gray-800 bg-opacity-90 backdrop-blur-md fixed w-full z-50">
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-<div class="flex items-center justify-between h-16">
-<div class="flex items-center">
-<div class="flex-shrink-0">
-<img alt="Never Leave The Playground Logo" class="h-8 mr-2" src="https://slides.neverleavetheplayground.com/assets/img/icon-222.png"/>
-<span class="text-xl font-bold gradient-text">Never Leave The Playground</span>
-</div>
-</div>
-<div class="hidden md:block">
-<div class="ml-10 flex items-baseline space-x-4">
-<a class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700" href="index.html">Home</a>
-<a class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700" href="our-videos.html">Videos</a>
-<a class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700" href="activities.html">Activities</a>
-<a class="px-3 py-2 rounded-md text-sm font-medium bg-gray-900 text-white" href="keynote.html">Keynote Speaking</a>
-<a class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700" href="index.html#contact">Contact</a>
-<a class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700" href="index.html#reviews">Reviews</a>
-</div>
-</div>
-<div class="md:hidden">
-<button class="text-gray-300 hover:text-white focus:outline-none">
-<i data-feather="menu"></i>
-</button>
-</div>
-</div>
-</div>
+<nav class="bg-gray-950/90 backdrop-blur border-b border-white/10 fixed w-full z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a class="flex items-center space-x-2 text-xl font-bold gradient-text" href="index.html">
+                <img alt="Never Leave The Playground Logo" class="h-8" src="https://slides.neverleavetheplayground.com/assets/img/icon-222.png"/>
+                <span>Never Leave The Playground</span>
+            </a>
+            <div class="hidden md:flex items-center space-x-6 text-sm">
+                <a class="px-3 py-2 rounded-md font-medium text-gray-300 hover:text-white hover:bg-white/10 transition" href="index.html">Home</a>
+                <a class="px-3 py-2 rounded-md font-medium text-gray-300 hover:text-white hover:bg-white/10 transition" href="our-videos.html">Videos</a>
+                <a class="px-3 py-2 rounded-md font-medium text-gray-300 hover:text-white hover:bg-white/10 transition" href="activities.html">Activities</a>
+                <a class="px-3 py-2 rounded-md font-semibold text-white bg-white/10" href="keynote.html">Keynote Speaking</a>
+                <a class="px-3 py-2 rounded-md font-medium text-gray-300 hover:text-white hover:bg-white/10 transition" href="index.html#contact">Contact</a>
+                <a class="px-3 py-2 rounded-md font-medium text-gray-300 hover:text-white hover:bg-white/10 transition" href="index.html#reviews">Reviews</a>
+            </div>
+            <div class="md:hidden flex items-center">
+                <button aria-controls="mobile-menu" aria-expanded="false" class="inline-flex items-center justify-center p-2 rounded-md text-gray-300 hover:text-white hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:ring-offset-gray-950 transition" id="mobile-menu-button" type="button">
+                    <span class="sr-only">Open main menu</span>
+                    <i class="h-6 w-6" data-feather="menu"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="hidden md:hidden transform origin-top scale-y-95 opacity-0 -translate-y-2 transition-all duration-200 ease-out bg-gray-950 text-white shadow-xl ring-1 ring-white/10" id="mobile-menu">
+        <div class="px-4 pb-6 pt-4 space-y-2 text-sm">
+            <a class="block rounded-lg px-4 py-3 text-gray-300 hover:text-white hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-purple-500 transition" href="index.html">Home</a>
+            <a class="block rounded-lg px-4 py-3 text-gray-300 hover:text-white hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-purple-500 transition" href="our-videos.html">Videos</a>
+            <a class="block rounded-lg px-4 py-3 text-gray-300 hover:text-white hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-purple-500 transition" href="activities.html">Activities</a>
+            <a class="block rounded-lg px-4 py-3 text-white font-semibold bg-white/10 hover:bg-white/15 focus:outline-none focus:ring-2 focus:ring-purple-500 transition" href="keynote.html">Keynote Speaking</a>
+            <a class="block rounded-lg px-4 py-3 text-gray-300 hover:text-white hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-purple-500 transition" href="index.html#contact">Contact</a>
+            <a class="block rounded-lg px-4 py-3 text-gray-300 hover:text-white hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-purple-500 transition" href="index.html#reviews">Reviews</a>
+        </div>
+    </div>
 </nav>
 <header class="relative pt-32 pb-20 md:pt-40 md:pb-28">
 <div class="absolute inset-0 bg-gradient-to-b from-blue-900 to-purple-900 opacity-50"></div>
@@ -73,8 +80,8 @@
 <div class="md:w-2/3">
 <h2 class="text-3xl font-bold mb-4">Introducing Stephen Jepson</h2>
 <p class="text-lg text-gray-300 mb-6">
-                        Our expert keynote speaker on the transformative power of play for health and wellness. 
-                        With years of dedicated research and hands-on experience, Stephen brings profound 
+                        Our expert keynote speaker on the transformative power of play for health and wellness.
+                        With years of dedicated research and hands-on experience, Stephen brings profound
                         understanding of the relationship between play, physical health, and cognitive abilities.
                     </p>
 <div class="flex flex-wrap gap-4">
@@ -231,17 +238,6 @@
 <h3 class="text-lg font-medium text-center">Fitness Business Summit</h3>
 </div>
 </div>
-<!-- Lightbox Modal -->
-<div class="fixed inset-0 z-50 hidden items-center justify-center bg-black bg-opacity-90" id="videoLightbox">
-<div class="relative w-full max-w-4xl px-4">
-<button class="absolute -top-12 right-0 text-white hover:text-gray-300" onclick="closeLightbox()">
-<i class="w-8 h-8" data-feather="x"></i>
-</button>
-<div class="aspect-video w-full">
-<iframe allowfullscreen="" class="w-full h-full" frameborder="0" id="ytiframe"></iframe>
-</div>
-</div>
-</div>
 </section>
 <!-- Video Programs -->
 <section class="mb-16" data-aos="fade-up">
@@ -376,6 +372,99 @@
 </div>
 </footer>
 <script>
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const focusableSelector = 'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])';
+        const openClasses = ['opacity-100', 'scale-y-100', 'translate-y-0'];
+        const closedClasses = ['opacity-0', 'scale-y-95', '-translate-y-2'];
+        let previousFocus = null;
+        let closeMenuTimeout = null;
+
+        const getFocusableElements = () => {
+            return Array.from(mobileMenu.querySelectorAll(focusableSelector)).filter((el) => !el.hasAttribute('disabled'));
+        };
+
+        const handleKeydown = (event) => {
+            if (!mobileMenu || mobileMenu.classList.contains('hidden')) {
+                return;
+            }
+
+            if (event.key === 'Escape') {
+                event.preventDefault();
+                toggleMenu(false);
+                return;
+            }
+
+            if (event.key === 'Tab') {
+                const focusableElements = getFocusableElements();
+                if (focusableElements.length === 0) {
+                    event.preventDefault();
+                    return;
+                }
+
+                const firstElement = focusableElements[0];
+                const lastElement = focusableElements[focusableElements.length - 1];
+
+                if (!event.shiftKey && document.activeElement === lastElement) {
+                    event.preventDefault();
+                    firstElement.focus();
+                } else if (event.shiftKey && document.activeElement === firstElement) {
+                    event.preventDefault();
+                    lastElement.focus();
+                }
+            }
+        };
+
+        const toggleMenu = (shouldOpen) => {
+            if (!mobileMenuButton || !mobileMenu) {
+                return;
+            }
+
+            const isExpanded = mobileMenuButton.getAttribute('aria-expanded') === 'true';
+            const willOpen = typeof shouldOpen === 'boolean' ? shouldOpen : !isExpanded;
+
+            if (closeMenuTimeout) {
+                clearTimeout(closeMenuTimeout);
+            }
+
+            if (willOpen) {
+                previousFocus = document.activeElement;
+                mobileMenu.classList.remove('hidden');
+                mobileMenu.classList.remove(...closedClasses);
+                requestAnimationFrame(() => {
+                    mobileMenu.classList.add(...openClasses);
+                });
+                mobileMenuButton.setAttribute('aria-expanded', 'true');
+                document.addEventListener('keydown', handleKeydown);
+
+                const focusableElements = getFocusableElements();
+                if (focusableElements.length > 0) {
+                    focusableElements[0].focus();
+                }
+            } else {
+                mobileMenu.classList.remove(...openClasses);
+                mobileMenu.classList.add(...closedClasses);
+                mobileMenuButton.setAttribute('aria-expanded', 'false');
+                document.removeEventListener('keydown', handleKeydown);
+                closeMenuTimeout = window.setTimeout(() => {
+                    mobileMenu.classList.add('hidden');
+                }, 200);
+
+                if (previousFocus) {
+                    mobileMenuButton.focus();
+                    previousFocus = null;
+                }
+            }
+        };
+
+        if (mobileMenuButton && mobileMenu) {
+            mobileMenu.classList.add(...closedClasses);
+            mobileMenuButton.addEventListener('click', () => {
+                const expanded = mobileMenuButton.getAttribute('aria-expanded') === 'true';
+                toggleMenu(!expanded);
+            });
+        }
+
         // Lightbox functionality
         function openLightbox(videoId) {
             const lightbox = document.getElementById('videoLightbox');
