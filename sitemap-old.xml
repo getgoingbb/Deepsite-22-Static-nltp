@@ -1,0 +1,163 @@
+<!-- sitemap.xml (index) -->
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://neverleavetheplayground.com/sitemap-pages.xml</loc>
+    <lastmod>2025-09-17</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://neverleavetheplayground.com/sitemap-images.xml</loc>
+    <lastmod>2025-09-17</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://neverleavetheplayground.com/sitemap-videos.xml</loc>
+    <lastmod>2025-09-17</lastmod>
+  </sitemap>
+</sitemapindex>
+
+<!-- sitemap-pages.xml (updated) -->
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://neverleavetheplayground.com/activities.html</loc>
+    <lastmod>2025-09-17</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://neverleavetheplayground.com/athletic.html</loc>
+    <lastmod>2025-09-17</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://neverleavetheplayground.com/blog.html</loc>
+    <lastmod>2025-09-17</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://neverleavetheplayground.com</loc>
+    <lastmod>2025-09-17</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://neverleavetheplayground.com/introducing-stephen-jepson.html</loc>
+    <lastmod>2025-09-17</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://neverleavetheplayground.com/keynote.html</loc>
+    <lastmod>2025-09-17</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://neverleavetheplayground.com/more-about.html</loc>
+    <lastmod>2025-09-17</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://neverleavetheplayground.com/news.html</loc>
+    <lastmod>2025-09-17</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://neverleavetheplayground.com/our-videos.html</loc>
+    <lastmod>2025-09-17</lastmod>
+    <priority>0.8</priority>
+  </url>
+</urlset>
+
+<!-- sitemap-videos.xml (updated) -->
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>https://neverleavetheplayground.com/activities.html</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/kxFTnQadcPw/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Featured Instructional Videos</video:title>
+      <video:description>Video from Never Leave The Playground.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/kxFTnQadcPw</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/ll6aoSmWzKY/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>They Never Leave The Playground</video:title>
+      <video:description>Video from Never Leave The Playground.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/ll6aoSmWzKY</video:player_loc>
+    </video:video>
+  </url>
+
+  <url>
+    <loc>https://neverleavetheplayground.com/athletic.html</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/kxFTnQadcPw/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Featured Training Programs</video:title>
+      <video:description>Video from Never Leave The Playground.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/kxFTnQadcPw</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/ll6aoSmWzKY/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>They Never Leave The Playground - Active Training</video:title>
+      <video:description>Video from Never Leave The Playground.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/ll6aoSmWzKY</video:player_loc>
+    </video:video>
+  </url>
+
+  <url>
+    <loc>https://neverleavetheplayground.com</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/m6KrVBWtE_0/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Never Leave The Playground | Active Aging Through Play | Stephen Jepson</video:title>
+      <video:description>Video from Never Leave The Playground.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/m6KrVBWtE_0</video:player_loc>
+    </video:video>
+  </url>
+
+  <url>
+    <loc>https://neverleavetheplayground.com/introducing-stephen-jepson.html</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/kxFTnQadcPw/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Learn from Stephen</video:title>
+      <video:description>Video from Never Leave The Playground.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/kxFTnQadcPw</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/ll6aoSmWzKY/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>They Never Leave The Playground</video:title>
+      <video:description>Video from Never Leave The Playground.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/ll6aoSmWzKY</video:player_loc>
+    </video:video>
+  </url>
+
+  <url>
+    <loc>https://neverleavetheplayground.com/our-videos.html</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/kxFTnQadcPw/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Featured Instructional Videos</video:title>
+      <video:description>Video from Never Leave The Playground.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/kxFTnQadcPw</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/ll6aoSmWzKY/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>They Never Leave The Playground</video:title>
+      <video:description>Video from Never Leave The Playground.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/ll6aoSmWzKY</video:player_loc>
+    </video:video>
+  </url>
+</urlset>
+
+<!-- sitemap-images.xml (updated minimal; expand as needed) -->
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://neverleavetheplayground.com/keynote.html</loc>
+    <image:image>
+      <image:loc>https://neverleavetheplayground.com/images/meet-stephen-jepson.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://slides.neverleavetheplayground.com/assets/img/play-images4-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://slides.neverleavetheplayground.com/assets/img/play-images3-1.jpg</image:loc>
+    </image:image>
+  </url>
+</urlset>
