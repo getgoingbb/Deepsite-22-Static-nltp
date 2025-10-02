@@ -1,1 +1,12 @@
 /* site styles */
+
+/* Lightbox overlay */
+#video-lightbox.hidden{display:none}
+#video-lightbox{position:fixed;inset:0;background:rgba(0,0,0,.8);z-index:1000;display:flex;align-items:center;justify-content:center;padding:1rem}
+#video-lightbox .box{width:min(960px,95vw);aspect-ratio:16/9;background:#000;border-radius:12px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.5)}
+#video-lightbox .close{position:absolute;top:12px;right:16px;cursor:pointer;color:#fff;font-size:28px;line-height:1}
+.video-scroller{display:grid;grid-auto-flow:column;grid-auto-columns:80%;gap:1rem;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:0.5rem}
+@media (min-width: 768px){ .video-scroller{grid-auto-columns:33%;} }
+.video-card{scroll-snap-align:start;border-radius:14px;overflow:hidden;border:1px solid #e5e7eb;background:#fff}
+.video-card img{display:block;width:100%;height:auto}
+.video-card .meta{padding:0.75rem 1rem}
