@@ -139,12 +139,18 @@
     .tag { padding:.3rem .5rem; border:1px dashed var(--border); border-radius:12px; color:var(--muted); font-size:.9rem; }
     @media (max-width: 900px) { .hero { grid-template-columns: 1fr; } }
   </style>
+
+<link rel="preconnect" href="https://i.ytimg.com">
+<link rel="preconnect" href="https://www.youtube.com">
+<link rel="stylesheet" href="https://unpkg.com/lite-youtube-embed@0.3.1/src/lite-yt-embed.css">
+<script defer src="https://unpkg.com/lite-youtube-embed@0.3.1/dist/lite-yt-embed.js"></script>
+<link rel="preconnect" href="https://unpkg.com">
 </head>
 <body>
   <header>
     <div class="wrap" style="display:flex; justify-content:space-between; align-items:center; gap:1rem;">
       <div class="brand">
-        <img src="https://img.youtube.com/vi/jVHU7yVxdeg/hqdefault.jpg" alt="Never Leave the Playground thumbnail" loading="lazy">
+        <img src="https://img.youtube.com/vi/jVHU7yVxdeg/hqdefault.jpg" alt="Never Leave the Playground thumbnail" />
         <strong>Never Leave the Playground</strong>
       </div>
       <nav aria-label="On-page">
@@ -161,7 +167,7 @@
   <main class="wrap">
     <section class="hero" id="overview">
       <div class="video card" role="region" aria-label="Video player">
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/jVHU7yVxdeg" title="Never Leave the Playground: The Philosophy Explained" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <lite-youtube videoid="jVHU7yVxdeg" style="background:#000; display:block;"></lite-youtube>
       </div>
       <div class="card">
         <h1>Never Leave the Playground: The Philosophy Explained</h1>
@@ -234,24 +240,9 @@
     <section class="card" id="about" aria-labelledby="about-title">
       <h2 id="about-title">About Stephen Jepson</h2>
       <p>Stephen Jepson is the creator of <em>Never Leave the Playground</em>, an approach to lifelong movement that emphasizes curiosity, coordination, and joy through play. He teaches simple, scalable challenges that anyone can build into daily life.</p>
-<p><a href="https://neverleavetheplayground.com/keynote.html" class="inline-flex items-center gap-2 underline hover:no-underline font-medium">Learn More About Stephen &amp; Speaking Events<span aria-hidden="true">→</span></a></p>
     </section>
 
-    
-    <section class="card" id="evidence" aria-labelledby="evidence-title">
-      <h2 id="evidence-title">Why It Works — Research & Real‑World Results</h2>
-      <div class="grid" style="display:grid;gap:1rem;grid-template-columns:1fr;">
-        <div class="bg-[#121622] border border-[#1f2433] rounded-xl p-4">
-          <p>The collected sources focus extensively on the <strong>importance of lifelong physical activity and play</strong> for cognitive health, physical vitality, and successful aging, largely promoted by <strong>Stephen Jepson's “Never Leave The Playground” philosophy</strong>. This philosophy advocates for activities like juggling, unicycling, and using non-dominant hands to <strong>build neural pathways, improve balance and coordination, and prevent falls</strong>, which are a significant risk for older adults. Complementing this perspective, academic and health-related articles discuss the <strong>benefits of play and physical activity for both children and adults</strong>, confirming that engagement in new, challenging activities can <strong>enhance brain health (neuroplasticity)</strong>, reduce pain, and improve the <strong>quality of life</strong>, even for patients with conditions like osteoporosis. Furthermore, the sources include numerous <strong>positive testimonials and endorsements</strong> for Jepson's programs, emphasizing the <strong>effectiveness of playful movement</strong> as a means of staying youthful and resilient.</p>
-        </div>
-      </div>
-      <div class="video card" role="region" aria-label="Program overview video" style="margin-top:1rem;">
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/jVHU7yVxdeg" title="Program Overview — Never Leave the Playground" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
-      </div>
-      <p class="muted" style="margin-top:.75rem;">Note: While much of our community includes older adults, playful movement is <em>powerful for younger adults</em> too—novel skills build coordination, focus, and resilience that transfer to everyday life and sport.</p>
-    </section>
-    
-<section class="card" id="faq" aria-labelledby="faq-title">
+    <section class="card" id="faq" aria-labelledby="faq-title">
       <h2 id="faq-title">Frequently Asked Questions</h2>
       <details>
         <summary>Do I need special equipment?</summary>
@@ -265,9 +256,7 @@
         <summary>Is this safe for beginners or seniors?</summary>
         <p>Yes—begin with very easy variations, use support (counter, wall) as needed, and progress gradually.</p>
       </details>
-    
-<p class="mt-4"><a href="https://neverleavetheplayground.com/#faq" class="inline-flex items-center gap-2 underline hover:no-underline font-medium">More FAQs<span aria-hidden="true">→</span></a></p>
-</section>
+    </section>
 
     <section class="card" id="resources" aria-labelledby="resources-title">
       <h2 id="resources-title">Resources & Next Steps</h2>

@@ -58,6 +58,13 @@
             border: none;
         }
     </style>
+
+<link rel="preconnect" href="https://i.ytimg.com">
+<link rel="preconnect" href="https://www.youtube.com">
+<link rel="stylesheet" href="https://unpkg.com/lite-youtube-embed@0.3.1/src/lite-yt-embed.css">
+<script defer src="https://unpkg.com/lite-youtube-embed@0.3.1/dist/lite-yt-embed.js"></script>
+<link rel="preconnect" href="https://cdn.tailwindcss.com">
+<link rel="preconnect" href="https://unpkg.com">
 </head>
 <body class="antialiased">
 <!-- Navigation -->
@@ -65,7 +72,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center justify-between h-16">
             <a class="text-xl font-bold playful-text flex items-center" href="index.html">
-                <img alt="NeverLeaveThePlayground" class="h-8 w-8 mr-2" src="https://slides.neverleavetheplayground.com/assets/img/icon-222.png" loading="lazy">
+                <img alt="NeverLeaveThePlayground" class="h-8 w-8 mr-2" src="https://slides.neverleavetheplayground.com/assets/img/icon-222.png"/>
                 NeverLeaveThePlayground
             </a>
             <div class="hidden md:flex items-center space-x-8 text-sm">
@@ -121,7 +128,7 @@
 <!-- They Never Leave The Playground Video -->
 <div class="bg-white rounded-xl overflow-hidden card-hover transition-smooth" data-aos="fade-right">
 <div class="aspect-w-16 aspect-h-9">
-<iframe allowfullscreen="" class="w-full h-64 rounded-t-xl" src="https://www.youtube.com/embed/kxFTnQadcPw"></iframe>
+<lite-youtube videoid="kxFTnQadcPw" style="background:#000; display:block;"></lite-youtube>
 </div>
 <div class="p-6">
 <h3 class="text-xl font-bold mb-3">They Never Leave The Playground</h3>
@@ -139,7 +146,7 @@
 <!-- 5-in-1 Skills Video -->
 <div class="bg-white rounded-xl overflow-hidden card-hover transition-smooth" data-aos="fade-left">
 <div class="aspect-w-16 aspect-h-9">
-<iframe allowfullscreen="" class="w-full h-64 rounded-t-xl" src="https://www.youtube.com/embed/ll6aoSmWzKY"></iframe>
+<lite-youtube videoid="ll6aoSmWzKY" style="background:#000; display:block;"></lite-youtube>
 </div>
 <div class="p-6">
 <h3 class="text-xl font-bold mb-3">5-in-1 Learn Unicycling &amp; More</h3>
@@ -174,7 +181,7 @@
 <div class="grid md:grid-cols-4 gap-8">
 <div>
 <h3 class="text-xl font-bold mb-4 playful-text flex items-center">
-<img alt="NeverLeaveThePlayground" class="h-8 w-8 mr-2" src="https://slides.neverleavetheplayground.com/assets/img/icon-222.png" loading="lazy">
+<img alt="NeverLeaveThePlayground" class="h-8 w-8 mr-2" src="https://slides.neverleavetheplayground.com/assets/img/icon-222.png"/>
                         NeverLeaveThePlayground
                     </h3>
 <p class="text-gray-400">
