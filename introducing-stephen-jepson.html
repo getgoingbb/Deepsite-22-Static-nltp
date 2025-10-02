@@ -1,285 +1,257 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Introducing Stephen Jepson — Never Leave The Playground</title>
-  <meta name="description" content="Meet Stephen Jepson, creator of Never Leave The Playground. Discover his philosophy of lifelong play and explore videos, skills, and speaking events." />
-  <link rel="canonical" href="https://neverleavetheplayground.com/introducing-stephen-jepson.html" />
+<head><script async="async" src="https://www.googletagmanager.com/gtag/js?id=GT-P3NCVWX"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','GT-P3NCVWX');</script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Introducing Stephen Jepson - Never Leave The Playground</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 
-  <!-- Open Graph -->
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Introducing Stephen Jepson — Never Leave The Playground" />
-  <meta property="og:description" content="Meet the creator of Never Leave The Playground and explore his philosophy of lifelong play, skills, and speaking events." />
-  <meta property="og:url" content="https://neverleavetheplayground.com/introducing-stephen-jepson.html" />
-  <meta property="og:image" content="https://slides.neverleavetheplayground.com/assets/img/watch-26-66.jpg" />
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Introducing Stephen Jepson — Never Leave The Playground" />
-  <meta name="twitter:description" content="Meet the creator of Never Leave The Playground and explore his philosophy of lifelong play, skills, and speaking events." />
-  <meta name="twitter:image" content="https://slides.neverleavetheplayground.com/assets/img/watch-26-66.jpg" />
-
-  <!-- Tailwind (CDN) -->
-  <script src="https://cdn.tailwindcss.com"></script>
-
-  <!-- AOS (animations) -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-  <!-- Feather icons (single include) -->
-  <script defer src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-
-  <style>
-    :root { --brand:#6d28d9; }
-    .hero-gradient { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
-    .playful-text { background: linear-gradient(90deg,#f72585,#7209b7,#3a0ca3,#4361ee,#4cc9f0);
-                    -webkit-background-clip:text; background-clip:text; color:transparent; }
-    .card-hover { transition: transform .2s ease, box-shadow .2s ease; }
-    .card-hover:hover { transform: translateY(-4px); box-shadow: 0 10px 25px rgba(0,0,0,.12); }
-    /* aspect ratio helper */
-    .aspect-video { position: relative; padding-top: 56.25%; }
-    .aspect-video > * { position:absolute; inset:0; width:100%; height:100%; }
-  </style>
+<style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap');
+        body {
+            font-family: 'Rubik', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #7c3aed 0%, #6366f1 100%);
+        }
+        .playful-text {
+            background: linear-gradient(90deg, #7c3aed, #6366f1, #22d3ee, #38bdf8, #6366f1);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            animation: gradient 8s ease infinite;
+            background-size: 400% 400%;
+        }
+        @keyframes gradient {
+            0% {background-position: 0% 50%;}
+            50% {background-position: 100% 50%;}
+            100% {background-position: 0% 50%;}
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .transition-smooth {
+            transition: all 0.3s ease;
+        }
+    </style>
 </head>
-<body class="antialiased text-gray-900 bg-white">
-  <!-- Skip link -->
-  <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 bg-black text-white px-3 py-2 rounded">Skip to content</a>
-
-  <!-- Nav -->
-  <nav class="bg-white/90 backdrop-blur border-b border-gray-200 sticky top-0 z-50">
+<body class="antialiased">
+<!-- Navigation -->
+<nav class="bg-white/95 backdrop-blur border-b border-gray-200 sticky top-0 z-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="h-16 flex items-center justify-between">
-        <a href="index.html" class="flex items-center space-x-2 font-semibold text-lg">
-          <img src="https://slides.neverleavetheplayground.com/assets/img/icon-222.png" alt="" width="32" height="32" loading="lazy" decoding="async">
-          <span class="playful-text">Never Leave The Playground</span>
-        </a>
-        <button id="menuBtn" class="md:hidden inline-flex items-center p-2 rounded hover:bg-gray-100" aria-expanded="false" aria-controls="mnav">
-          <i data-feather="menu" class="w-6 h-6"></i>
-          <span class="sr-only">Open menu</span>
-        </button>
-        <div id="mnav" class="hidden md:flex items-center gap-6 text-sm">
-          <a href="index.html" class="hover:text-violet-700">Home</a>
-          <a href="our-videos.html" class="hover:text-violet-700">Videos</a>
-          <a href="activities.html" class="hover:text-violet-700">Activities</a>
-          <a href="keynote.html" class="hover:text-violet-700">Keynote Speaking</a>
-          <a href="index.html#contact" class="hover:text-violet-700">Contact</a>
+        <div class="flex items-center justify-between h-16">
+            <a class="text-xl font-bold playful-text flex items-center" href="index.html">
+                <img alt="NeverLeaveThePlayground" class="h-8 w-8 mr-2" src="https://slides.neverleavetheplayground.com/assets/img/icon-222.png" loading="lazy">
+                NeverLeaveThePlayground
+            </a>
+            <div class="hidden md:flex items-center space-x-8 text-sm">
+                <a class="text-gray-700 hover:text-purple-600 transition-smooth" href="index.html">Home</a>
+                <a class="text-gray-700 hover:text-purple-600 transition-smooth" href="index.html#features">Features</a>
+                <a class="text-gray-700 hover:text-purple-600 transition-smooth" href="index.html#about">About</a>
+                <a class="text-gray-700 hover:text-purple-600 transition-smooth" href="our-videos.html">Our Videos</a>
+                <a class="text-gray-700 hover:text-purple-600 transition-smooth" href="news.html">News</a>
+                <a class="text-gray-700 hover:text-purple-600 transition-smooth" href="activities.html">Activities</a>
+                <a class="text-purple-600 font-semibold transition-smooth" href="introducing-stephen-jepson.html">Stephen Jepson</a>
+                <a class="text-gray-700 hover:text-purple-600 transition-smooth" href="index.html#contact">Contact</a>
+                <a class="bg-purple-600 text-white px-4 py-2 rounded-full hover:bg-purple-700 transition-smooth" href="https://shop.neverleavetheplayground.com/" target="_blank" rel="noopener">Visit Shop</a>
+            </div>
+            <div class="md:hidden flex items-center">
+                <button aria-controls="mobile-menu" aria-expanded="false" class="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-purple-600 hover:bg-purple-50 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:ring-offset-white transition" id="mobile-menu-button" type="button">
+                    <span class="sr-only">Open main menu</span>
+                    <i class="h-6 w-6" data-feather="menu"></i>
+                </button>
+            </div>
         </div>
-      </div>
     </div>
-    <!-- mobile sheet -->
-    <div id="mdrawer" class="md:hidden hidden border-t border-gray-200 bg-white">
-      <div class="px-4 py-3 space-y-2 text-sm">
-        <a class="block py-2" href="index.html">Home</a>
-        <a class="block py-2" href="our-videos.html">Videos</a>
-        <a class="block py-2" href="activities.html">Activities</a>
-        <a class="block py-2" href="keynote.html">Keynote Speaking</a>
-        <a class="block py-2" href="index.html#contact">Contact</a>
-      </div>
+    <div class="hidden md:hidden transform origin-top scale-y-95 opacity-0 -translate-y-2 transition-all duration-200 ease-out bg-white text-gray-900 shadow-xl ring-1 ring-gray-200" id="mobile-menu">
+        <div class="px-4 pb-6 pt-4 space-y-2 text-sm">
+            <a class="block rounded-lg px-4 py-3 text-gray-700 hover:text-purple-600 hover:bg-purple-50 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-smooth" href="index.html">Home</a>
+            <a class="block rounded-lg px-4 py-3 text-gray-700 hover:text-purple-600 hover:bg-purple-50 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-smooth" href="index.html#features">Features</a>
+            <a class="block rounded-lg px-4 py-3 text-gray-700 hover:text-purple-600 hover:bg-purple-50 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-smooth" href="index.html#about">About</a>
+            <a class="block rounded-lg px-4 py-3 text-gray-700 hover:text-purple-600 hover:bg-purple-50 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-smooth" href="our-videos.html">Our Videos</a>
+            <a class="block rounded-lg px-4 py-3 text-gray-700 hover:text-purple-600 hover:bg-purple-50 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-smooth" href="news.html">News</a>
+            <a class="block rounded-lg px-4 py-3 text-gray-700 hover:text-purple-600 hover:bg-purple-50 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-smooth" href="activities.html">Activities</a>
+            <a class="block rounded-lg px-4 py-3 text-purple-600 font-semibold bg-purple-50 hover:bg-purple-100 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-smooth" href="introducing-stephen-jepson.html">Stephen Jepson</a>
+            <a class="block rounded-lg px-4 py-3 text-gray-700 hover:text-purple-600 hover:bg-purple-50 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-smooth" href="index.html#contact">Contact</a>
+            <a class="block rounded-lg px-4 py-3 text-white bg-purple-600 hover:bg-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-smooth" href="https://shop.neverleavetheplayground.com/" target="_blank" rel="noopener">Visit Shop</a>
+        </div>
     </div>
-  </nav>
-
-  <main id="main">
-    <!-- Hero -->
-    <section class="hero-gradient text-white py-16 md:py-20">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h1 class="text-4xl md:text-5xl font-extrabold mb-4" data-aos="fade-up">
-          Meet <span class="playful-text">Stephen Jepson</span>
-        </h1>
-        <p class="text-lg md:text-xl opacity-90 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="100">
-          The visionary behind Never Leave The Playground and a master of countless skills through lifelong play.
-        </p>
-      </div>
-    </section>
-
-    <!-- About -->
-    <section class="py-16 bg-white">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-10 items-center">
-        <div data-aos="fade-right">
-          <img src="https://slides.neverleavetheplayground.com/assets/img/watch-26-66.jpg"
-               alt="Stephen Jepson smiling while demonstrating a skill"
-               class="rounded-xl shadow-2xl w-full"
-               width="1200" height="800" loading="lazy" decoding="async">
-        </div>
-        <div data-aos="fade-left">
-          <h2 class="text-3xl md:text-4xl font-bold mb-4">The Man Who Never Left The Playground</h2>
-          <p class="text-gray-700 mb-4">
-            Stephen Jepson is an inventor, artist, athlete, and teacher. For over 80 years he has championed
-            the power of play, creativity, and continuous learning.
-          </p>
-          <p class="text-gray-700 mb-6">
-            His philosophy is simple: never stop playing, never stop learning. From unicycling and juggling
-            to rope walking, Stephen shares scalable, safe progressions for any age.
-          </p>
-          <a href="keynote.html" class="inline-flex items-center gap-2 text-violet-700 font-semibold underline hover:no-underline">
-            Learn More About Stephen &amp; Speaking Events <span aria-hidden="true">→</span>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Skills -->
-    <section class="py-16 bg-gray-50">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center mb-12" data-aos="fade-up">
-          <h2 class="text-3xl md:text-4xl font-bold mb-3">Master of Many Skills</h2>
-          <p class="text-gray-600 max-w-3xl mx-auto">A lifetime dedicated to balance, coordination, and curiosity.</p>
-        </div>
-        <div class="grid md:grid-cols-3 gap-6">
-          <div class="bg-white p-6 rounded-xl card-hover" data-aos="fade-up">
-            <div class="w-12 h-12 rounded-full bg-violet-100 flex items-center justify-center mb-4">
-              <i data-feather="activity" class="w-6 h-6 text-violet-700"></i>
-            </div>
-            <h3 class="font-semibold mb-2">Unicycling &amp; Balance</h3>
-            <p class="text-gray-600">From basic balance to advanced maneuvers—progress safely at your pace.</p>
-          </div>
-          <div class="bg-white p-6 rounded-xl card-hover" data-aos="fade-up" data-aos-delay="100">
-            <div class="w-12 h-12 rounded-full bg-violet-100 flex items-center justify-center mb-4">
-              <i data-feather="layers" class="w-6 h-6 text-violet-700"></i>
-            </div>
-            <h3 class="font-semibold mb-2">Juggling &amp; Dexterity</h3>
-            <p class="text-gray-600">Sharpen coordination and focus with joyful, skill-based practice.</p>
-          </div>
-          <div class="bg-white p-6 rounded-xl card-hover" data-aos="fade-up" data-aos-delay="200">
-            <div class="w-12 h-12 rounded-full bg-violet-100 flex items-center justify-center mb-4">
-              <i data-feather="heart" class="w-6 h-6 text-violet-700"></i>
-            </div>
-            <h3 class="font-semibold mb-2">Play for Brain Health</h3>
-            <p class="text-gray-600">Novel movement stimulates attention, memory, and confidence.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Featured Videos -->
-    <section class="py-16 bg-white">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center mb-12" data-aos="fade-up">
-          <h2 class="text-3xl md:text-4xl font-bold mb-3">Learn from Stephen</h2>
-          <p class="text-gray-600 max-w-3xl mx-auto">Explore premium instructional videos and get started today.</p>
-        </div>
-        <div class="grid md:grid-cols-2 gap-8">
-          <article class="rounded-xl overflow-hidden bg-gray-50 card-hover" data-aos="fade-right">
-            <div class="aspect-video">
-              <iframe
-                src="https://www.youtube.com/embed/kxFTnQadcPw"
-                title="They Never Leave The Playground (preview)"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen loading="lazy"></iframe>
-            </div>
-            <div class="p-6">
-              <h3 class="text-xl font-semibold mb-2">They Never Leave The Playground</h3>
-              <p class="text-gray-600 mb-4">Multiple activities and progressions to keep you moving with joy.</p>
-              <a class="inline-flex items-center gap-2 text-violet-700 font-medium underline hover:no-underline"
-                 href="https://shop.neverleavetheplayground.com/" target="_blank" rel="noopener">
-                Purchase Video <span aria-hidden="true">→</span>
-              </a>
-            </div>
-          </article>
-
-          <article class="rounded-xl overflow-hidden bg-gray-50 card-hover" data-aos="fade-left">
-            <div class="aspect-video">
-              <iframe
-                src="https://www.youtube.com/embed/ll6aoSmWzKY"
-                title="5-in-1 Learn Unicycling & More (preview)"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen loading="lazy"></iframe>
-            </div>
-            <div class="p-6">
-              <h3 class="text-xl font-semibold mb-2">5‑in‑1: Unicycling &amp; More</h3>
-              <p class="text-gray-600 mb-4">Comprehensive instruction: unicycling, juggling, rope walking, and more.</p>
-              <a class="inline-flex items-center gap-2 text-violet-700 font-medium underline hover:no-underline"
-                 href="https://shop.neverleavetheplayground.com/" target="_blank" rel="noopener">
-                Purchase Video <span aria-hidden="true">→</span>
-              </a>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- CTA -->
-    <section class="py-16 bg-gray-900 text-white text-center">
-      <div class="max-w-4xl mx-auto px-4">
-        <h2 class="text-3xl md:text-4xl font-bold mb-4" data-aos="fade-up">Join Stephen’s Playground</h2>
-        <p class="text-lg opacity-90 mb-6" data-aos="fade-up" data-aos-delay="100">
-          Start your journey of lifelong learning with simple, playful challenges.
-        </p>
-        <a href="https://playgrounds.neverleavetheplayground.com/" target="_blank" rel="noopener"
-           class="inline-flex items-center gap-2 bg-violet-600 hover:bg-violet-700 text-white px-6 py-3 rounded-lg font-semibold">
-          Find A Playground Near You <span aria-hidden="true">→</span>
-        </a>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-gray-950 text-gray-300 py-12">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid md:grid-cols-3 gap-8">
-          <div>
-            <h3 class="text-lg font-semibold mb-3">Never Leave The Playground</h3>
-            <p class="text-gray-400">Inspired by Stephen Jepson’s lifelong dedication to play and learning.</p>
-          </div>
-          <div>
-            <h4 class="font-semibold mb-3">Explore</h4>
-            <ul class="space-y-2">
-              <li><a href="index.html" class="hover:text-white">Home</a></li>
-              <li><a href="our-videos.html" class="hover:text-white">Our Videos</a></li>
-              <li><a href="activities.html" class="hover:text-white">Activities</a></li>
-              <li><a href="keynote.html" class="hover:text-white">Keynote Speaking</a></li>
-            </ul>
-          </div>
-          <div>
-            <h4 class="font-semibold mb-3">Resources</h4>
-            <ul class="space-y-2">
-              <li><a href="https://neverleavetheplayground.com/#faq" class="hover:text-white">More FAQs</a></li>
-              <li><a href="https://neverleavetheplayground.com/" class="hover:text-white">Home</a></li>
-              <li><a href="https://playgrounds.neverleavetheplayground.com/" class="hover:text-white" target="_blank" rel="noopener">Find A Playground</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="mt-10 border-t border-white/10 pt-6 text-center text-gray-400">
-          © <span id="year"></span> Never Leave The Playground
-        </div>
-      </div>
-    </footer>
-  </main>
-
-  <!-- JSON-LD -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Stephen Jepson",
-    "url": "https://neverleavetheplayground.com/introducing-stephen-jepson.html",
-    "sameAs": [
-      "https://www.youtube.com/@StephenJepson"
-    ],
-    "worksFor": {
-      "@type": "Organization",
-      "name": "Never Leave The Playground",
-      "url": "https://neverleavetheplayground.com/"
-    }
-  }
-  </script>
-
-  <script>
-    // Init
-    document.getElementById('year').textContent = new Date().getFullYear();
-    document.addEventListener('DOMContentLoaded', () => {
-      AOS.init({ duration: 700, once: true });
-      if (window.feather) feather.replace();
-      const btn = document.getElementById('menuBtn');
-      const drawer = document.getElementById('mdrawer');
-      const mnav = document.getElementById('mnav');
-      btn?.addEventListener('click', () => {
-        const open = drawer.classList.contains('hidden') === false;
-        drawer.classList.toggle('hidden', open);
-        mnav?.classList.toggle('hidden', !open);
-        btn.setAttribute('aria-expanded', String(!open));
-      });
-    });
-  </script>
-  <noscript><style>[data-aos]{opacity:1!important;transform:none!important}</style></noscript>
-</body>
-</html>
+</nav>
+<!-- Hero Section -->
+<section class="hero-gradient text-white py-20">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+<h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6" data-aos="fade-up">
+                Meet <span class="playful-text">Stephen Jepson</span>
+</h1>
+<p class="text-xl max-w-3xl mx-auto opacity-90" data-aos="fade-up" data-aos-delay="100">
+                The visionary behind Never Leave The Playground and master of countless extraordinary skills
+            </p>
+</div>
+</section>
+<!-- About Stephen -->
+<section class="py-20 bg-white">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid md:grid-cols-2 gap-12 items-center">
+<div data-aos="fade-right">
+<img alt="Stephen Jepson" class="rounded-xl shadow-2xl w-full" src="https://slides.neverleavetheplayground.com/assets/img/watch-26-66.jpg" loading="lazy">
+</div>
+<div data-aos="fade-left">
+<h2 class="text-3xl md:text-4xl font-bold mb-6">The Man Who Never Left The Playground</h2>
+<p class="text-lg text-gray-600 mb-6">
+                        Stephen Jepson is a true renaissance man - an inventor, artist, athlete, and master of countless skills.
+                        For over 80 years, he has dedicated his life to the pursuit of play, creativity, and continuous learning.
+                    </p>
+<p class="text-lg text-gray-600 mb-6">
+                        His philosophy is simple: never stop playing, never stop learning, and never leave the playground.
+                        This mindset has allowed him to master everything from unicycling and knife throwing to juggling and rope walking.
+                    </p>
+<p class="text-lg text-gray-600">
+                        Through his instructional videos, Stephen shares his lifetime of knowledge and experience,
+                        inspiring others to embrace play and master new skills at any age.
+                    </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Skills Showcase -->
+<section class="py-20 bg-gray-50">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16" data-aos="fade-up">
+<h2 class="text-3xl md:text-4xl font-bold mb-4">Master of Many Skills</h2>
+<p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Stephen's diverse skill set showcases his dedication to lifelong learning and play
+                </p>
+</div>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="bg-white p-8 rounded-xl card-hover transition-smooth" data-aos="fade-up">
+<div class="w-14 h-14 bg-purple-100 rounded-full flex items-center justify-center mb-6">
+<i class="text-purple-600 w-6 h-6" data-feather="circle"></i>
+</div>
+<h3 class="text-xl font-bold mb-3">Unicycling Expert</h3>
+<p class="text-gray-600">
+                        Mastered unicycling techniques from basic balance to advanced tricks and maneuvers
+                    </p>
+</div>
+<div class="bg-white p-8 rounded-xl card-hover transition-smooth" data-aos="fade-up" data-aos-delay="100">
+<div class="w-14 h-14 bg-purple-100 rounded-full flex items-center justify-center mb-6">
+<i class="text-purple-600 w-6 h-6" data-feather="target"></i>
+</div>
+<h3 class="text-xl font-bold mb-3">Knife Throwing</h3>
+<p class="text-gray-600">
+                        Precision knife throwing with emphasis on safety and proper technique
+                    </p>
+</div>
+<div class="bg-white p-8 rounded-xl card-hover transition-smooth" data-aos="fade-up" data-aos-delay="200">
+<div class="w-14 h-14 bg-purple-100 rounded-full flex items-center justify-center mb-6">
+<i class="text-purple-600 w-6 h-6" data-feather="activity"></i>
+</div>
+<h3 class="text-xl font-bold mb-3">Rope Walking</h3>
+<p class="text-gray-600">
+                        Expert in tie rope walking with focus on balance, safety, and progression
+                    </p>
+</div>
+<div class="bg-white p-8 rounded-xl card-hover transition-smooth" data-aos="fade-up">
+<div class="w-14 h-14 bg-purple-100 rounded-full flex items-center justify-center mb-6">
+<i class="text-purple-600 w-6 h-6" data-feather="tool"></i>
+</div>
+<h3 class="text-xl font-bold mb-3">Inventor</h3>
+<p class="text-gray-600">
+                        Created numerous innovative tools and devices to enhance learning and play
+                    </p>
+</div>
+<div class="bg-white p-8 rounded-xl card-hover transition-smooth" data-aos="fade-up" data-aos-delay="100">
+<div class="w-14 h-14 bg-purple-100 rounded-full flex items-center justify-center mb-6">
+<i class="text-purple-600 w-6 h-6" data-feather="heart"></i>
+</div>
+<h3 class="text-xl font-bold mb-3">Lifelong Learner</h3>
+<p class="text-gray-600">
+                        Continuous dedication to learning new skills and sharing knowledge with others
+                    </p>
+</div>
+<div class="bg-white p-8 rounded-xl card-hover transition-smooth" data-aos="fade-up" data-aos-delay="200">
+<div class="w-14 h-14 bg-purple-100 rounded-full flex items-center justify-center mb-6">
+<i class="text-purple-600 w-6 h-6" data-feather="star"></i>
+</div>
+<h3 class="text-xl font-bold mb-3">Inspirational Speaker</h3>
+<p class="text-gray-600">
+                        Motivational keynote speaker inspiring audiences around the world to embrace play and learning
+                    </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Philosophy -->
+<section class="py-20 bg-purple-600 text-white">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16" data-aos="fade-up">
+<h2 class="text-3xl md:text-4xl font-bold mb-4">The Playground Philosophy</h2>
+<p class="text-xl max-w-3xl mx-auto opacity-90">
+                    Stephen's approach to life, learning, and endless possibilities
+                </p>
+</div>
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="text-center" data-aos="fade-up">
+<div class="w-16 h-16 bg-white bg-opacity-20 rounded-full flex items-center justify-center mx-auto mb-6">
+<i class="w-8 h-8" data-feather="play"></i>
+</div>
+<h3 class="text-xl font-bold mb-3">Never Stop Playing</h3>
+<p class="opacity-90">
+                        Play is the highest form of learning and the key to maintaining curiosity and joy throughout life
+                    </p>
+</div>
+<div class="text-center" data-aos="fade-up" data-aos-delay="100">
+<div class="w-16 h-16 bg-white bg-opacity-20 rounded-full flex items-center justify-center mx-auto mb-6">
+<i class="w-8 h-8" data-feather="activity"></i>
+</div>
+<h3 class="text-xl font-bold mb-3">Move with Purpose</h3>
+<p class="opacity-90">
+                        Physical activity keeps the mind sharp and the body agile, no matter your age
+                    </p>
+</div>
+<div class="text-center" data-aos="fade-up" data-aos-delay="200">
+<div class="w-16 h-16 bg-white bg-opacity-20 rounded-full flex items-center justify-center mx-auto mb-6">
+<i class="w-8 h-8" data-feather="target"></i>
+</div>
+<h3 class="text-xl font-bold mb-3">Learn Every Day</h3>
+<p class="opacity-90">
+                        Every day is an opportunity to learn something new and expand your capabilities
+                    </p>
+</div>
+<div class="text-center" data-aos="fade-up">
+<div class="w-16 h-16 bg-white bg-opacity-20 rounded-full flex items-center justify-center mx-auto mb-6">
+<i class="w-8 h-8" data-feather="users"></i>
+</div>
+<h3 class="text-xl font-bold mb-3">Share Knowledge</h3>
+<p class="opacity-90">
+                        Teaching others reinforces your own skills and builds a supportive community
+                    </p>
+</div>
+<div class="text-center" data-aos="fade-up" data-aos-delay="100">
+<div class="w-16 h-16 bg-white bg-opacity-20 rounded-full flex items-center justify-center mx-auto mb-6">
+<i class="w-8 h-8" data-feather="smile"></i>
+</div>
+<h3 class="text-xl font-bold mb-3">Embrace Joy</h3>
+<p class="opacity-90">
+                        Approach each new challenge with curiosity, wonder, and a smile
+                    </p>
+</div>
+<div class="text-center" data-aos="fade-up" data-aos-delay="200">
+<div class="w-16 h-16 bg-white bg-opacity-20 rounded-full flex items-center justify-center mx-auto mb-6">
+<i class="w-8 h-8" data-feather="heart"></i>
+</div>
+<h3 class="text-xl font-bold mb-3">Live Fully</h3>
+<p class="opacity-90">
+                        Commit to a life of movement, creativity, and endless discovery
+                    </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Media -->
+<section class="py-20
