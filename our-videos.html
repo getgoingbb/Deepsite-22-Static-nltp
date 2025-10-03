@@ -69,10 +69,11 @@
 <h2 class="text-3xl md:text-4xl font-bold mb-3">Featured Instructional Videos</h2>
 <p class="text-gray-600 text-lg">Get a sneak peek of our premium instructional content designed to help you master new skills.</p>
 </div>
-<div class="grid md:grid-cols-2 gap-8 video-grid">
+<div class="grid md:grid-cols-2 gap-8">
 <article class="video-card">
-<a aria-label="Play They Never Leave The Playground" class="w-full block" href="https://www.youtube.com/watch?v=kxFTnQadcPw" onclick="NLTP('kxFTnQadcPw'); return false;">
-<img alt="They Never Leave The Playground thumbnail" loading="lazy" src="https://img.youtube.com/vi/kxFTnQadcPw/hqdefault.jpg"/>
+<div class="aspect-video">
+<iframe allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen="" src="https://www.youtube.com/embed/kxFTnQadcPw" title="They Never Leave The Playground"></iframe>
+</div>
 <div class="meta">
 <h3 class="text-xl font-semibold mb-2">They Never Leave The Playground</h3>
 <p class="text-gray-600 mb-3">Active playground skills to keep you engaged for hours.</p>
@@ -81,11 +82,11 @@
 <a class="payhip-buy-button" data-product="Mgw7n" data-theme="blue" href="https://payhip.com/b/Mgw7n">Buy Now</a>
 </div>
 </div>
-</a>
 </article>
 <article class="video-card">
-<a aria-label="Play 5-in-1 Learn Unicycling &amp; More" class="w-full block" href="https://www.youtube.com/watch?v=ll6aoSmWzKY" onclick="NLTP('ll6aoSmWzKY'); return false;">
-<img alt="5-in-1 Learn Unicycling &amp; More thumbnail" loading="lazy" src="https://img.youtube.com/vi/ll6aoSmWzKY/hqdefault.jpg"/>
+<div class="aspect-video">
+<iframe allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen="" src="https://www.youtube.com/embed/ll6aoSmWzKY" title="5-in-1 Learn Unicycling &amp; More"></iframe>
+</div>
 <div class="meta">
 <h3 class="text-xl font-semibold mb-2">5-in-1 Learn Unicycling &amp; More</h3>
 <p class="text-gray-600 mb-3">Unicycling, knife throwing, juggling, tightrope, and more.</p>
@@ -94,18 +95,18 @@
 <a class="payhip-buy-button" data-product="jK30s" data-theme="blue" href="https://payhip.com/b/jK30s">Buy Now</a>
 </div>
 </div>
-</a>
 </article>
 </div>
 </div>
 </section>
+
+
 <div class="hidden" id="video-lightbox">
 <div class="box relative">
 <iframe allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen="" frameborder="0" height="100%" id="video-lightbox-frame" src="" title="YouTube video" width="100%"></iframe>
 <div aria-label="Close" class="close" onclick="NLTP_close()">×</div>
 </div>
 </div>
-
 <!-- Navigation -->
 <nav class="bg-white/95 backdrop-blur border-b border-gray-200 sticky top-0 z-50">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
