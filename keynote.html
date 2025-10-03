@@ -76,35 +76,31 @@
 <section class="py-10" id="speaking-videos">
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 <h2 class="text-2xl md:text-3xl font-bold mb-4">Speaking Highlights</h2>
-<p class="text-gray-700 mb-6">A few quick examples from Stephen’s speaking events. Tap a thumbnail to watch.</p>
+<p class="text-gray-700 mb-6">Tap a thumbnail to watch without leaving this page.</p>
 <div class="video-scroller"><article class="video-card">
+<button aria-label="Play Speaking Event — Highlights" class="w-full text-left" onclick="NLTP('VkTwjxZ3KJg')">
+<img alt="Speaking Event — Highlights thumbnail" loading="lazy" src="https://img.youtube.com/vi/VkTwjxZ3KJg/hqdefault.jpg"/>
+<div class="meta"><h3 class="text-lg font-semibold">Speaking Event — Highlights</h3></div>
+</button>
+</article><article class="video-card">
 <button aria-label="Play Keynote Highlights — Speaking Event Clip" class="w-full text-left" onclick="NLTP('d3N2hsuVAt8')">
 <img alt="Keynote Highlights — Speaking Event Clip thumbnail" loading="lazy" src="https://img.youtube.com/vi/d3N2hsuVAt8/hqdefault.jpg"/>
 <div class="meta"><h3 class="text-lg font-semibold">Keynote Highlights — Speaking Event Clip</h3></div>
 </button>
-</article>
-<article class="video-card">
-<button aria-label="Play They Never Leave The Playground" class="w-full text-left" onclick="NLTP('kxFTnQadcPw')">
-<img alt="They Never Leave The Playground thumbnail" loading="lazy" src="https://img.youtube.com/vi/kxFTnQadcPw/hqdefault.jpg"/>
-<div class="meta"><h3 class="text-lg font-semibold">They Never Leave The Playground</h3></div>
-</button>
-</article>
-<article class="video-card">
-<button aria-label="Play 5-in-1 Skills (Demo)" class="w-full text-left" onclick="NLTP('ll6aoSmWzKY')">
-<img alt="5-in-1 Skills (Demo) thumbnail" loading="lazy" src="https://img.youtube.com/vi/ll6aoSmWzKY/hqdefault.jpg"/>
-<div class="meta"><h3 class="text-lg font-semibold">5-in-1 Skills (Demo)</h3></div>
+</article><article class="video-card">
+<button aria-label="Play Speaking Event — Clip (starts at 0:08)" class="w-full text-left" onclick="NLTP('M9vm5_-lE3U', 8)">
+<img alt="Speaking Event — Clip (starts at 0:08) thumbnail" loading="lazy" src="https://img.youtube.com/vi/M9vm5_-lE3U/hqdefault.jpg"/>
+<div class="meta"><h3 class="text-lg font-semibold">Speaking Event — Clip (starts at 0:08)</h3></div>
 </button>
 </article></div>
 </div>
 </section>
-<!-- Lightbox -->
 <div class="hidden" id="video-lightbox">
 <div class="box relative">
 <iframe allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen="" frameborder="0" height="100%" id="video-lightbox-frame" src="" title="YouTube video" width="100%"></iframe>
 <div aria-label="Close" class="close" onclick="NLTP_close()">×</div>
 </div>
 </div>
-
 <!-- Speaker Introduction -->
 <section class="mb-16" data-aos="fade-up">
 <div class="flex flex-col md:flex-row items-center gap-8">
@@ -238,13 +234,13 @@
 <!-- Video 1 -->
 <div class="group cursor-pointer" onclick="openLightbox('VkTwjxZ3KJg')">
 <div class="relative overflow-hidden rounded-lg aspect-video mb-3">
-<img alt="Speaking Event Moments" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" src="http://static.photos/event/640x360/1">
+<img alt="Speaking Event Moments" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" src="http://static.photos/event/640x360/1"/>
 <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
 <div class="w-16 h-16 bg-white bg-opacity-20 rounded-full flex items-center justify-center">
 <i class="text-white w-8 h-8" data-feather="play"></i>
 </div>
 </div>
-</img></div>
+</div>
 <h3 class="text-lg font-medium text-center">Speaking Event Moments</h3>
 </div>
 <!-- Video 2 -->
@@ -572,5 +568,31 @@
             });
         });
     </script>
-<script defer="defer" src="/assets/site.js"></script></body>
+<script defer="defer" src="/assets/site.js"></script><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "name": "Speaking Event \u2014 Highlights",
+      "thumbnailUrl": "https://img.youtube.com/vi/VkTwjxZ3KJg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VkTwjxZ3KJg",
+      "contentUrl": "https://www.youtube.com/watch?v=VkTwjxZ3KJg"
+    },
+    {
+      "@type": "VideoObject",
+      "name": "Keynote Highlights \u2014 Speaking Event Clip",
+      "thumbnailUrl": "https://img.youtube.com/vi/d3N2hsuVAt8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/d3N2hsuVAt8",
+      "contentUrl": "https://www.youtube.com/watch?v=d3N2hsuVAt8"
+    },
+    {
+      "@type": "VideoObject",
+      "name": "Speaking Event \u2014 Clip (starts at 0:08)",
+      "thumbnailUrl": "https://img.youtube.com/vi/M9vm5_-lE3U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/M9vm5_-lE3U",
+      "contentUrl": "https://www.youtube.com/watch?v=M9vm5_-lE3U"
+    }
+  ]
+}</script></body>
 </html>
