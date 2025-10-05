@@ -8,3 +8,4 @@ https://www.neverleavetheplayground.com/* https://neverleavetheplayground.com/:s
 
 # Optional SPA/404 fallback
 /* /index.html 404
+/introducing-stephen-jepson /introducing-stephen-jepson.html 301!
