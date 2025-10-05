@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base target="_self">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Guide: Never Leave the Playground</title>
+    <meta name="description" content="Explore Never Leave the Playground: Discover top attractions, transportation guides, and accommodation recommendations for an unforgettable adventure.">
+    <meta name="keywords" content="travel guide, Never Leave the Playground, attractions, transportation, accommodations">
+    <meta name="author" content="DeepSite AI">
+    <link rel="icon" href="https://picsum.photos/32?random=100" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#FF6B35",
+                        secondary: "#F7931E",
+                        accent: "#FFD23F"
+                    },
+                    fontFamily: {
+                        playful: ["Comic Neue", "cursive"]
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="min-h-screen bg-gradient-to-b from-blue-50 to-green-50 font-playful">
+    <header class="bg-white shadow-lg sticky top-0 z-50">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-primary">Never Leave the Playground</div>
+            <ul class="hidden md:flex space-x-6">
+                <li><a href="#attractions" class="nav-link text-gray-700 hover:text-primary transition-colors duration-300">Attractions</a></li>
+                <li><a href="#transportation" class="nav-link text-gray-700 hover:text-primary transition-colors duration-300">Transportation</a></li>
+                <li><a href="#accommodations" class="nav-link text-gray-700 hover:text-primary transition-colors duration-300">Accommodations</a></li>
+            </ul>
+            <button class="md:hidden text-gray-700 focus:outline-none focus:text-primary" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+        <div class="md:hidden bg-white border-t hidden" id="mobile-menu">
+            <ul class="px-4 py-2 space-y-2">
+                <li><a href="#attractions" class="nav-link block text-gray-700 hover:text-primary transition-colors duration-300">Attractions</a></li>
+                <li><a href="#transportation" class="nav-link block text-gray-700 hover:text-primary transition-colors duration-300">Transportation</a></li>
+                <li><a href="#accommodations" class="nav-link block text-gray-700 hover:text-primary transition-colors duration-300">Accommodations</a></li>
+		<li><a href="https://neverleavetheplayground.com" class="nav-link block text-gray-700 hover:text-primary transition-colors duration-300">Home</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero bg-gradient-to-r from-primary to-secondary text-white py-20">
+            <div class="container mx-auto px-4 text-center">
+                <h1 class="text-4xl md:text-6xl font-bold mb-4">Welcome to Never Leave the Playground</h1>
+                <p class="text-lg md:text-xl mb-8">Your ultimate guide to adventure, fun, and relaxation in this magical destination.</p>
+                <img src="https://picsum.photos/800/400?random=1" alt="Scenic view of Never Leave the Playground's vibrant playground landscape with swings, slides, and colorful structures under a sunny sky" class="w-full max-w-4xl mx-auto rounded-lg shadow-lg" loading="lazy">
+            </div>
+        </section>
+
+        <section id="attractions" class="py-16 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-bold text-center text-primary mb-12">Top Attractions</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="attraction-card bg-gray-50 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-6">
+                        <img src="https://picsum.photos/300/200?random=2" alt="Giant slide attraction with children sliding down a colorful, winding tube in a sunny park setting" class="w-full rounded-lg mb-4" loading="lazy">
+                        <h3 class="text-xl font-semibold text-secondary mb-2">Giant Slide Adventure</h3>
+                        <p class="text-gray-700">Experience the thrill of our massive slide, perfect for all ages. Height restrictions apply for safety.</p>
+                    </div>
+                    <div class="attraction-card bg-gray-50 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-6">
+                        <img src="https://picsum.photos/300/200?random=3" alt="Maze garden with tall hedges forming a complex path, surrounded by flowers and adventure seekers navigating" class="w-full rounded-lg mb-4" loading="lazy">
+                        <h3 class="text-xl font-semibold text-secondary mb-2">Maze Garden Quest</h3>
+                        <p class="text-gray-700">Navigate our intricate maze filled with surprises and challenges. Great for families and groups.</p>
+                    </div>
+                    <div class="attraction-card bg-gray-50 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-6">
+                        <img src="https://picsum.photos/300/200?random=4" alt="Zip line course over a forest canopy with adventurers soaring through the air" class="w-full rounded-lg mb-4" loading="lazy">
+                        <h3 class="text-xl font-semibold text-secondary mb-2">Zip Line Forest</h3>
+                        <p class="text-gray-700">Soar through the treetops on our exhilarating zip line course. Safety gear provided.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="transportation" class="py-16 bg-gray-100">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-bold text-center text-primary mb-12">Transportation Guides</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="transport-card bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-6">
+                        <h3 class="text-xl font-semibold text-secondary mb-4 flex items-center"><i class="fas fa-bus text-accent mr-2"></i> Local Shuttles</h3>
+                        <p class="text-gray-700 mb-4">Free shuttles run every 30 minutes from the main entrance to key attractions. Schedule: 9 AM - 6 PM.</p>
+                        <ul class="list-disc list-inside text-gray-600">
+                            <li>Stops at Giant Slide, Maze Garden, and Zip Line</li>
+                            <li>Wheelchair accessible</li>
+                            <li>Real-time tracking via app</li>
+                        </ul>
+                    </div>
+                    <div class="transport-card bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-6">
+                        <h3 class="text-xl font-semibold text-secondary mb-4 flex items-center"><i class="fas fa-bicycle text-accent mr-2"></i> Bike Rentals</h3>
+                        <p class="text-gray-700 mb-4">Rent bikes for $10/hour to explore trails and paths. Helmets and locks included.</p>
+                        <ul class="list-disc list-inside text-gray-600">
+                            <li>Electric bikes available for $15/hour</li>
+                            <li>Family bike packages</li>
+                            <li>Pickup/drop-off at accommodations</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="accommodations" class="py-16 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-bold text-center text-primary mb-12">Accommodation Recommendations</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="accommodation-card bg-gray-50 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-6">
+                        <img src="https://picsum.photos/300/200?random=5" alt="Cozy treehouse cabin with wooden walls, a balcony, and views of the playground from above" class="w-full rounded-lg mb-4" loading="lazy">
+                        <h3 class="text-xl font-semibold text-secondary mb-2">Treehouse Retreat</h3>
+                        <p class="text-gray-700 mb-4">Sleep among the treetops in our themed treehouses. Starting at $150/night.</p>
+                        <div class="flex items-center text-yellow-500">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                            <span class="text-gray-600 ml-2">(4.5/5)</span>
+                        </div>
+                    </div>
+                    <div class="accommodation-card bg-gray-50 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-6">
+                        <img src="https://picsum.photos/300/200?random=6" alt="Spacious family cabin with a fireplace, bunk beds, and outdoor seating area" class="w-full rounded-lg mb-4" loading="lazy">
+                        <h3 class="text-xl font-semibold text-secondary mb-2">Family Cabin Haven</h3>
+                        <p class="text-gray-700 mb-4">Perfect for groups, with multiple rooms and a backyard playground. Starting at $200/night.</p>
+                        <div class="flex items-center text-yellow-500">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <span class="text-gray-600 ml-2">(5/5)</span>
+                        </div>
+                    </div>
+                    <div class="accommodation-card bg-gray-50 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-6">
+                        <img src="https://picsum.photos/300/200?random=7" alt="Luxury hotel room with a king bed, modern amenities, and a view of the adventure park" class="w-full rounded-lg mb-4" loading="lazy">
+                        <h3 class="text-xl font-semibold text-secondary mb-2">Adventure Hotel Suite</h3>
+                        <p class="text-gray-700 mb-4">Luxury suites with park views and premium amenities. Starting at $250/night.</p>
+                        <div class="flex items-center text-yellow-500">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <span class="text-gray-600 ml-2">(5/5)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-primary text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 Never Leave the Playground. All rights reserved.</p>
+            <div class="mt-4 flex justify-center space-x-4">
+                <a href="https://www.facebook.com/stephen.jepson.56/" class="social-link text-accent hover:text-white transition-colors duration-300"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://x.com/stephenjepson56?lang=bg" class="social-link text-accent hover:text-white transition-colors duration-300"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/stephenjepson1941" class="social-link text-accent hover:text-white transition-colors duration-300"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Define data at the beginning
+        const attractions = [
+            { "id": 1, "name": "Giant Slide Adventure", "description": "Experience the thrill of our massive slide, perfect for all ages. Height restrictions apply for safety.", "image": "https://picsum.photos/300/200?random=2" },
+            { "id": 2, "name": "Maze Garden Quest", "description": "Navigate our intricate maze filled with surprises and challenges. Great for families and groups.", "image": "https://picsum.photos/300/200?random=3" },
+            { "id": 3, "name": "Zip Line Forest", "description": "Soar through the treetops on our exhilarating zip line course. Safety gear provided.", "image": "https://picsum.photos/300/200?random=4" }
+        ];
+
+        const transportOptions = [
+            { "id": 1, "name": "Local Shuttles", "details": ["Free shuttles run every 30 minutes from the main entrance to key attractions. Schedule: 9 AM - 6 PM.", "Stops at Giant Slide, Maze Garden, and Zip Line", "Wheelchair accessible", "Real-time tracking via app"] },
+            { "id": 2, "name": "Bike Rentals", "details": ["Rent bikes for $10/hour to explore trails and paths. Helmets and locks included.", "Electric bikes available for $15/hour", "Family bike packages", "Pickup/drop-off at accommodations"] }
+        ];
+
+        const accommodations = [
+            { "id": 1, "name": "Treehouse Retreat", "description": "Sleep among the treetops in our themed treehouses. Starting at $150/night.", "rating": 4.5, "image": "https://picsum.photos/300/200?random=5" },
+            { "id": 2, "name": "Family Cabin Haven", "description": "Perfect for groups, with multiple rooms and a backyard playground. Starting at $200/night.", "rating": 5, "image": "https://picsum.photos/300/200?random=6" },
+            { "id": 3, "name": "Adventure Hotel Suite", "description": "Luxury suites with park views and premium amenities. Starting at $250/night.", "rating": 5, "image": "https://picsum.photos/300/200?random=7" }
+        ];
+
+        // Navigation handling
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = this.getAttribute('href');
+                document.querySelector(target).scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+
+        // Mobile menu toggle
+        const menuToggle = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuToggle.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Social links (placeholder - prevent default for demo)
+        document.querySelectorAll('.social-link').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                alert("Social media link clicked - integrate with actual URLs as needed.");
+            });
+        });
+    </script>
+</body>
+</html>
