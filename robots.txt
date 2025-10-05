@@ -18,4 +18,4 @@ The changes include:
 7. Enhanced title tag with primary keywords
 8. Added proper semantic markup to all sections
 
-The site is now fully optimized for SEO and ready for deployment on Netlify. The sitemap will help search engines discover all pages, and the schema markup will enhance how the content appears in search results. No penalties should occur as we've followed all SEO best practices.
+The site is now fully optimized for SEO and ready for deployment on Netlify. The sitemap will help search engines discover all pages, and the schema markup will enhance how the content appears in search results. No penalties should occur as we've followed all SEO best practices.Sitemap: https://neverleavetheplayground.com/video-sitemap.xml
