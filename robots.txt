@@ -1,8 +1,6 @@
+# robots.txt for https://neverleavetheplayground.com/
 User-agent: *
 Allow: /
-
-Disallow: /private/
-Disallow: /tmp/
 
 # Sitemaps
 Sitemap: https://neverleavetheplayground.com/sitemap.xml
