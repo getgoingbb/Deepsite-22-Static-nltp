@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <base href="/" />
-  <!-- Google Tag Manager (kept from your site setup; update ID if needed) -->
+  <!-- Google Tag Manager -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=GT-P3NCVWX"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -15,22 +15,29 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Never Leave The Playground — Playful Movement for Life</title>
   <meta name="description" content="Playful movement that rebuilds balance, coordination, and confidence at any age. Learn the science behind Never Leave The Playground and see real client stories." />
+  <!-- Canonical URL for SEO -->
   <link rel="canonical" href="https://neverleavetheplayground.com/index.html" />
 
-  <!-- Tailwind (remove if your build already injects CSS) -->
+  <!-- Preconnect to YouTube domains for faster embeds -->
+  <link rel="preconnect" href="https://www.youtube-nocookie.com" crossorigin>
+  <link rel="preconnect" href="https://img.youtube.com" crossorigin>
+  <link rel="dns-prefetch" href="//www.youtube-nocookie.com">
+  <link rel="dns-prefetch" href="//img.youtube.com">
+
+  <!-- Tailwind (remove if your build injects CSS) -->
   <script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- Open Graph -->
+  <!-- Open Graph metadata -->
   <meta property="og:title" content="Never Leave The Playground — Playful Movement for Life">
   <meta property="og:description" content="Playful movement that rebuilds balance, coordination, and confidence at any age. See the science and real client stories.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://neverleavetheplayground.com/">
 
-  <!-- Favicon (optional) -->
+  <!-- Favicon -->
   <link rel="icon" href="/favicon.ico">
 </head>
 <body class="bg-white text-gray-900">
-  <!-- Header / Nav -->
+  <!-- Header / Navigation -->
   <header class="border-b bg-white sticky top-0 z-40">
     <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
       <a href="index.html" class="text-xl font-bold">Never Leave The Playground</a>
@@ -55,39 +62,27 @@
   </header>
 
   <main>
-    <!-- Hero -->
-    <section class="max-w-7xl mx-auto px-4 py-12">
-      <div class="grid md:grid-cols-2 gap-8 items-center">
-        <div>
-          <h1 class="text-3xl md:text-4xl font-extrabold mb-3">Playful Movement for a Sharper, Stronger You</h1>
-          <p class="text-gray-700 mb-4">A simple, step-by-step practice that rebuilds balance, coordination, and confidence at any age — grounded in science and designed to be fun.</p>
-          <div class="flex gap-3">
-            <a href="science.html" class="inline-flex items-center px-5 py-3 rounded-full bg-blue-600 text-white hover:bg-blue-700">Why it works</a>
-            <a href="our-videos.html" class="inline-flex items-center px-5 py-3 rounded-full bg-gray-900 text-white hover:bg-black">Watch client stories</a>
-          </div>
+    <!-- Hero Section -->
+    <section class="max-w-7xl mx-auto px-4 py-12 grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h1 class="text-3xl md:text-4xl font-extrabold mb-3">Playful Movement for a Sharper, Stronger You</h1>
+        <p class="text-gray-700 mb-4">A simple, step-by-step practice that rebuilds balance, coordination, and confidence at any age — grounded in science and designed to be fun.</p>
+        <div class="flex gap-3">
+          <a href="science.html" class="inline-flex items-center px-5 py-3 rounded-full bg-blue-600 text-white hover:bg-blue-700">Why it works</a>
+          <a href="our-videos.html" class="inline-flex items-center px-5 py-3 rounded-full bg-gray-900 text-white hover:bg-black">Watch client stories</a>
         </div>
-        <div class="aspect-video rounded-xl overflow-hidden shadow">
-          <!-- keep or replace with your existing hero video/image -->
-          <iframe src="https://www.youtube-nocookie.com/embed/jVHU7yVxdeg"
-                  title="Never Leave The Playground — Program Explained"
-                  loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen></iframe>
-        </div>
+      </div>
+      <div class="aspect-video rounded-xl overflow-hidden shadow">
+        <iframe src="https://www.youtube-nocookie.com/embed/jVHU7yVxdeg" title="Never Leave The Playground — Program Explained" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </section>
 
-    <!-- Program Explained (near top) -->
+    <!-- Program Explained Section -->
     <section id="program-explained" class="mx-auto max-w-3xl my-10 px-4">
       <h2 class="text-2xl md:text-3xl font-bold mb-3">Never Leave The Playground — Program Explained</h2>
       <p class="text-gray-700 mb-4">Sessions start simple (beanbags, steps, balance rails), then level up to challenge both hands and feet. It’s fun, doable in small spaces, and designed to keep you moving — and thinking — better every week.</p>
       <div class="aspect-video rounded-xl overflow-hidden shadow">
-        <iframe
-          src="https://www.youtube-nocookie.com/embed/jVHU7yVxdeg"
-          title="Never Leave The Playground — Program Explained"
-          loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
+        <iframe src="https://www.youtube-nocookie.com/embed/jVHU7yVxdeg" title="Never Leave The Playground — Program Explained" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </section>
     <script type="application/ld+json">
@@ -103,10 +98,10 @@
     }
     </script>
 
-    <!-- Quick Benefits strip -->
+    <!-- Quick Benefits Section -->
     <section class="max-w-7xl mx-auto px-4 py-10 grid md:grid-cols-3 gap-6">
       <div class="p-6 border rounded-xl">
-        <h3 class="font-semibold mb-2">Balance & Coordination</h3>
+        <h3 class="font-semibold mb-2">Balance &amp; Coordination</h3>
         <p class="text-gray-700 text-sm">Simple, playful drills that challenge both sides of the body improve stability and control.</p>
       </div>
       <div class="p-6 border rounded-xl">
@@ -114,21 +109,16 @@
         <p class="text-gray-700 text-sm">Learning new skills and hand–eye patterns builds attention, memory, and mental agility.</p>
       </div>
       <div class="p-6 border rounded-xl">
-        <h3 class="font-semibold mb-2">Accessible & Fun</h3>
+        <h3 class="font-semibold mb-2">Accessible &amp; Fun</h3>
         <p class="text-gray-700 text-sm">Minimal gear. Indoor or outdoor. Small, consistent sessions that add up.</p>
       </div>
     </section>
 
-    <!-- Client Story (single testimonial on home) -->
+    <!-- Client Story Section -->
     <section id="client-story" class="mx-auto max-w-3xl my-10 px-4">
       <h3 class="text-xl font-semibold mb-2">Client Story</h3>
       <div class="aspect-video rounded-xl overflow-hidden shadow">
-        <iframe
-          src="https://www.youtube-nocookie.com/embed/L3_bOVK-Dq8"
-          title="Client Testimonial — Never Leave The Playground"
-          loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
+        <iframe src="https://www.youtube-nocookie.com/embed/L3_bOVK-Dq8" title="Client Testimonial — Never Leave The Playground" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
       <p class="mt-2 text-sm text-gray-600">How playful movement improved daily balance and confidence.</p>
     </section>
@@ -145,7 +135,7 @@
     }
     </script>
 
-    <!-- Related quick links -->
+    <!-- Related Quick Links -->
     <section class="max-w-7xl mx-auto px-4 py-10">
       <h3 class="text-xl font-semibold mb-4">Explore</h3>
       <div class="grid md:grid-cols-3 gap-4">
@@ -155,7 +145,7 @@
       </div>
     </section>
 
-    <!-- Contact / Social -->
+    <!-- Contact Section -->
     <section id="contact" class="max-w-7xl mx-auto px-4 py-12">
       <h2 class="text-2xl md:text-3xl font-bold mb-4">Get in touch</h2>
       <p class="text-gray-700 mb-4">Questions, speaking, or workshops? We’d love to help.</p>
@@ -178,10 +168,21 @@
   </footer>
 
   <script>
+    // Set current year in footer
     document.getElementById('y').textContent = new Date().getFullYear();
+    // Mobile nav toggle
     const navToggle = document.getElementById('navToggle');
     const mobileNav = document.getElementById('mobileNav');
-    navToggle?.addEventListener('click', () => mobileNav.classList.toggle('hidden'));
+    navToggle?.addEventListener('click', () => {
+      const hidden = mobileNav.classList.contains('hidden');
+      if (hidden) {
+        mobileNav.classList.remove('hidden');
+        navToggle.setAttribute('aria-expanded', 'true');
+      } else {
+        mobileNav.classList.add('hidden');
+        navToggle.setAttribute('aria-expanded', 'false');
+      }
+    });
   </script>
 </body>
 </html>

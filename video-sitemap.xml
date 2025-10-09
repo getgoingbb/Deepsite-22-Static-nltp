@@ -25,8 +25,15 @@
     <video:video>
       <video:thumbnail_loc>https://img.youtube.com/vi/zLR0H7i1ZlI/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Client Testimonial — Never Leave The Playground</video:title>
-      <video:description>Real-world results from simple, consistent practice.</video:description>
+      <video:description>Real‑world results from simple, consistent practice.</video:description>
       <video:player_loc allow_embed="yes">https://www.youtube.com/embed/zLR0H7i1ZlI</video:player_loc>
     </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/VbUWs4uqBcY/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Quick Clip — Never Leave The Playground</video:title>
+      <video:description>A short vertical video highlighting playful movement in action.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube.com/embed/VbUWs4uqBcY</video:player_loc>
+    </video:video>
   </url>
+
 </urlset>

@@ -1,4 +1,4 @@
-# robots.txt for https://neverleavetheplayground.com/
+# robots.txt for Never Leave The Playground
 User-agent: *
 Allow: /
 
