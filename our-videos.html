@@ -1,347 +1,109 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
   <base href="/" />
-<script src="https://payhip.com/payhip.js" type="text/javascript"></script>
-<script async="async" src="https://www.googletagmanager.com/gtag/js?id=GT-P3NCVWX"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','GT-P3NCVWX');</script>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Our Videos - Never Leave The Playground</title>
-<script src="https://cdn.tailwindcss.com"></script>
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-
-<style>
-        @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap');
-        body {
-            font-family: 'Rubik', sans-serif;
-            background-color: #f8f9fa;
-        }
-        .hero-gradient {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        }
-        .playful-text {
-            background: linear-gradient(90deg, #f72585, #7209b7, #3a0ca3, #4361ee, #4cc9f0);
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-            animation: gradient 8s ease infinite;
-            background-size: 400% 400%;
-        }
-        @keyframes gradient {
-            0% {background-position: 0% 50%;}
-            50% {background-position: 100% 50%;}
-            100% {background-position: 0% 50%;}
-        }
-        .card-hover:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-        }
-        .transition-smooth {
-            transition: all 0.3s ease;
-        }
-        .video-container {
-            position: relative;
-            padding-bottom: 56.25%;
-            height: 0;
-            overflow: hidden;
-            border-radius: 12px;
-        }
-        .video-container iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-    </style>
-
-<link rel="preconnect" href="https://i.ytimg.com">
-<link rel="preconnect" href="https://www.youtube.com">
-<link rel="stylesheet" href="https://unpkg.com/lite-youtube-embed@0.3.1/src/lite-yt-embed.css">
-<script defer src="https://unpkg.com/lite-youtube-embed@0.3.1/dist/lite-yt-embed.js"></script>
-<link rel="preconnect" href="https://cdn.tailwindcss.com">
-<link rel="preconnect" href="https://unpkg.com">
-<link rel="stylesheet" href="/assets/site.css?v35">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Our Videos — Never Leave The Playground</title>
+  <meta name="description" content="Watch program overviews and client stories from Never Leave The Playground." />
+  <link rel="canonical" href="https://neverleavetheplayground.com/our-videos.html" />
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="antialiased">
-<!-- Navigation -->
-<nav class="bg-white/95 backdrop-blur border-b border-gray-200 sticky top-0 z-50">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex items-center justify-between h-16">
-            <a class="text-xl font-bold playful-text flex items-center" href="index.html">
-                <img alt="NeverLeaveThePlayground" class="h-8 w-8 mr-2" src="https://slides.neverleavetheplayground.com/assets/img/icon-222.png"/>
-                NeverLeaveThePlayground
-            </a>
-            <div class="hidden md:flex items-center space-x-8 text-sm">
-                <a class="text-gray-700 hover:text-purple-600 transition-smooth" href="index.html">Home</a>
-                <a class="text-gray-700 hover:text-purple-600 transition-smooth" href="index.html#features">Features</a>
-                <a class="text-gray-700 hover:text-purple-600 transition-smooth" href="index.html#about">About</a>
-                <a class="text-purple-600 font-semibold transition-smooth" href="our-videos.html">Our Videos</a>
-                <a class="text-gray-700 hover:text-purple-600 transition-smooth" href="news.html">News</a>
-                <a class="text-gray-700 hover:text-purple-600 transition-smooth" href="index.html#contact">Contact</a>
-                <a class="bg-purple-600 text-white px-4 py-2 rounded-full hover:bg-purple-700 transition-smooth" href="https://shop.neverleavetheplayground.com/" target="_blank" rel="noopener">Join Now</a>
-            </div>
-            <div class="md:hidden flex items-center">
-                <button aria-controls="mobile-menu" aria-expanded="false" class="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-purple-600 hover:bg-purple-50 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:ring-offset-white transition" id="mobile-menu-button" type="button">
-                    <span class="sr-only">Open main menu</span>
-                    <i class="h-6 w-6" data-feather="menu"></i>
-                </button>
-            </div>
-        </div>
+<body class="bg-white text-gray-900">
+  <header class="border-b bg-white">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+      <a href="index.html" class="text-xl font-bold">Never Leave The Playground</a>
+      <nav class="hidden md:flex gap-2">
+        <a class="px-3 py-2 text-sm font-medium hover:bg-gray-50 rounded" href="activities.html">Activities</a>
+        <a class="px-3 py-2 text-sm font-medium hover:bg-gray-50 rounded" href="our-videos.html">Our Videos</a>
+        <a class="px-3 py-2 text-sm font-medium hover:bg-gray-50 rounded" href="news.html">News</a>
+        <a class="px-3 py-2 text-sm font-medium hover:bg-gray-50 rounded" href="science.html">Science</a>
+      </nav>
     </div>
-    <div class="hidden md:hidden transform origin-top scale-y-95 opacity-0 -translate-y-2 transition-all duration-200 ease-out bg-white text-gray-900 shadow-xl ring-1 ring-gray-200" id="mobile-menu">
-        <div class="px-4 pb-6 pt-4 space-y-2 text-sm">
-            <a class="block rounded-lg px-4 py-3 text-gray-700 hover:text-purple-600 hover:bg-purple-50 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-smooth" href="index.html">Home</a>
-            <a class="block rounded-lg px-4 py-3 text-gray-700 hover:text-purple-600 hover:bg-purple-50 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-smooth" href="index.html#features">Features</a>
-            <a class="block rounded-lg px-4 py-3 text-gray-700 hover:text-purple-600 hover:bg-purple-50 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-smooth" href="index.html#about">About</a>
-            <a class="block rounded-lg px-4 py-3 text-purple-600 font-semibold bg-purple-50 hover:bg-purple-100 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-smooth" href="our-videos.html">Our Videos</a>
-            <a class="block rounded-lg px-4 py-3 text-gray-700 hover:text-purple-600 hover:bg-purple-50 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-smooth" href="news.html">News</a>
-            <a class="block rounded-lg px-4 py-3 text-gray-700 hover:text-purple-600 hover:bg-purple-50 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-smooth" href="index.html#contact">Contact</a>
-            <a class="block rounded-lg px-4 py-3 text-white bg-purple-600 hover:bg-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-smooth" href="https://shop.neverleavetheplayground.com/" target="_blank" rel="noopener">Join Now</a>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-4 py-10">
+    <h1 class="text-3xl md:text-4xl font-extrabold mb-8">Our Videos</h1>
+
+    <!-- Program Explained (optional repeat here) -->
+    <section class="mx-auto max-w-3xl my-10">
+      <div class="aspect-video rounded-xl overflow-hidden shadow">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/jVHU7yVxdeg"
+          title="Never Leave The Playground — Program Explained"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <!-- Client Stories -->
+    <section id="client-stories" class="my-12">
+      <h2 class="text-2xl md:text-3xl font-bold mb-4">Client Stories</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div>
+          <div class="aspect-video rounded-xl overflow-hidden shadow">
+            <iframe
+              src="https://www.youtube-nocookie.com/embed/L3_bOVK-Dq8"
+              title="Client Testimonial — Never Leave The Playground"
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+          </div>
+          <p class="mt-2 text-sm text-gray-600">How playful movement improved daily balance and confidence.</p>
         </div>
+        <div>
+          <div class="aspect-video rounded-xl overflow-hidden shadow">
+            <iframe
+              src="https://www.youtube-nocookie.com/embed/zLR0H7i1ZlI"
+              title="Client Testimonial — Never Leave The Playground"
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+          </div>
+          <p class="mt-2 text-sm text-gray-600">Real-world results from simple, consistent practice.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- JSON-LD list of videos -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"ItemList",
+    "itemListElement":[
+      {
+        "@type":"VideoObject",
+        "position":1,
+        "name":"Client Testimonial — Never Leave The Playground",
+        "description":"How playful movement improved daily balance and confidence.",
+        "thumbnailUrl":["https://img.youtube.com/vi/L3_bOVK-Dq8/hqdefault.jpg"],
+        "uploadDate":"2025-01-01",
+        "embedUrl":"https://www.youtube-nocookie.com/embed/L3_bOVK-Dq8"
+      },
+      {
+        "@type":"VideoObject",
+        "position":2,
+        "name":"Client Testimonial — Never Leave The Playground",
+        "description":"Real-world results from simple, consistent practice.",
+        "thumbnailUrl":["https://img.youtube.com/vi/zLR0H7i1ZlI/hqdefault.jpg"],
+        "uploadDate":"2025-01-01",
+        "embedUrl":"https://www.youtube-nocookie.com/embed/zLR0H7i1ZlI"
+      }
+    ]
+  }
+  </script>
+
+  <footer class="border-t">
+    <div class="max-w-7xl mx-auto px-4 py-8 text-sm text-gray-600">
+      <p>&copy; <span id="y"></span> Never Leave The Playground</p>
+      <p class="mt-4">
+        Stephen is also a master potter and educator —
+        <a class="underline hover:no-underline" href="https://stephen.jepsonpotteryvideos.com/" rel="noopener">see his teaching work</a>.
+      </p>
     </div>
-</nav>
-<!-- Hero Section -->
-<section class="hero-gradient text-white py-20">
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-<h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6" data-aos="fade-up">
-                Our <span class="playful-text">Videos</span>
-            </h1>
-<p class="text-xl max-w-3xl mx-auto opacity-90" data-aos="fade-up" data-aos-delay="100">
-                Explore our collection of inspiring videos that showcase creativity, innovation, and the endless possibilities of our playground.
-            </p>
-</div>
-</section>
-<!-- Videos Grid -->
-<section class="py-20 bg-white">
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-<div class="text-center mb-16" data-aos="fade-up">
-<h2 class="text-3xl md:text-4xl font-bold mb-4">Featured Instructional Videos</h2>
-<p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Get a sneak peek of our premium instructional content designed to help you master new skills.
-                </p>
-</div>
-<div class="grid md:grid-cols-2 gap-12">
-<!-- They Never Leave The Playground Video -->
-<div class="bg-white rounded-xl overflow-hidden card-hover transition-smooth" data-aos="fade-right">
-<div class="aspect-w-16 aspect-h-9">
-<lite-youtube videoid="kxFTnQadcPw" style="background:#000; display:block;"></lite-youtube>
-</div>
-<div class="p-6">
-<h3 class="text-xl font-bold mb-3">They Never Leave The Playground</h3>
-<p class="text-gray-600 mb-4">
-                            Our active playground skills video featuring multiple exciting activities and techniques to keep you engaged for hours.
-                        </p>
-<div class="flex justify-between items-center">
-<a _blank"" class="bg-purple-600 text-white px-6 py-2 rounded-full hover:bg-purple-700 transition-smooth" href="">
-                                Video Collection
-                            </a>
-<a href="https://payhip.com/b/Mgw7n" class="payhip-buy-button" data-theme="blue" data-product="Mgw7n">Buy Now</a>
-</div>
-</div>
-</div>
-<!-- 5-in-1 Skills Video -->
-<div class="bg-white rounded-xl overflow-hidden card-hover transition-smooth" data-aos="fade-left">
-<div class="aspect-w-16 aspect-h-9">
-<lite-youtube videoid="ll6aoSmWzKY" style="background:#000; display:block;"></lite-youtube>
-</div>
-<div class="p-6">
-<h3 class="text-xl font-bold mb-3">5-in-1 Learn Unicycling &amp; More</h3>
-<p class="text-gray-600 mb-4">
-                            Comprehensive instructional video covering unicycling, knife throwing, juggling, tie rope walking, and bonus skills.
-                        </p>
-<div class="flex justify-between items-center">
-<a class="bg-purple-600 text-white px-6 py-2 rounded-full hover:bg-purple-700 transition-smooth" href="" target="_blank" rel="noopener">
-                                Video Collection
-                            </a>
-<a href="https://payhip.com/b/jK30s" class="payhip-buy-button" data-theme="blue" data-product="jK30s">Buy Now</a>
-</div>
-</div>
-</div>
-</div>
-</div></section>
-<!-- CTA Section -->
-<section class="py-20 bg-purple-600 text-white">
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-<h2 class="text-3xl md:text-4xl font-bold mb-6" data-aos="fade-up">Ready to Master New Skills?</h2>
-<p class="text-xl mb-8 max-w-3xl mx-auto opacity-90" data-aos="fade-up" data-aos-delay="100">
-                Join our community and never stop learning, playing, and growing with our premium instructional videos.
-            </p>
-<a class="bg-white text-purple-600 px-8 py-4 rounded-full font-bold hover:bg-gray-100 transition-smooth text-lg inline-block" data-aos="fade-up" data-aos-delay="200" href="https://shop.neverleavetheplayground.com/" target="_blank" rel="noopener">
-                Visit Our Shop
-            </a>
-</div>
-</section>
-<!-- Footer -->
-<footer class="bg-gray-900 text-white py-12">
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-<div class="grid md:grid-cols-4 gap-8">
-<div>
-<h3 class="text-xl font-bold mb-4 playful-text flex items-center">
-<img alt="NeverLeaveThePlayground" class="h-8 w-8 mr-2" src="https://slides.neverleavetheplayground.com/assets/img/icon-222.png"/>
-                        NeverLeaveThePlayground
-                    </h3>
-<p class="text-gray-400">
-                        Premium skill-building videos to help you never leave the playground.
-                    </p>
-</div>
-<div>
-<h4 class="font-bold mb-4">Product</h4>
-<ul class="space-y-2">
-<li><a class="text-gray-400 hover:text-white transition-smooth" href="#">Features</a></li>
-<li><a class="text-gray-400 hover:text-white transition-smooth" href="#">Pricing</a></li>
-<li><a class="text-gray-400 hover:text-white transition-smooth" href="#">Templates</a></li>
-<li><a class="text-gray-400 hover:text-white transition-smooth" href="#">Integrations</a></li>
-</ul>
-</div>
-<div>
-<h4 class="font-bold mb-4">Company</h4>
-<ul class="space-y-2">
-<li><a class="text-gray-400 hover:text-white transition-smooth" href="#">About</a></li>
-<li><a class="text-gray-400 hover:text-white transition-smooth" href="#">Careers</a></li>
-<li><a class="text-gray-400 hover:text-white transition-smooth" href="#">Blog</a></li>
-<li><a class="text-gray-400 hover:text-white transition-smooth" href="#">Press</a></li>
-</ul>
-</div>
-<div>
-<h4 class="font-bold mb-4">Connect</h4>
-<div class="flex space-x-4">
-<a class="text-gray-400 hover:text-white transition-colors" href="https://www.facebook.com/stephen.jepson.56/" target="_blank" rel="noopener">
-<i data-feather="facebook"></i>
-</a>
-<a class="text-gray-400 hover-text-white transition-colors" href="https://x.com/stephenjepson56?lang=bg" target="_blank" rel="noopener">
-<i data-feather="twitter"></i>
-</a>
-<a class="text-gray-400 hover-text-white transition-colors" href="https://www.pinterest.com/stephenjepson56/" target="_blank" rel="noopener">
-<i data-feather="pinterest"></i>
-</a>
-<a class="text-gray-400 hover-text-white transition-colors" href="https://www.youtube.com/@StephenJepson" target="_blank" rel="noopener">
-<i data-feather="youtube"></i>
-</a>
-<a class="text-gray-400 hover-text-white transition-colors" href="https://www.instagram.com/stephenjepson1941" target="_blank" rel="noopener">
-<i data-feather="instagram"></i>
-</a>
-</div>
-</div>
-</div>
-<div class="mt-6 flex justify-center"><a class="bg-green-600 hover:bg-green-700 text-white px-5 py-3 rounded-lg inline-flex items-center" href="https://playgrounds.neverleavetheplayground.com/"><i class="mr-2" data-feather="map-pin"></i>Playground Finder</a></div><div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-500">
-<p>© 2025 Never Leave The Playground. All rights reserved.</p>
-</div>
-</div>
-</footer>
-<script>
-        const mobileMenuButton = document.getElementById('mobile-menu-button');
-        const mobileMenu = document.getElementById('mobile-menu');
-        const focusableSelector = 'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])';
-        const openClasses = ['opacity-100', 'scale-y-100', 'translate-y-0'];
-        const closedClasses = ['opacity-0', 'scale-y-95', '-translate-y-2'];
-        let previousFocus = null;
-        let closeMenuTimeout = null;
-
-        const getFocusableElements = () => {
-            return Array.from(mobileMenu.querySelectorAll(focusableSelector)).filter((el) => !el.hasAttribute('disabled'));
-        };
-
-        const handleKeydown = (event) => {
-            if (!mobileMenu || mobileMenu.classList.contains('hidden')) {
-                return;
-            }
-
-            if (event.key === 'Escape') {
-                event.preventDefault();
-                toggleMenu(false);
-                return;
-            }
-
-            if (event.key === 'Tab') {
-                const focusableElements = getFocusableElements();
-                if (focusableElements.length === 0) {
-                    event.preventDefault();
-                    return;
-                }
-
-                const firstElement = focusableElements[0];
-                const lastElement = focusableElements[focusableElements.length - 1];
-
-                if (!event.shiftKey && document.activeElement === lastElement) {
-                    event.preventDefault();
-                    firstElement.focus();
-                } else if (event.shiftKey && document.activeElement === firstElement) {
-                    event.preventDefault();
-                    lastElement.focus();
-                }
-            }
-        };
-
-        const toggleMenu = (shouldOpen) => {
-            if (!mobileMenuButton || !mobileMenu) {
-                return;
-            }
-
-            const isExpanded = mobileMenuButton.getAttribute('aria-expanded') === 'true';
-            const willOpen = typeof shouldOpen === 'boolean' ? shouldOpen : !isExpanded;
-
-            if (closeMenuTimeout) {
-                clearTimeout(closeMenuTimeout);
-            }
-
-            if (willOpen) {
-                previousFocus = document.activeElement;
-                mobileMenu.classList.remove('hidden');
-                mobileMenu.classList.remove(...closedClasses);
-                requestAnimationFrame(() => {
-                    mobileMenu.classList.add(...openClasses);
-                });
-                mobileMenuButton.setAttribute('aria-expanded', 'true');
-                document.addEventListener('keydown', handleKeydown);
-
-                const focusableElements = getFocusableElements();
-                if (focusableElements.length > 0) {
-                    focusableElements[0].focus();
-                }
-            } else {
-                mobileMenu.classList.remove(...openClasses);
-                mobileMenu.classList.add(...closedClasses);
-                mobileMenuButton.setAttribute('aria-expanded', 'false');
-                document.removeEventListener('keydown', handleKeydown);
-                closeMenuTimeout = window.setTimeout(() => {
-                    mobileMenu.classList.add('hidden');
-                }, 200);
-
-                if (previousFocus) {
-                    mobileMenuButton.focus();
-                    previousFocus = null;
-                }
-            }
-        };
-
-        if (mobileMenuButton && mobileMenu) {
-            mobileMenu.classList.add(...closedClasses);
-            mobileMenuButton.addEventListener('click', () => {
-                const expanded = mobileMenuButton.getAttribute('aria-expanded') === 'true';
-                toggleMenu(!expanded);
-            });
-        }
-
-        AOS.init({
-            duration: 800,
-            once: true
-        });
-        feather.replace();
-    </script>
-<script src="/sj-snippet.js"></script>
-<script defer src="/assets/site.js?v35"></script>
-<div id="video-lightbox" class="hidden">
-  <div class="box relative">
-    <iframe id="video-lightbox-frame" width="100%" height="100%" src="" title="YouTube video" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
-    <div class="close" onclick="NLTP_close()" aria-label="Close">×</div>
-  </div>
-</div>
-
+  </footer>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
 </body>
 </html>

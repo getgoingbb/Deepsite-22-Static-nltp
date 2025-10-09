@@ -1,3 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+
+  <!-- Program Explained on the home page -->
+  <url>
+    <loc>https://neverleavetheplayground.com/index.html</loc>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/jVHU7yVxdeg/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Never Leave The Playground — Program Explained</video:title>
+      <video:description>Short overview of Stephen Jepson’s playful movement method and who it helps.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube.com/embed/jVHU7yVxdeg</video:player_loc>
+    </video:video>
+  </url>
+
+  <!-- Testimonials on our-videos.html -->
+  <url>
+    <loc>https://neverleavetheplayground.com/our-videos.html</loc>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/L3_bOVK-Dq8/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Client Testimonial — Never Leave The Playground</video:title>
+      <video:description>How playful movement improved daily balance and confidence.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube.com/embed/L3_bOVK-Dq8</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/zLR0H7i1ZlI/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Client Testimonial — Never Leave The Playground</video:title>
+      <video:description>Real-world results from simple, consistent practice.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube.com/embed/zLR0H7i1ZlI</video:player_loc>
+    </video:video>
+  </url>
 </urlset>
