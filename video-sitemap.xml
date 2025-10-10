@@ -34,6 +34,20 @@
       <video:description>A short vertical video highlighting playful movement in action.</video:description>
       <video:player_loc allow_embed="yes">https://www.youtube.com/embed/VbUWs4uqBcY</video:player_loc>
     </video:video>
+
+    <!-- Instructional videos for sale -->
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/kxFTnQadcPw/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>They Never Leave The Playground</video:title>
+      <video:description>Active playground skills video featuring multiple exciting activities and techniques to keep you engaged for hours.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube.com/embed/kxFTnQadcPw</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/ll6aoSmWzKY/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>5-in-1 Learn Unicycling & More</video:title>
+      <video:description>Comprehensive instructional video covering unicycling, knife throwing, juggling, tightrope walking, and bonus skills.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube.com/embed/ll6aoSmWzKY</video:player_loc>
+    </video:video>
   </url>
 
 </urlset>
