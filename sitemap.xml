@@ -1,2 +1,19 @@
-<?xml version='1.0' encoding='utf-8'?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><sitemap><loc>https://neverleavetheplayground.com/sitemap-pages.xml</loc><lastmod>2025-09-17</lastmod></sitemap><sitemap><loc>https://neverleavetheplayground.com/sitemap-images.xml</loc><lastmod>2025-09-17</lastmod></sitemap><sitemap><loc>https://neverleavetheplayground.com/sitemap-videos.xml</loc><lastmod>2025-09-17</lastmod></sitemap><sitemap><loc>https://neverleavetheplayground.com/sitemap-pdfs.xml</loc><lastmod>2025-09-17</lastmod></sitemap></sitemapindex>
+<?xml version="1.0" encoding="utf-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://neverleavetheplayground.com/sitemap-pages.xml</loc>
+    <lastmod>2025-10-10</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://neverleavetheplayground.com/sitemap-images.xml</loc>
+    <lastmod>2025-09-17</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://neverleavetheplayground.com/video-sitemap.xml</loc>
+    <lastmod>2025-10-10</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://neverleavetheplayground.com/sitemap-pdfs.xml</loc>
+    <lastmod>2025-09-17</lastmod>
+  </sitemap>
+</sitemapindex>
