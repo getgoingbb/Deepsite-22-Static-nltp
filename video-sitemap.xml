@@ -11,6 +11,14 @@
       <video:description>Short overview of Stephen Jepson’s playful movement method and who it helps.</video:description>
       <video:player_loc allow_embed="yes">https://www.youtube.com/embed/jVHU7yVxdeg</video:player_loc>
     </video:video>
+
+    <!-- Stephen's Secret to Lifelong Strength video on the home page -->
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/m6KrVBWtE_0/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Too Young to Be 83: Stephen Jepson’s Secret to Lifelong Strength, Balance &amp; Joy</video:title>
+      <video:description>An inspiring video showing Stephen Jepson’s secret to lifelong strength, balance and joy.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube.com/embed/m6KrVBWtE_0</video:player_loc>
+    </video:video>
   </url>
 
   <!-- Testimonials on our-videos.html -->
@@ -29,10 +37,10 @@
       <video:player_loc allow_embed="yes">https://www.youtube.com/embed/zLR0H7i1ZlI</video:player_loc>
     </video:video>
     <video:video>
-      <video:thumbnail_loc>https://img.youtube.com/vi/VbUWs4uqBcY/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>Quick Clip — Never Leave The Playground</video:title>
-      <video:description>A short vertical video highlighting playful movement in action.</video:description>
-      <video:player_loc allow_embed="yes">https://www.youtube.com/embed/VbUWs4uqBcY</video:player_loc>
+      <video:thumbnail_loc>https://img.youtube.com/vi/M9vm5_-lE3U/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Program Clip — Stephen Speaking to a Group</video:title>
+      <video:description>A brief clip featuring Stephen Jepson speaking to a group about the program.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube.com/embed/M9vm5_-lE3U</video:player_loc>
     </video:video>
 
     <!-- Instructional videos for sale -->
