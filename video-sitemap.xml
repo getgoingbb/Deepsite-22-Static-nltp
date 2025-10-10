@@ -43,6 +43,20 @@
       <video:player_loc allow_embed="yes">https://www.youtube.com/embed/M9vm5_-lE3U</video:player_loc>
     </video:video>
 
+    <!-- Speaking highlight videos -->
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/VkTwjxZ3KJg/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Feel Younger at Any Age — Stephen Jepson Keynote</video:title>
+      <video:description>Keynote clip featuring balance and coordination drills and fall‑prevention statistics.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube.com/embed/VkTwjxZ3KJg</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/pJM0qqI5PaY/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Motivational Keynote Speaker Inspires Play‑Based Fitness</video:title>
+      <video:description>Highlights from Stephen Jepson’s motivational talk at Fitness Business Summit 2015.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube.com/embed/pJM0qqI5PaY</video:player_loc>
+    </video:video>
+
     <!-- Instructional videos for sale -->
     <video:video>
       <video:thumbnail_loc>https://img.youtube.com/vi/kxFTnQadcPw/hqdefault.jpg</video:thumbnail_loc>
