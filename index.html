@@ -1,51 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <base href="/" />
-  <!-- Google Tag Manager -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=GT-P3NCVWX"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){ dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'GT-P3NCVWX');
-  </script>
-
+  <!-- Critical metas -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Never Leave The Playground — Playful Movement for Life</title>
-  <meta name="description" content="Playful movement that rebuilds balance, coordination, and confidence at any age. Learn the science behind Never Leave The Playground and see real client stories." />
-  <!-- Canonical URL for SEO -->
-  <link rel="canonical" href="https://neverleavetheplayground.com/index.html" />
 
-  <!-- Preconnect to YouTube domains for faster embeds -->
+  <!-- Connection hints for YouTube embeds & thumbnails -->
   <link rel="preconnect" href="https://www.youtube-nocookie.com" crossorigin>
   <link rel="preconnect" href="https://img.youtube.com" crossorigin>
   <link rel="dns-prefetch" href="//www.youtube-nocookie.com">
   <link rel="dns-prefetch" href="//img.youtube.com">
 
-  <!-- Tailwind (remove if your build injects CSS) -->
-  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- SEO -->
+  <title>Never Leave The Playground — Playful Movement for Life</title>
+  <meta name="description" content="Playful movement that rebuilds balance, coordination, and confidence at any age. Learn the science and see real client stories." />
+  <link rel="canonical" href="https://neverleavetheplayground.com/" />
+  <link rel="icon" href="/favicon.ico">
 
-  <!-- Open Graph metadata -->
+  <!-- Open Graph -->
   <meta property="og:title" content="Never Leave The Playground — Playful Movement for Life">
-  <meta property="og:description" content="Playful movement that rebuilds balance, coordination, and confidence at any age. See the science and real client stories.">
+  <meta property="og:description" content="Playful movement that rebuilds balance, coordination, and confidence at any age.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://neverleavetheplayground.com/">
 
-  <!-- Favicon -->
-  <link rel="icon" href="favicon.ico">
-</head>
-<script src="/sj-chatbot.js" defer></script>
+  <!-- Styles (Tailwind CDN for simplicity; remove if your build injects CSS) -->
+  <script src="https://cdn.tailwindcss.com"></script>
 
+  <!-- (Optional) Google Analytics/Tag Manager -->
+  <!--
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GT-P3NCVWX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date()); gtag('config', 'GT-P3NCVWX');
+  </script>
+  -->
+</head>
 <body class="bg-white text-gray-900">
-  <!-- Header / Navigation -->
+  <!-- Header / Nav -->
   <header class="border-b bg-white sticky top-0 z-40">
     <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
-      <a href="index.html" class="flex items-center text-xl font-bold">
-        <img src="Logo.png" alt="Never Leave The Playground logo" class="h-8 w-8 mr-2">
-        Never Leave The Playground
-      </a>
+      <a href="index.html" class="text-xl font-bold">Never Leave The Playground</a>
       <nav class="hidden md:flex gap-2">
         <a class="px-3 py-2 text-sm font-medium hover:bg-gray-50 rounded" href="activities.html">Activities</a>
         <a class="px-3 py-2 text-sm font-medium hover:bg-gray-50 rounded" href="our-videos.html">Our Videos</a>
@@ -67,47 +62,31 @@
   </header>
 
   <main>
-    <!-- Hero Section -->
-    <section class="max-w-7xl mx-auto px-4 py-12 grid md:grid-cols-2 gap-8 items-center">
-      <div>
-        <h1 class="text-3xl md:text-4xl font-extrabold mb-3">Playful Movement for a Sharper, Stronger You</h1>
-        <p class="text-gray-700 mb-4">A simple, step-by-step practice that rebuilds balance, coordination, and confidence at any age — grounded in science and designed to be fun.</p>
-        <div class="flex gap-3">
-          <a href="science.html" class="inline-flex items-center px-5 py-3 rounded-full bg-blue-600 text-white hover:bg-blue-700">Why it works</a>
-          <a href="our-videos.html" class="inline-flex items-center px-5 py-3 rounded-full bg-gray-900 text-white hover:bg-black">Watch client stories</a>
+    <!-- Hero (single embed to avoid duplication) -->
+    <section class="max-w-7xl mx-auto px-4 py-12">
+      <div class="grid md:grid-cols-2 gap-8 items-center">
+        <div>
+          <h1 class="text-3xl md:text-4xl font-extrabold mb-3">Playful Movement for a Sharper, Stronger You</h1>
+          <p class="text-gray-700 mb-4">A simple, step-by-step practice that rebuilds balance, coordination, and confidence at any age — grounded in science and designed to be fun.</p>
+          <div class="flex gap-3">
+            <a href="science.html" class="inline-flex items-center px-5 py-3 rounded-full bg-blue-600 text-white hover:bg-blue-700">Why it works</a>
+            <a href="our-videos.html" class="inline-flex items-center px-5 py-3 rounded-full bg-gray-900 text-white hover:bg-black">Watch client stories</a>
+          </div>
+        </div>
+        <div class="aspect-video rounded-xl overflow-hidden shadow">
+          <iframe src="https://www.youtube-nocookie.com/embed/jVHU7yVxdeg"
+                  title="Never Leave The Playground — Program Explained"
+                  loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
         </div>
       </div>
-      <div class="aspect-video rounded-xl overflow-hidden shadow">
-        <iframe src="https://www.youtube-nocookie.com/embed/jVHU7yVxdeg" title="Never Leave The Playground — Program Explained" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      </div>
     </section>
 
-    <!-- Stephen's Secret Video Section -->
-    <section id="program-explained" class="mx-auto max-w-3xl my-10 px-4">
-      <h2 class="text-2xl md:text-3xl font-bold mb-3">Too Young to Be 83: Stephen Jepson’s Secret to Lifelong Strength, Balance &amp; Joy</h2>
-      <p class="text-gray-700 mb-4">Discover Stephen Jepson’s secret to lifelong strength, balance and joy in this inspiring short film.</p>
-      <div class="aspect-video rounded-xl overflow-hidden shadow">
-        <!-- Embed the new video starting at 38 seconds -->
-        <iframe src="https://www.youtube-nocookie.com/embed/m6KrVBWtE_0?start=38" title="Too Young to Be 83: Stephen Jepson’s Secret to Lifelong Strength, Balance &amp; Joy" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      </div>
-    </section>
-    <script type="application/ld+json">
-    {
-      "@context":"https://schema.org",
-      "@type":"VideoObject",
-      "name":"Too Young to Be 83: Stephen Jepson’s Secret to Lifelong Strength, Balance & Joy",
-      "description":"An inspiring video showing Stephen Jepson’s secret to lifelong strength, balance and joy.",
-      "thumbnailUrl":["https://img.youtube.com/vi/m6KrVBWtE_0/hqdefault.jpg"],
-      "uploadDate":"2025-01-01",
-      "embedUrl":"https://www.youtube-nocookie.com/embed/m6KrVBWtE_0",
-      "publisher":{"@type":"Organization","name":"Never Leave The Playground"}
-    }
-    </script>
-
-    <!-- Quick Benefits Section -->
+    <!-- Quick Benefits -->
     <section class="max-w-7xl mx-auto px-4 py-10 grid md:grid-cols-3 gap-6">
       <div class="p-6 border rounded-xl">
-        <h3 class="font-semibold mb-2">Balance &amp; Coordination</h3>
+        <h3 class="font-semibold mb-2">Balance & Coordination</h3>
         <p class="text-gray-700 text-sm">Simple, playful drills that challenge both sides of the body improve stability and control.</p>
       </div>
       <div class="p-6 border rounded-xl">
@@ -115,33 +94,26 @@
         <p class="text-gray-700 text-sm">Learning new skills and hand–eye patterns builds attention, memory, and mental agility.</p>
       </div>
       <div class="p-6 border rounded-xl">
-        <h3 class="font-semibold mb-2">Accessible &amp; Fun</h3>
+        <h3 class="font-semibold mb-2">Accessible & Fun</h3>
         <p class="text-gray-700 text-sm">Minimal gear. Indoor or outdoor. Small, consistent sessions that add up.</p>
       </div>
     </section>
 
-    <!-- Client Story Section -->
+    <!-- Client Story -->
     <section id="client-story" class="mx-auto max-w-3xl my-10 px-4">
       <h3 class="text-xl font-semibold mb-2">Client Story</h3>
       <div class="aspect-video rounded-xl overflow-hidden shadow">
-        <iframe src="https://www.youtube-nocookie.com/embed/L3_bOVK-Dq8" title="Client Testimonial — Never Leave The Playground" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/L3_bOVK-Dq8"
+          title="Client Testimonial — Never Leave The Playground"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
       </div>
       <p class="mt-2 text-sm text-gray-600">How playful movement improved daily balance and confidence.</p>
     </section>
-    <script type="application/ld+json">
-    {
-      "@context":"https://schema.org",
-      "@type":"VideoObject",
-      "name":"Client Testimonial — Never Leave The Playground",
-      "description":"How playful movement improved daily balance and confidence.",
-      "thumbnailUrl":["https://img.youtube.com/vi/L3_bOVK-Dq8/hqdefault.jpg"],
-      "uploadDate":"2025-01-01",
-      "embedUrl":"https://www.youtube-nocookie.com/embed/L3_bOVK-Dq8",
-      "publisher":{"@type":"Organization","name":"Never Leave The Playground"}
-    }
-    </script>
 
-    <!-- Related Quick Links -->
+    <!-- Explore -->
     <section class="max-w-7xl mx-auto px-4 py-10">
       <h3 class="text-xl font-semibold mb-4">Explore</h3>
       <div class="grid md:grid-cols-3 gap-4">
@@ -151,7 +123,7 @@
       </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- Contact -->
     <section id="contact" class="max-w-7xl mx-auto px-4 py-12">
       <h2 class="text-2xl md:text-3xl font-bold mb-4">Get in touch</h2>
       <p class="text-gray-700 mb-4">Questions, speaking, or workshops? We’d love to help.</p>
@@ -162,7 +134,7 @@
     </section>
   </main>
 
-  <!-- Footer -->
+  <!-- Footer (mini-sitemap) -->
   <footer class="border-t">
     <div class="max-w-7xl mx-auto px-4 py-8 text-sm text-gray-600">
       <p>&copy; <span id="y"></span> Never Leave The Playground</p>
@@ -173,25 +145,15 @@
     </div>
   </footer>
 
+  <!-- Small utilities -->
   <script>
-    // Set current year in footer
     document.getElementById('y').textContent = new Date().getFullYear();
-    // Mobile nav toggle
     const navToggle = document.getElementById('navToggle');
     const mobileNav = document.getElementById('mobileNav');
-    navToggle?.addEventListener('click', () => {
-      const hidden = mobileNav.classList.contains('hidden');
-      if (hidden) {
-        mobileNav.classList.remove('hidden');
-        navToggle.setAttribute('aria-expanded', 'true');
-      } else {
-        mobileNav.classList.add('hidden');
-        navToggle.setAttribute('aria-expanded', 'false');
-      }
-    });
+    navToggle?.addEventListener('click', () => mobileNav.classList.toggle('hidden'));
   </script>
 
-  <!-- Stephen Jepson Chatbot and $1 Deal share widget -->
-  <script src="sj-chatbot.js"></script>
+  <!-- ✅ Include this ONCE per page (right before </body>) -->
+  <script src="/sj-chatbot.js" defer></script>
 </body>
 </html>
