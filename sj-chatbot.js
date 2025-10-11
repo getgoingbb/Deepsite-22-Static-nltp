@@ -17,11 +17,10 @@
   var VIDEO2_LINK = "https://payhip.com/b/jK30s?coupon=T5ZZJPL1KQ"; // 5 in One Video
 
   // ===== Floating Chat Button =====
-  // Create the chat button element
+  // Create the chat button element. We use a small chat icon instead of a large photo
   var chatBtn = document.createElement('button');
-  chatBtn.innerHTML =
-    '<img src="' + STEPHEN_IMAGE_URL + '" style="width:30px;height:30px;border-radius:50%;vertical-align:middle;margin-right:9px;">' +
-    'Chat with Stephen';
+  // Use an emoji chat bubble for the icon and keep the label for accessibility
+  chatBtn.innerHTML = '<span style="font-size:20px;margin-right:8px;">💬</span> Chat with Stephen';
   // Position and style the chat button
   chatBtn.style.position = "fixed";
   chatBtn.style.bottom = "30px";
@@ -38,7 +37,7 @@
   chatBtn.style.cursor = "pointer";
   chatBtn.style.display = "flex";
   chatBtn.style.alignItems = "center";
-  chatBtn.style.gap = "9px";
+  chatBtn.style.gap = "8px";
   document.body.appendChild(chatBtn);
 
   // ===== Floating Share Button =====

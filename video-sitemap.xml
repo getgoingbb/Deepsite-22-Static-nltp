@@ -21,6 +21,23 @@
     </video:video>
   </url>
 
+  <!-- Videos on the activities page -->
+  <url>
+    <loc>https://neverleavetheplayground.com/activities.html</loc>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/VkTwjxZ3KJg/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Feel Younger at Any Age – Balance &amp; Coordination Drills</video:title>
+      <video:description>Discover balance and coordination exercises to help prevent falls and keep your brain and body sharp.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube.com/embed/VkTwjxZ3KJg</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/pJM0qqI5PaY/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Play Your Way Fit – Keynote Excerpt</video:title>
+      <video:description>Stephen Jepson demonstrates how juggling and playful drills transform health, cognition and creativity.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube.com/embed/pJM0qqI5PaY</video:player_loc>
+    </video:video>
+  </url>
+
   <!-- Testimonials on our-videos.html -->
   <url>
     <loc>https://neverleavetheplayground.com/our-videos.html</loc>

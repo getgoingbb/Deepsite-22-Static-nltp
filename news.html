@@ -1,358 +1,149 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-  <base href="/" /><script async="async" src="https://www.googletagmanager.com/gtag/js?id=GT-P3NCVWX"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','GT-P3NCVWX');</script>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>News - Never Leave The Playground</title>
-<script src="https://cdn.tailwindcss.com"></script>
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
-<script src="https://unpkg.com/aos@
-<meta name="description" content="Stay up to date on news and announcements from Never Leave The Playground, including events, media appearances, and product updates." />
-<link rel="canonical" href="https://neverleavetheplayground.com/news.html" />
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "News - Never Leave The Playground",
-  "description": "Stay up to date on news and announcements from Never Leave The Playground, including events, media appearances, and product updates.",
-  "url": "https://neverleavetheplayground.com/news.html"
-}
-</script>
-<style>
-        @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap');
-        body {
-            font-family: 'Rubik', sans-serif;
-            background-color: #f8f9fa;
-        }
-        .hero-gradient {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        }
-        .playful-text {
-            background: linear-gradient(90deg, #f72585, #7209b7, #3a0ca3, #4361ee, #4cc9f0);
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-            animation: gradient 8s ease infinite;
-            background-size: 400% 400%;
-        }
-        @keyframes gradient {
-            0% {background-position: 0% 50%;}
-            50% {background-position: 100% 50%;}
-            100% {background-position: 0% 50%;}
-        }
-        .card-hover:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-        }
-        .transition-smooth {
-            transition: all 0.3s ease;
-        }
-    </style>
-<link rel="preconnect" href="https://cdn.tailwindcss.com">
-<link rel="preconnect" href="https://unpkg.com">
-<link rel="stylesheet" href="/assets/site.css?v35">
+  <base href="/" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>News — Never Leave The Playground</title>
+  <meta name="description" content="Stay up to date with the latest news, events and updates from Never Leave The Playground." />
+  <link rel="canonical" href="https://neverleavetheplayground.com/news.html" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="antialiased">
-<!-- Navigation -->
-<nav class="bg-white/95 backdrop-blur border-b border-gray-200 sticky top-0 z-50">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex items-center justify-between h-16">
-            <a class="text-xl font-bold playful-text flex items-center" href="index.html">
-                <img alt="NeverLeaveThePlayground" class="h-8 w-8 mr-2" src="https://slides.neverleavetheplayground.com/assets/img/icon-222.png"/>
-                NeverLeaveThePlayground
-            </a>
-            <div class="hidden md:flex items-center space-x-8 text-sm">
-                <a class="text-gray-700 hover:text-purple-600 transition-smooth" href="index.html">Home</a>
-                <a class="text-gray-700 hover:text-purple-600 transition-smooth" href="index.html#features">Features</a>
-                <a class="text-gray-700 hover:text-purple-600 transition-smooth" href="index.html#about">About</a>
-                <a class="text-gray-700 hover:text-purple-600 transition-smooth" href="our-videos.html">Our Videos</a>
-                <a class="text-gray-700 hover:text-purple-600 transition-smooth" href="activities.html">Activities</a>
-                <a class="text-purple-600 font-semibold transition-smooth" href="news.html">News</a>
-                <a class="text-gray-700 hover:text-purple-600 transition-smooth" href="index.html#contact">Contact</a>
-                <a class="bg-purple-600 text-white px-4 py-2 rounded-full hover:bg-purple-700 transition-smooth" href="https://shop.neverleavetheplayground.com/" target="_blank" rel="noopener">Join Now</a>
-            </div>
-            <div class="md:hidden flex items-center">
-                <button aria-controls="mobile-menu" aria-expanded="false" class="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-purple-600 hover:bg-purple-50 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:ring-offset-white transition" id="mobile-menu-button" type="button">
-                    <span class="sr-only">Open main menu</span>
-                    <i class="h-6 w-6" data-feather="menu"></i>
-                </button>
-            </div>
-        </div>
+<body class="bg-white text-gray-900">
+  <!-- Header -->
+  <header class="border-b bg-white sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+      <a href="index.html" class="flex items-center text-xl font-bold">
+        <img src="Logo.png" alt="Never Leave The Playground logo" class="h-8 w-8 mr-2" />
+        Never Leave The Playground
+      </a>
+      <nav class="hidden md:flex gap-2">
+        <a class="px-3 py-2 text-sm font-medium hover:bg-gray-50 rounded" href="activities.html">Activities</a>
+        <a class="px-3 py-2 text-sm font-medium hover:bg-gray-50 rounded" href="our-videos.html">Our Videos</a>
+        <a class="px-3 py-2 text-sm font-medium hover:bg-gray-50 rounded" href="science.html">Science</a>
+        <a class="px-3 py-2 text-sm font-medium hover:bg-gray-50 rounded" href="news.html">News</a>
+        <a class="px-3 py-2 text-sm font-medium hover:bg-gray-50 rounded" href="index.html#contact">Contact</a>
+      </nav>
+      <button id="navToggle" class="md:hidden inline-flex items-center px-3 py-2 border rounded" aria-label="Open Menu">
+        <span>Menu</span>
+      </button>
     </div>
-    <div class="hidden md:hidden transform origin-top scale-y-95 opacity-0 -translate-y-2 transition-all duration-200 ease-out bg-white text-gray-900 shadow-xl ring-1 ring-gray-200" id="mobile-menu">
-        <div class="px-4 pb-6 pt-4 space-y-2 text-sm">
-            <a class="block rounded-lg px-4 py-3 text-gray-700 hover:text-purple-600 hover:bg-purple-50 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-smooth" href="index.html">Home</a>
-            <a class="block rounded-lg px-4 py-3 text-gray-700 hover:text-purple-600 hover:bg-purple-50 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-smooth" href="index.html#features">Features</a>
-            <a class="block rounded-lg px-4 py-3 text-gray-700 hover:text-purple-600 hover:bg-purple-50 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-smooth" href="index.html#about">About</a>
-            <a class="block rounded-lg px-4 py-3 text-gray-700 hover:text-purple-600 hover:bg-purple-50 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-smooth" href="our-videos.html">Our Videos</a>
-            <a class="block rounded-lg px-4 py-3 text-gray-700 hover:text-purple-600 hover:bg-purple-50 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-smooth" href="activities.html">Activities</a>
-            <a class="block rounded-lg px-4 py-3 text-purple-600 font-semibold bg-purple-50 hover:bg-purple-100 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-smooth" href="news.html">News</a>
-            <a class="block rounded-lg px-4 py-3 text-gray-700 hover:text-purple-600 hover:bg-purple-50 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-smooth" href="index.html#contact">Contact</a>
-            <a class="block rounded-lg px-4 py-3 text-white bg-purple-600 hover:bg-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-smooth" href="https://shop.neverleavetheplayground.com/" target="_blank" rel="noopener">Join Now</a>
-        </div>
+    <div id="mobileNav" class="md:hidden hidden px-4 pb-4 border-t">
+      <a class="block py-2" href="activities.html">Activities</a>
+      <a class="block py-2" href="our-videos.html">Our Videos</a>
+      <a class="block py-2" href="science.html">Science</a>
+      <a class="block py-2" href="news.html">News</a>
+      <a class="block py-2" href="index.html#contact">Contact</a>
     </div>
-</nav>
-<!-- Hero Section -->
-<section class="hero-gradient text-white py-20">
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-<h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6" data-aos="fade-up">
-                Latest <span class="playful-text">News</span>
-</h1>
-<p class="text-xl max-w-3xl mx-auto opacity-90" data-aos="fade-up" data-aos-delay="100">
-                Stay updated with the latest announcements, updates, and exciting developments from Never Leave The Playground.
-            </p>
-</div>
-</section>
-<!-- News Grid -->
-<section class="py-20 bg-white">
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-<!-- News Item 1 -->
-<div class="bg-gray-50 rounded-xl overflow-hidden card-hover transition-smooth" data-aos="fade-up">
-<img alt="New Video Release" class="w-full h-48 object-cover" src="http://static.photos/technology/640x360/1"/>
-<div class="p-6">
-<span class="text-sm text-purple-600 font-medium">December 15, 2023</span>
-<h3 class="text-xl font-bold mb-2 mt-2">New Instructional Video Released</h3>
-<p class="text-gray-600 mb-4">
-                        We're excited to announce the release of our latest instructional video series designed to help you master new skills.
-                    </p>
-<a class="text-purple-600 font-medium hover:text-purple-700 transition-smooth" href="#">Read More →</a>
-</div>
-</div>
-<!-- News Item 2 -->
-<div class="bg-gray-50 rounded-xl overflow-hidden card-hover transition-smooth" data-aos="fade-up" data-aos-delay="100">
-<img alt="Media Coverage" class="w-full h-48 object-cover" src="http://static.photos/business/640x360/2"/>
-<div class="p-6">
-<span class="text-sm text-purple-600 font-medium">December 10, 2023</span>
-<h3 class="text-xl font-bold mb-2 mt-2">Featured on National Media</h3>
-<p class="text-gray-600 mb-4">
-                        Never Leave The Playground was recently featured in national media, highlighting the impact of our programs.
-                    </p>
-<a class="text-purple-600 font-medium hover:text-purple-700 transition-smooth" href="#">Read More →</a>
-</div>
-</div>
-<!-- News Item 3 -->
-<div class="bg-gray-50 rounded-xl overflow-hidden card-hover transition-smooth" data-aos="fade-up" data-aos-delay="200">
-<img alt="Community Event" class="w-full h-48 object-cover" src="http://static.photos/people/640x360/3"/>
-<div class="p-6">
-<span class="text-sm text-purple-600 font-medium">December 5, 2023</span>
-<h3 class="text-xl font-bold mb-2 mt-2">Community Event Announcement</h3>
-<p class="text-gray-600 mb-4">
-                        Join us for our upcoming community event where we'll share tips, tricks, and exciting new developments.
-                    </p>
-<a class="text-purple-600 font-medium hover:text-purple-700 transition-smooth" href="#">Read More →</a>
-</div>
-</div>
-<!-- News Item 4 -->
-<div class="bg-gray-50 rounded-xl overflow-hidden card-hover transition-smooth" data-aos="fade-up">
-<img alt="Partnership" class="w-full h-48 object-cover" src="http://static.photos/education/640x360/4"/>
-<div class="p-6">
-<span class="text-sm text-purple-600 font-medium">November 28, 2023</span>
-<h3 class="text-xl font-bold mb-2 mt-2">New Partnership Announcement</h3>
-<p class="text-gray-600 mb-4">
-                        We're thrilled to announce our new partnership that will bring even more value to our community members.
-                    </p>
-<a class="text-purple-600 font-medium hover:text-purple-700 transition-smooth" href="#">Read More →</a>
-</div>
-</div>
-<!-- News Item 5 -->
-<div class="bg-gray-50 rounded-xl overflow-hidden card-hover transition-smooth" data-aos="fade-up" data-aos-delay="100">
-<img alt="Special Offer" class="w-full h-48 object-cover" src="http://static.photos/sport/640x360/5"/>
-<div class="p-6">
-<span class="text-sm text-purple-600 font-medium">November 20, 2023</span>
-<h3 class="text-xl font-bold mb-2 mt-2">Holiday Special Offer</h3>
-<p class="text-gray-600 mb-4">
-                        Take advantage of our special holiday offer and get access to all our premium content at a discounted rate.
-                    </p>
-<a class="text-purple-600 font-medium hover:text-purple-700 transition-smooth" href="#">Read More →</a>
-</div>
-</div>
-<!-- News Item 6 -->
-<div class="bg-gray-50 rounded-xl overflow-hidden card-hover transition-smooth" data-aos="fade-up" data-aos-delay="200">
-<img alt="Success Story" class="w-full h-48 object-cover" src="http://static.photos/travel/640x360/6"/>
-<div class="p-6">
-<span class="text-sm text-purple-600 font-medium">November 15, 2023</span>
-<h3 class="text-xl font-bold mb-2 mt-2">Featured Success Story</h3>
-<p class="text-gray-600 mb-4">
-                        Read about how one of our community members achieved amazing results using our instructional videos.
-                    </p>
-<a class="text-purple-600 font-medium hover:text-purple-700 transition-smooth" href="#">Read More →</a>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Newsletter Section -->
-<section class="py-20 bg-gray-50">
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-<h2 class="text-3xl md:text-4xl font-bold mb-6" data-aos="fade-up">Stay Updated</h2>
-<p class="text-xl mb-8 max-w-3xl mx-auto text-gray-600" data-aos="fade-up" data-aos-delay="100">
-                Subscribe to our newsletter and be the first to know about new video releases, special offers, and exciting updates.
-            </p>
-<div class="max-w-md mx-auto" data-aos="fade-up" data-aos-delay="200">
-<div class="flex">
-<input class="flex-1 px-4 py-3 rounded-l-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-500" placeholder="Enter your email" type="email"/>
-<button class="bg-purple-600 text-white px-6 py-3 rounded-r-lg font-medium hover:bg-purple-700 transition-smooth">
-                        Subscribe
-                    </button>
-</div>
-</div>
-</div>
-</section>
-<!-- Footer -->
-<footer class="bg-gray-900 text-white py-12">
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-<div class="grid md:grid-cols-4 gap-8">
-<div>
-<h3 class="text-xl font-bold mb-4 playful-text flex items-center">
-<img alt="NeverLeaveThePlayground" class="h-8 w-8 mr-2" src="https://slides.neverleavetheplayground.com/assets/img/icon-222.png"/>
-                        NeverLeaveThePlayground
-                    </h3>
-<p class="text-gray-400">
-                        Inspiring lifelong learning through play and extraordinary skill mastery.
-                    </p>
-</div>
-<div>
-<h4 class="font-bold mb-4">Explore</h4>
-<ul class="space-y-2">
-<li><a class="text-gray-400 hover:text-white transition-smooth" href="index.html">Home</a></li>
-<li><a class="text-gray-400 hover:text-white transition-smooth" href="our-videos.html">Our Videos</a></li>
-<li><a class="text-gray-400 hover:text-white transition-smooth" href="activities.html">Activities</a></li>
-<li><a class="text-gray-400 hover:text-white transition-smooth" href="news.html">News</a></li>
-</ul>
-</div>
-<div>
-<h4 class="font-bold mb-4">Shop</h4>
-<ul class="space-y-2">
-<li><a class="text-gray-400 hover:text-white transition-smooth" href="https://shop.neverleavetheplayground.com/" target="_blank" rel="noopener">Training Programs</a></li>
-<li><a class="text-gray-400 hover:text-white transition-smooth" href="https://shop.neverleavetheplayground.com/" target="_blank" rel="noopener">Special Offers</a></li>
-<li><a class="text-gray-400 hover:text-white transition-smooth" href="https://shop.neverleavetheplayground.com/" target="_blank" rel="noopener">Bundle Deals</a></li>
-</ul>
-</div>
-<div>
-<h4 class="font-bold mb-4">Connect</h4>
-<div class="flex space-x-4">
-<a class="text-gray-400 hover:text-white transition-smooth" href="#"><i data-feather="twitter"></i></a>
-<a class="text-gray-400 hover:text-white transition-smooth" href="#"><i data-feather="instagram"></i></a>
-<a class="text-gray-400 hover:text-white transition-smooth" href="#"><i data-feather="linkedin"></i></a>
-<a class="text-gray-400 hover:text-white transition-smooth" href="#"><i data-feather="facebook"></i></a>
-</div>
-</div>
-</div>
-<div class="mt-6 flex justify-center"><a class="bg-green-600 hover:bg-green-700 text-white px-5 py-3 rounded-lg inline-flex items-center" href="https://playgrounds.neverleavetheplayground.com/"><i class="mr-2" data-feather="map-pin"></i>Playground Finder</a></div>
-<div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-<p class="text-gray-400">© 2023 NeverLeaveThePlayground. All rights reserved.</p>
-<div class="flex space-x-6 mt-4 md:mt-0">
-<a class="text-gray-400 hover:text-white transition-smooth" href="#">Privacy</a>
-<a class="text-gray-400 hover:text-white transition-smooth" href="#">Terms</a>
-<a class="text-gray-400 hover:text-white transition-smooth" href="#">Cookies</a>
-</div>
-</div>
-</div>
-</footer>
-<script>
-        const mobileMenuButton = document.getElementById('mobile-menu-button');
-        const mobileMenu = document.getElementById('mobile-menu');
-        const focusableSelector = 'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])';
-        const openClasses = ['opacity-100', 'scale-y-100', 'translate-y-0'];
-        const closedClasses = ['opacity-0', 'scale-y-95', '-translate-y-2'];
-        let previousFocus = null;
-        let closeMenuTimeout = null;
+  </header>
 
-        const getFocusableElements = () => {
-            return Array.from(mobileMenu.querySelectorAll(focusableSelector)).filter((el) => !el.hasAttribute('disabled'));
-        };
+  <main>
+    <!-- Hero Section -->
+    <section class="max-w-7xl mx-auto px-4 py-12 text-center">
+      <h1 class="text-3xl md:text-4xl font-extrabold mb-4">News &amp; Updates</h1>
+      <p class="text-gray-700 max-w-3xl mx-auto">Catch up on the latest events, interviews and stories about Never Leave The Playground. We’re always exploring new ways to keep you moving.</p>
+    </section>
 
-        const handleKeydown = (event) => {
-            if (!mobileMenu || mobileMenu.classList.contains('hidden')) {
-                return;
-            }
+    <!-- News Articles -->
+    <section class="py-10 max-w-5xl mx-auto px-4">
+      <div class="space-y-8">
+        <article class="border-b pb-6">
+          <h2 class="text-xl font-semibold mb-2">Stephen Jepson Featured at Fitness Business Summit</h2>
+          <p class="text-sm text-gray-600">Stephen took the stage at the Fitness Business Summit to show how play can transform health and productivity. Check out the highlights video on our Activities page.</p>
+        </article>
+        <article class="border-b pb-6">
+          <h2 class="text-xl font-semibold mb-2">Program Explained: New Short Film Released</h2>
+          <p class="text-sm text-gray-600">We’ve released a brand-new overview video that shares Stephen’s secret to lifelong strength and balance. Watch it now on the home page.</p>
+        </article>
+        <article class="pb-6">
+          <h2 class="text-xl font-semibold mb-2">Healthy Workplace Seminars Now Available</h2>
+          <p class="text-sm text-gray-600">Empower your team with a playful approach to wellness. Stephen offers keynote talks for organizations that want happier, healthier and more productive employees.</p>
+        </article>
+      </div>
+    </section>
+  </main>
 
-            if (event.key === 'Escape') {
-                event.preventDefault();
-                toggleMenu(false);
-                return;
-            }
+  <!-- Footer -->
+  <footer class="border-t mt-16">
+    <div class="max-w-7xl mx-auto px-4 py-10 grid md:grid-cols-4 gap-8 text-sm text-gray-700">
+      <!-- Branding -->
+      <div>
+        <p class="font-semibold text-gray-900">Never Leave The Playground</p>
+        <p class="mt-2">Playful, step-by-step movement for better balance, coordination, and confidence at any age.</p>
+        <p class="mt-3">
+          Stephen is also a master potter —
+          <a class="underline hover:no-underline" href="https://stephen.jepsonpotteryvideos.com/" rel="noopener">see his teaching work</a>.
+        </p>
+      </div>
+      <!-- Explore links -->
+      <nav aria-label="Primary footer links">
+        <p class="font-semibold text-gray-900">Explore</p>
+        <ul class="mt-2 space-y-1">
+          <li><a class="hover:underline" href="science.html">Why It Works (Science)</a></li>
+          <li><a class="hover:underline" href="activities.html">Activities</a></li>
+          <li><a class="hover:underline" href="our-videos.html">Our Videos</a></li>
+          <li><a class="hover:underline" href="news.html">News</a></li>
+          <li><a class="hover:underline" href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- Helpful actions -->
+      <nav aria-label="Helpful actions">
+        <p class="font-semibold text-gray-900">Get Started</p>
+        <ul class="mt-2 space-y-1">
+          <li><a class="hover:underline" href="mailto:info@neverleavetheplayground.com">Email us</a></li>
+          <li><a class="hover:underline" href="https://playgrounds.neverleavetheplayground.com/" rel="noopener">Find a Playground Near You</a></li>
+          <li><a class="hover:underline" href="https://www.youtube-nocookie.com/embed/jVHU7yVxdeg" rel="noopener">Program explained (video)</a></li>
+          <li><a class="hover:underline" href="our-videos.html#client-stories">Client stories</a></li>
+          <li><a class="hover:underline" href="our-videos.html#quick-clips">Quick clip</a></li>
+          <li><a class="hover:underline" href="our-videos.html#instructional-videos">Premium videos</a></li>
+        </ul>
+      </nav>
+      <!-- External resources -->
+      <div>
+        <p class="font-semibold text-gray-900">Further reading</p>
+        <details class="mt-2">
+          <summary class="cursor-pointer hover:underline">Open list</summary>
+          <ul class="mt-2 space-y-1 list-disc pl-4">
+            <li><a class="hover:underline" href="https://www.cdc.gov/physicalactivity/" rel="noopener">CDC — Physical Activity</a></li>
+            <li><a class="hover:underline" href="https://parkinson.org/understanding-parkinsons/treatment/exercise" rel="noopener">Parkinson’s Foundation — Exercise</a></li>
+            <li><a class="hover:underline" href="https://www.who.int/news-room/fact-sheets/detail/physical-activity" rel="noopener">WHO — Physical Activity</a></li>
+            <li><a class="hover:underline" href="https://medlineplus.gov/ency/article/002014.htm" rel="noopener">MedlinePlus — Exercise &amp; the Brain</a></li>
+            <li><a class="hover:underline" href="https://bmcgeriatr.biomedcentral.com/articles/10.1186/s12877-020-01620-w" rel="noopener">BMC Geriatrics — Cognitive Function &amp; Physical Activity</a></li>
+            <li><a class="hover:underline" href="https://www.harborchase.com/blogs/benefits-of-play-for-seniors/" rel="noopener">Benefits of Play for Older Adults</a></li>
+          </ul>
+        </details>
+      </div>
+    </div>
+    <div class="border-t">
+      <div class="max-w-7xl mx-auto px-4 py-6 text-xs text-gray-500 flex flex-col md:flex-row gap-2 md:items-center md:justify-between">
+        <p>&copy; <span id="footer-year-news"></span> Never Leave The Playground</p>
+        <p>
+          Sitemaps:
+          <a class="underline hover:no-underline" href="/sitemap.xml">main</a>
+          •
+          <a class="underline hover:no-underline" href="/video-sitemap.xml">video</a>
+        </p>
+      </div>
+    </div>
+    <script>document.getElementById('footer-year-news').textContent = new Date().getFullYear();</script>
+  </footer>
 
-            if (event.key === 'Tab') {
-                const focusableElements = getFocusableElements();
-                if (focusableElements.length === 0) {
-                    event.preventDefault();
-                    return;
-                }
+  <!-- Mobile nav toggle script -->
+  <script>
+    const navToggleNews = document.getElementById('navToggle');
+    const mobileNavNews = document.getElementById('mobileNav');
+    navToggleNews?.addEventListener('click', () => {
+      const nowHidden = mobileNavNews.classList.toggle('hidden');
+      navToggleNews.setAttribute('aria-expanded', String(!nowHidden));
+    });
+  </script>
 
-                const firstElement = focusableElements[0];
-                const lastElement = focusableElements[focusableElements.length - 1];
-
-                if (!event.shiftKey && document.activeElement === lastElement) {
-                    event.preventDefault();
-                    firstElement.focus();
-                } else if (event.shiftKey && document.activeElement === firstElement) {
-                    event.preventDefault();
-                    lastElement.focus();
-                }
-            }
-        };
-
-        const toggleMenu = (shouldOpen) => {
-            if (!mobileMenuButton || !mobileMenu) {
-                return;
-            }
-
-            const isExpanded = mobileMenuButton.getAttribute('aria-expanded') === 'true';
-            const willOpen = typeof shouldOpen === 'boolean' ? shouldOpen : !isExpanded;
-
-            if (closeMenuTimeout) {
-                clearTimeout(closeMenuTimeout);
-            }
-
-            if (willOpen) {
-                previousFocus = document.activeElement;
-                mobileMenu.classList.remove('hidden');
-                mobileMenu.classList.remove(...closedClasses);
-                requestAnimationFrame(() => {
-                    mobileMenu.classList.add(...openClasses);
-                });
-                mobileMenuButton.setAttribute('aria-expanded', 'true');
-                document.addEventListener('keydown', handleKeydown);
-
-                const focusableElements = getFocusableElements();
-                if (focusableElements.length > 0) {
-                    focusableElements[0].focus();
-                }
-            } else {
-                mobileMenu.classList.remove(...openClasses);
-                mobileMenu.classList.add(...closedClasses);
-                mobileMenuButton.setAttribute('aria-expanded', 'false');
-                document.removeEventListener('keydown', handleKeydown);
-                closeMenuTimeout = window.setTimeout(() => {
-                    mobileMenu.classList.add('hidden');
-                }, 200);
-
-                if (previousFocus) {
-                    mobileMenuButton.focus();
-                    previousFocus = null;
-                }
-            }
-        };
-
-        if (mobileMenuButton && mobileMenu) {
-            mobileMenu.classList.add(...closedClasses);
-            mobileMenuButton.addEventListener('click', () => {
-                const expanded = mobileMenuButton.getAttribute('aria-expanded') === 'true';
-                toggleMenu(!expanded);
-            });
-        }
-
-        AOS.init({
-            duration: 800,
-            once: true
-        });
-        feather.replace();
-    </script>
-<script src="/sj-snippet.js"></script>
-<script defer src="/assets/site.js?v35"></script>
+  <!-- Stephen Jepson Chatbot -->
+  <script src="sj-chatbot.js"></script>
 </body>
 </html>
