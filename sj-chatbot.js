@@ -1,4 +1,3 @@
-</script>
 (function () {
   "use strict";
 
@@ -159,4 +158,3 @@
 
   ready(init);
 })();
-</script>
