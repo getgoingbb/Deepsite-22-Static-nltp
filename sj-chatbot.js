@@ -11,10 +11,10 @@
   // URL of the embedded chatbot application; hosted on Netlify
   var CHATBOT_URL = "https://stephenjepson-chatbot.netlify.app/";
 
-  // Direct Payhip coupon links (auto-applies coupon at checkout)
-  // These coupons offer a $1 deal for the premium instructional videos
-  var VIDEO1_LINK = "https://payhip.com/b/Mgw7n?coupon=QRZ81RA0FZ"; // Playground Active Video
-  var VIDEO2_LINK = "https://payhip.com/b/jK30s?coupon=T5ZZJPL1KQ"; // 5 in One Video
+  // Direct Payhip links for the $1 deal (auto-applies coupon at checkout)
+  // Updated coupon URLs as of October 2025
+  var VIDEO1_LINK = "https://payhip.com/b/MbNq8"; // Never Leave The Playground Play Active Video
+  var VIDEO2_LINK = "https://payhip.com/b/Bd7MQ"; // The 5 in One Play Active Video
 
   // ===== Floating Chat Button =====
   // Create the chat button element. We use a small chat icon instead of a large photo
@@ -114,11 +114,12 @@
   // ==== Share Button Logic ==== 
   shareBtn.onclick = function() {
     var shareMsg =
-      "🎉 I just got Stephen Jepson’s best videos for $1 each!\n\n" +
+      "🎉 A Special Price for A Few Days, 1 Dollar for My Videos.\n\n" +
       "Use these links to auto-apply the coupon at checkout:\n" +
-      "👉 Never Leave The Playground Active Video: " + VIDEO1_LINK + "\n" +
-      "👉 The 5 in One Play Active Video: " + VIDEO2_LINK + "\n\n" +
-      "You should check it out too!";
+      "👉 Never Leave The Playground Play Active Video: " + VIDEO1_LINK + "\n" +
+      "👉 The 5 in One Play Active Video!: " + VIDEO2_LINK + "\n\n" +
+      "Take advantage of 90% off for a very short time.\n\n" +
+      "Warmly, Stephen";
     // If the browser supports the Web Share API, open a native share dialog
     if (navigator.share) {
       navigator
