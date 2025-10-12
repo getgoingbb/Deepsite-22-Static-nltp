@@ -1,93 +1,49 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <base href="/" />
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Our Videos — Never Leave The Playground</title>
-  <meta name="description" content="Watch program overviews, quick clips and client stories from Never Leave The Playground." />
-  <link rel="canonical" href="https://neverleavetheplayground.com/our-videos.html" />
 
-  <!-- Preconnect to YouTube for faster video loads -->
+  <!-- Connection hints for YouTube -->
   <link rel="preconnect" href="https://www.youtube-nocookie.com" crossorigin>
   <link rel="preconnect" href="https://img.youtube.com" crossorigin>
   <link rel="dns-prefetch" href="//www.youtube-nocookie.com">
   <link rel="dns-prefetch" href="//img.youtube.com">
 
-  <!-- Tailwind CSS (you can remove if bundling separately) -->
+  <title>Our Videos — Never Leave The Playground</title>
+  <meta name="description" content="Watch program overviews and client stories from Never Leave The Playground." />
+  <link rel="canonical" href="https://neverleavetheplayground.com/our-videos.html" />
+
   <script src="https://cdn.tailwindcss.com"></script>
-  <!-- Favicon -->
-  <link rel="icon" href="favicon.ico">
-  <!-- Payhip buy button script for instructional video purchases -->
-  <script type="text/javascript" src="https://payhip.com/payhip.js"></script>
+  <link rel="stylesheet" href="/site.css" />
 </head>
 <body class="bg-white text-gray-900">
-  <!-- Header -->
-  <header class="border-b bg-white sticky top-0 z-40">
+  <header class="border-b bg-white">
     <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
-      <a href="index.html" class="flex items-center text-xl font-bold">
-        <img src="Logo.png" alt="Never Leave The Playground logo" class="h-8 w-8 mr-2">
-        Never Leave The Playground
-      </a>
+      <a href="index.html" class="text-xl font-bold">Never Leave The Playground</a>
       <nav class="hidden md:flex gap-2">
         <a class="px-3 py-2 text-sm font-medium hover:bg-gray-50 rounded" href="activities.html">Activities</a>
         <a class="px-3 py-2 text-sm font-medium hover:bg-gray-50 rounded" href="our-videos.html">Our Videos</a>
         <a class="px-3 py-2 text-sm font-medium hover:bg-gray-50 rounded" href="news.html">News</a>
         <a class="px-3 py-2 text-sm font-medium hover:bg-gray-50 rounded" href="science.html">Science</a>
-        <a class="px-3 py-2 text-sm font-medium hover:bg-gray-50 rounded" href="index.html#contact">Contact</a>
       </nav>
-      <button id="navToggle" class="md:hidden inline-flex items-center px-3 py-2 border rounded" aria-label="Open Menu"><span>Menu</span></button>
-    </div>
-    <div id="mobileNav" class="md:hidden hidden px-4 pb-4 border-t">
-      <a class="block py-2" href="activities.html">Activities</a>
-      <a class="block py-2" href="our-videos.html">Our Videos</a>
-      <a class="block py-2" href="news.html">News</a>
-      <a class="block py-2" href="science.html">Science</a>
-      <a class="block py-2" href="index.html#contact">Contact</a>
     </div>
   </header>
 
-  <!-- Main content -->
   <main class="max-w-7xl mx-auto px-4 py-10">
     <h1 class="text-3xl md:text-4xl font-extrabold mb-8">Our Videos</h1>
 
-    <!-- Program Explained video on this page -->
+    <!-- Program Explained (optional repeat) -->
     <section class="mx-auto max-w-3xl my-10">
-      <div class="aspect-video rounded-xl overflow-hidden shadow">
-        <iframe src="https://www.youtube-nocookie.com/embed/jVHU7yVxdeg" title="Never Leave The Playground — Program Explained" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      </div>
-      <p class="mt-3 text-sm text-gray-600">A short overview of the program and who it’s for.</p>
-    </section>
-
-    <!-- Premium Instructional Videos (for sale) moved up for better visibility -->
-    <section id="instructional-videos" class="my-12">
-      <h2 class="text-2xl md:text-3xl font-bold mb-4">Premium Instructional Videos</h2>
-      <p class="text-gray-600 mb-6 max-w-3xl">Learn new skills with Stephen Jepson’s in‑depth instructional videos.</p>
-      <div class="grid md:grid-cols-2 gap-8">
-        <!-- They Never Leave The Playground Video -->
-        <div class="bg-white border rounded-xl p-4 shadow">
-          <div class="aspect-video rounded-lg overflow-hidden shadow">
-            <iframe src="https://www.youtube-nocookie.com/embed/kxFTnQadcPw" title="They Never Leave The Playground — Instructional Video" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          </div>
-          <h3 class="text-lg font-semibold mt-3">They Never Leave The Playground</h3>
-          <p class="text-sm text-gray-600 mb-3">Active playground skills video featuring multiple exciting activities and techniques to keep you engaged for hours.</p>
-          <div class="flex gap-2 items-center">
-            <a href="https://www.youtube-nocookie.com/embed/kxFTnQadcPw" class="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-md" rel="noopener">Watch preview</a>
-            <a href="https://payhip.com/b/Mgw7n" class="payhip-buy-button inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-green-600 hover:bg-green-700 rounded-md" data-theme="blue" data-product="Mgw7n">Buy Now</a>
-          </div>
-        </div>
-        <!-- 5‑in‑1 Learn Unicycling & More Video -->
-        <div class="bg-white border rounded-xl p-4 shadow">
-          <div class="aspect-video rounded-lg overflow-hidden shadow">
-            <iframe src="https://www.youtube-nocookie.com/embed/ll6aoSmWzKY" title="5-in-1 Learn Unicycling & More — Instructional Video" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          </div>
-          <h3 class="text-lg font-semibold mt-3">5‑in‑1 Learn Unicycling & More</h3>
-          <p class="text-sm text-gray-600 mb-3">Comprehensive instructional video covering unicycling, knife throwing, juggling, tightrope walking, and bonus skills.</p>
-          <div class="flex gap-2 items-center">
-            <a href="https://www.youtube-nocookie.com/embed/ll6aoSmWzKY" class="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-md" rel="noopener">Watch preview</a>
-            <a href="https://payhip.com/b/jK30s" class="payhip-buy-button inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-green-600 hover:bg-green-700 rounded-md" data-theme="blue" data-product="jK30s">Buy Now</a>
-          </div>
-        </div>
+      <div class="video-frame aspect-video">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/jVHU7yVxdeg"
+          title="Never Leave The Playground — Program Explained"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
       </div>
     </section>
 
@@ -96,72 +52,32 @@
       <h2 class="text-2xl md:text-3xl font-bold mb-4">Client Stories</h2>
       <div class="grid md:grid-cols-2 gap-6">
         <div>
-          <div class="aspect-video rounded-xl overflow-hidden shadow">
-            <iframe src="https://www.youtube-nocookie.com/embed/L3_bOVK-Dq8" title="Client Testimonial — Never Leave The Playground" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <div class="video-frame aspect-video">
+            <iframe
+              src="https://www.youtube-nocookie.com/embed/L3_bOVK-Dq8"
+              title="Client Testimonial — Never Leave The Playground"
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
           </div>
           <p class="mt-2 text-sm text-gray-600">How playful movement improved daily balance and confidence.</p>
         </div>
         <div>
-          <div class="aspect-video rounded-xl overflow-hidden shadow">
-            <iframe src="https://www.youtube-nocookie.com/embed/zLR0H7i1ZlI" title="Client Testimonial — Never Leave The Playground" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          </div>
-          <p class="mt-2 text-sm text-gray-600">Real‑world results from simple, consistent practice.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Quick Clips (vertical shorts) -->
-    <section id="quick-clips" class="my-12">
-      <h2 class="text-2xl md:text-3xl font-bold mb-4">Quick Clips</h2>
-      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div>
-          <div class="aspect-[9/16] rounded-xl overflow-hidden shadow">
+          <div class="video-frame aspect-video">
             <iframe
-              src="https://www.youtube-nocookie.com/embed/M9vm5_-lE3U?start=8"
-              title="Program Clip — Stephen Speaking to a Group"
+              src="https://www.youtube-nocookie.com/embed/zLR0H7i1ZlI"
+              title="Client Testimonial — Never Leave The Playground"
               loading="lazy" referrerpolicy="no-referrer-when-downgrade"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen></iframe>
           </div>
-          <p class="mt-2 text-sm text-gray-600">A brief clip featuring Stephen Jepson speaking to a group about the program.</p>
+          <p class="mt-2 text-sm text-gray-600">Real-world results from simple, consistent practice.</p>
         </div>
       </div>
     </section>
-
-    <!-- Speaking Highlights -->
-    <section id="speaking-highlights" class="my-12">
-      <h2 class="text-2xl md:text-3xl font-bold mb-4">Speaking Highlights</h2>
-      <div class="grid md:grid-cols-2 gap-8">
-        <!-- Feel Younger at Any Age Keynote Clip -->
-        <div>
-          <div class="aspect-video rounded-xl overflow-hidden shadow">
-            <iframe
-              src="https://www.youtube-nocookie.com/embed/VkTwjxZ3KJg"
-              title="Feel Younger at Any Age — Stephen Jepson Keynote"
-              loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen></iframe>
-          </div>
-          <p class="mt-2 text-sm text-gray-600">Feel younger at any age with Stephen Jepson’s practical balance and coordination drills. In this keynote clip he shares simple exercises and compelling statistics on fall prevention for older adults.</p>
-        </div>
-        <!-- Motivational Play-Based Fitness Keynote Clip -->
-        <div>
-          <div class="aspect-video rounded-xl overflow-hidden shadow">
-            <iframe
-              src="https://www.youtube-nocookie.com/embed/pJM0qqI5PaY"
-              title="Motivational Keynote Speaker Inspires Play‑Based Fitness"
-              loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen></iframe>
-          </div>
-          <p class="mt-2 text-sm text-gray-600">Highlights from the Fitness Business Summit: Stephen Jepson demonstrates how play‑based fitness and juggling sharpen the mind and body and inspire audiences worldwide.</p>
-        </div>
-      </div>
-    </section>
-
   </main>
 
-  <!-- JSON‑LD: ItemList of videos for rich results -->
+  <!-- JSON-LD list of videos -->
   <script type="application/ld+json">
   {
     "@context":"https://schema.org",
@@ -170,15 +86,6 @@
       {
         "@type":"VideoObject",
         "position":1,
-        "name":"Never Leave The Playground — Program Explained",
-        "description":"Short overview of Stephen Jepson’s playful movement method and who it helps.",
-        "thumbnailUrl":["https://img.youtube.com/vi/jVHU7yVxdeg/hqdefault.jpg"],
-        "uploadDate":"2025-01-01",
-        "embedUrl":"https://www.youtube-nocookie.com/embed/jVHU7yVxdeg"
-      },
-      {
-        "@type":"VideoObject",
-        "position":2,
         "name":"Client Testimonial — Never Leave The Playground",
         "description":"How playful movement improved daily balance and confidence.",
         "thumbnailUrl":["https://img.youtube.com/vi/L3_bOVK-Dq8/hqdefault.jpg"],
@@ -187,115 +94,20 @@
       },
       {
         "@type":"VideoObject",
-        "position":3,
+        "position":2,
         "name":"Client Testimonial — Never Leave The Playground",
-        "description":"Real‑world results from simple, consistent practice.",
+        "description":"Real-world results from simple, consistent practice.",
         "thumbnailUrl":["https://img.youtube.com/vi/zLR0H7i1ZlI/hqdefault.jpg"],
         "uploadDate":"2025-01-01",
         "embedUrl":"https://www.youtube-nocookie.com/embed/zLR0H7i1ZlI"
-      },
-      {
-        "@type":"VideoObject",
-        "position":4,
-        "name":"Program Clip — Stephen Speaking to a Group",
-        "description":"A brief clip featuring Stephen Jepson speaking to a group about the program.",
-        "thumbnailUrl":["https://img.youtube.com/vi/M9vm5_-lE3U/hqdefault.jpg"],
-        "uploadDate":"2025-01-01",
-        "embedUrl":"https://www.youtube-nocookie.com/embed/M9vm5_-lE3U?start=8"
-      },
-      {
-        "@type":"VideoObject",
-        "position":5,
-        "name":"They Never Leave The Playground",
-        "description":"Active playground skills video featuring multiple exciting activities and techniques to keep you engaged for hours.",
-        "thumbnailUrl":["https://img.youtube.com/vi/kxFTnQadcPw/hqdefault.jpg"],
-        "uploadDate":"2025-01-01",
-        "embedUrl":"https://www.youtube-nocookie.com/embed/kxFTnQadcPw"
-      },
-      {
-        "@type":"VideoObject",
-        "position":6,
-        "name":"5‑in‑1 Learn Unicycling & More",
-        "description":"Comprehensive instructional video covering unicycling, knife throwing, juggling, tightrope walking, and bonus skills.",
-        "thumbnailUrl":["https://img.youtube.com/vi/ll6aoSmWzKY/hqdefault.jpg"],
-        "uploadDate":"2025-01-01",
-        "embedUrl":"https://www.youtube-nocookie.com/embed/ll6aoSmWzKY"
-      }
-      ,
-      {
-        "@type":"VideoObject",
-        "position":7,
-        "name":"Feel Younger at Any Age — Stephen Jepson Keynote",
-        "description":"Keynote clip featuring balance and coordination drills and fall‑prevention statistics.",
-        "thumbnailUrl":["https://img.youtube.com/vi/VkTwjxZ3KJg/hqdefault.jpg"],
-        "uploadDate":"2025-01-01",
-        "embedUrl":"https://www.youtube-nocookie.com/embed/VkTwjxZ3KJg"
-      },
-      {
-        "@type":"VideoObject",
-        "position":8,
-        "name":"Motivational Keynote Speaker Inspires Play‑Based Fitness",
-        "description":"Highlights from Stephen Jepson’s motivational talk at Fitness Business Summit 2015.",
-        "thumbnailUrl":["https://img.youtube.com/vi/pJM0qqI5PaY/hqdefault.jpg"],
-        "uploadDate":"2025-01-01",
-        "embedUrl":"https://www.youtube-nocookie.com/embed/pJM0qqI5PaY"
       }
     ]
   }
   </script>
 
-  <!-- Product schema for premium instructional videos -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "They Never Leave The Playground",
-    "description": "Active playground skills video featuring multiple exciting activities and techniques to keep you engaged for hours.",
-    "image": [
-      "https://img.youtube.com/vi/kxFTnQadcPw/hqdefault.jpg"
-    ],
-    "sku": "Mgw7n",
-    "brand": {
-      "@type": "Brand",
-      "name": "Never Leave The Playground"
-    },
-    "offers": {
-      "@type": "Offer",
-      "url": "https://payhip.com/b/Mgw7n",
-      "priceCurrency": "USD",
-      "price": "9.95",
-      "availability": "https://schema.org/InStock"
-    }
-  }
-  </script>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "5‑in‑1 Learn Unicycling & More",
-    "description": "Comprehensive instructional video covering unicycling, knife throwing, juggling, tightrope walking, and bonus skills.",
-    "image": [
-      "https://img.youtube.com/vi/ll6aoSmWzKY/hqdefault.jpg"
-    ],
-    "sku": "jK30s",
-    "brand": {
-      "@type": "Brand",
-      "name": "Never Leave The Playground"
-    },
-    "offers": {
-      "@type": "Offer",
-      "url": "https://payhip.com/b/jK30s",
-      "priceCurrency": "USD",
-      "price": "9.95",
-      "availability": "https://schema.org/InStock"
-    }
-  }
-  </script>
-
-  <!-- Footer with mini sitemap and additional resources -->
+  <!-- Footer (same across pages) -->
   <footer class="border-t mt-16">
-    <div class="max-w-7xl mx-auto px-4 py-10 grid md:grid-cols-4 gap-8 text-sm text-gray-700">
-      <!-- Branding -->
+    <div class="max-w-7xl mx-auto px-4 py-10 grid md:grid-cols-4 gap-8 text-sm text-gray-700 nlp-copy">
       <div>
         <p class="font-semibold text-gray-900">Never Leave The Playground</p>
         <p class="mt-2">Playful, step-by-step movement for better balance, coordination, and confidence at any age.</p>
@@ -304,7 +116,6 @@
           <a class="underline hover:no-underline" href="https://stephen.jepsonpotteryvideos.com/" rel="noopener">see his teaching work</a>.
         </p>
       </div>
-      <!-- Explore links -->
       <nav aria-label="Primary footer links">
         <p class="font-semibold text-gray-900">Explore</p>
         <ul class="mt-2 space-y-1">
@@ -315,7 +126,6 @@
           <li><a class="hover:underline" href="index.html#contact">Contact</a></li>
         </ul>
       </nav>
-      <!-- Helpful actions -->
       <nav aria-label="Helpful actions">
         <p class="font-semibold text-gray-900">Get Started</p>
         <ul class="mt-2 space-y-1">
@@ -323,22 +133,17 @@
           <li><a class="hover:underline" href="https://playgrounds.neverleavetheplayground.com/" rel="noopener">Find a Playground Near You</a></li>
           <li><a class="hover:underline" href="https://www.youtube-nocookie.com/embed/jVHU7yVxdeg" rel="noopener">Program explained (video)</a></li>
           <li><a class="hover:underline" href="our-videos.html#client-stories">Client stories</a></li>
-          <li><a class="hover:underline" href="our-videos.html#quick-clips">Quick clip</a></li>
-          <li><a class="hover:underline" href="our-videos.html#instructional-videos">Premium videos</a></li>
         </ul>
       </nav>
-      <!-- External resources -->
       <div>
         <p class="font-semibold text-gray-900">Further reading</p>
         <details class="mt-2">
-          <summary class="cursor-pointer hover:underline">Open list</summary>
+          <summary class="hover:underline">Open list</summary>
           <ul class="mt-2 space-y-1 list-disc pl-4">
             <li><a class="hover:underline" href="https://www.cdc.gov/physicalactivity/" rel="noopener">CDC — Physical Activity</a></li>
             <li><a class="hover:underline" href="https://parkinson.org/understanding-parkinsons/treatment/exercise" rel="noopener">Parkinson’s Foundation — Exercise</a></li>
             <li><a class="hover:underline" href="https://www.who.int/news-room/fact-sheets/detail/physical-activity" rel="noopener">WHO — Physical Activity</a></li>
             <li><a class="hover:underline" href="https://medlineplus.gov/ency/article/002014.htm" rel="noopener">MedlinePlus — Exercise & the Brain</a></li>
-            <li><a class="hover:underline" href="https://bmcgeriatr.biomedcentral.com/articles/10.1186/s12877-020-01620-w" rel="noopener">BMC Geriatrics — Cognitive Function & Physical Activity</a></li>
-            <li><a class="hover:underline" href="https://www.harborchase.com/blogs/benefits-of-play-for-seniors/" rel="noopener">Benefits of Play for Older Adults</a></li>
           </ul>
         </details>
       </div>
@@ -346,28 +151,10 @@
     <div class="border-t">
       <div class="max-w-7xl mx-auto px-4 py-6 text-xs text-gray-500 flex flex-col md:flex-row gap-2 md:items-center md:justify-between">
         <p>&copy; <span id="footer-year"></span> Never Leave The Playground</p>
-        <p>
-          Sitemaps:
-          <a class="underline hover:no-underline" href="/sitemap.xml">main</a>
-          •
-          <a class="underline hover:no-underline" href="/video-sitemap.xml">video</a>
-        </p>
+        <p>Sitemaps: <a class="underline hover:no-underline" href="/sitemap.xml">main</a> • <a class="underline hover:no-underline" href="/video-sitemap.xml">video</a></p>
       </div>
     </div>
-    <script>document.getElementById('footer-year').textContent = new Date().getFullYear();</script>
   </footer>
-
-  <!-- Mobile nav toggle script -->
-  <script>
-    const navToggle = document.getElementById('navToggle');
-    const mobileNav = document.getElementById('mobileNav');
-    navToggle?.addEventListener('click', () => {
-      const nowHidden = mobileNav.classList.toggle('hidden');
-      navToggle.setAttribute('aria-expanded', String(!nowHidden));
-    });
-  </script>
-
-  <!-- Stephen Jepson Chatbot and $1 Deal share widget -->
-  <script src="sj-chatbot.js"></script>
+  <script>document.getElementById('footer-year').textContent=new Date().getFullYear()</script>
 </body>
 </html>

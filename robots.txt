@@ -1,7 +1,6 @@
-# robots.txt for Never Leave The Playground
+
 User-agent: *
 Allow: /
 
-# Sitemaps
 Sitemap: https://neverleavetheplayground.com/sitemap.xml
 Sitemap: https://neverleavetheplayground.com/video-sitemap.xml

@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
@@ -10,31 +11,6 @@
       <video:title>Never Leave The Playground — Program Explained</video:title>
       <video:description>Short overview of Stephen Jepson’s playful movement method and who it helps.</video:description>
       <video:player_loc allow_embed="yes">https://www.youtube.com/embed/jVHU7yVxdeg</video:player_loc>
-    </video:video>
-
-    <!-- Stephen's Secret to Lifelong Strength video on the home page -->
-    <video:video>
-      <video:thumbnail_loc>https://img.youtube.com/vi/m6KrVBWtE_0/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>Too Young to Be 83: Stephen Jepson’s Secret to Lifelong Strength, Balance &amp; Joy</video:title>
-      <video:description>An inspiring video showing Stephen Jepson’s secret to lifelong strength, balance and joy.</video:description>
-      <video:player_loc allow_embed="yes">https://www.youtube.com/embed/m6KrVBWtE_0</video:player_loc>
-    </video:video>
-  </url>
-
-  <!-- Videos on the activities page -->
-  <url>
-    <loc>https://neverleavetheplayground.com/activities.html</loc>
-    <video:video>
-      <video:thumbnail_loc>https://img.youtube.com/vi/VkTwjxZ3KJg/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>Feel Younger at Any Age – Balance &amp; Coordination Drills</video:title>
-      <video:description>Discover balance and coordination exercises to help prevent falls and keep your brain and body sharp.</video:description>
-      <video:player_loc allow_embed="yes">https://www.youtube.com/embed/VkTwjxZ3KJg</video:player_loc>
-    </video:video>
-    <video:video>
-      <video:thumbnail_loc>https://img.youtube.com/vi/pJM0qqI5PaY/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>Play Your Way Fit – Keynote Excerpt</video:title>
-      <video:description>Stephen Jepson demonstrates how juggling and playful drills transform health, cognition and creativity.</video:description>
-      <video:player_loc allow_embed="yes">https://www.youtube.com/embed/pJM0qqI5PaY</video:player_loc>
     </video:video>
   </url>
 
@@ -50,43 +26,8 @@
     <video:video>
       <video:thumbnail_loc>https://img.youtube.com/vi/zLR0H7i1ZlI/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Client Testimonial — Never Leave The Playground</video:title>
-      <video:description>Real‑world results from simple, consistent practice.</video:description>
+      <video:description>Real-world results from simple, consistent practice.</video:description>
       <video:player_loc allow_embed="yes">https://www.youtube.com/embed/zLR0H7i1ZlI</video:player_loc>
     </video:video>
-    <video:video>
-      <video:thumbnail_loc>https://img.youtube.com/vi/M9vm5_-lE3U/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>Program Clip — Stephen Speaking to a Group</video:title>
-      <video:description>A brief clip featuring Stephen Jepson speaking to a group about the program.</video:description>
-      <video:player_loc allow_embed="yes">https://www.youtube.com/embed/M9vm5_-lE3U</video:player_loc>
-    </video:video>
-
-    <!-- Speaking highlight videos -->
-    <video:video>
-      <video:thumbnail_loc>https://img.youtube.com/vi/VkTwjxZ3KJg/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>Feel Younger at Any Age — Stephen Jepson Keynote</video:title>
-      <video:description>Keynote clip featuring balance and coordination drills and fall‑prevention statistics.</video:description>
-      <video:player_loc allow_embed="yes">https://www.youtube.com/embed/VkTwjxZ3KJg</video:player_loc>
-    </video:video>
-    <video:video>
-      <video:thumbnail_loc>https://img.youtube.com/vi/pJM0qqI5PaY/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>Motivational Keynote Speaker Inspires Play‑Based Fitness</video:title>
-      <video:description>Highlights from Stephen Jepson’s motivational talk at Fitness Business Summit 2015.</video:description>
-      <video:player_loc allow_embed="yes">https://www.youtube.com/embed/pJM0qqI5PaY</video:player_loc>
-    </video:video>
-
-    <!-- Instructional videos for sale -->
-    <video:video>
-      <video:thumbnail_loc>https://img.youtube.com/vi/kxFTnQadcPw/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>They Never Leave The Playground</video:title>
-      <video:description>Active playground skills video featuring multiple exciting activities and techniques to keep you engaged for hours.</video:description>
-      <video:player_loc allow_embed="yes">https://www.youtube.com/embed/kxFTnQadcPw</video:player_loc>
-    </video:video>
-    <video:video>
-      <video:thumbnail_loc>https://img.youtube.com/vi/ll6aoSmWzKY/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>5-in-1 Learn Unicycling &amp; More</video:title>
-      <video:description>Comprehensive instructional video covering unicycling, knife throwing, juggling, tightrope walking, and bonus skills.</video:description>
-      <video:player_loc allow_embed="yes">https://www.youtube.com/embed/ll6aoSmWzKY</video:player_loc>
-    </video:video>
   </url>
-
 </urlset>

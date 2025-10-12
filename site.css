@@ -1,0 +1,56 @@
+
+/* Minimal polish on top of your current styles (safe even with Tailwind) */
+:root{
+  --nlp-accent:#2563eb; /* blue-600 */
+  --nlp-accent-dark:#1e40af; /* blue-800 */
+  --nlp-ink:#111827; /* gray-900 */
+  --nlp-muted:#6b7280; /* gray-500/600 */
+  --nlp-ring:#60a5fa; /* blue-400 */
+}
+
+/* Better text rhythm on long paragraphs */
+.nlp-copy p{ line-height:1.7; margin:0.6rem 0; color:#374151; }
+
+/* Nicer link focus */
+a{ text-underline-offset:2px; }
+a:hover{ text-decoration-thickness: from-font; }
+a:focus-visible{
+  outline:2px solid var(--nlp-ring);
+  outline-offset:2px;
+  border-radius:.375rem;
+}
+
+/* Soft cards */
+.card{
+  border:1px solid #e5e7eb;
+  border-radius:1rem;
+  padding:1rem;
+  background:#fff;
+  box-shadow:0 1px 2px rgba(0,0,0,.04);
+}
+.card:hover{ box-shadow:0 6px 22px rgba(0,0,0,.07); }
+
+/* Rounded video frames */
+.video-frame{
+  border-radius:1rem;
+  overflow:hidden;
+  box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+/* Buttons */
+.btn{
+  display:inline-flex; align-items:center; gap:.5rem;
+  padding:.75rem 1.25rem; border-radius:9999px;
+  background:var(--nlp-accent); color:#fff; font-weight:600;
+  transition:background .2s ease, transform .08s ease-in-out;
+}
+.btn:hover{ background:var(--nlp-accent-dark); }
+.btn:active{ transform:translateY(1px); }
+
+/* 9:16 helper if Tailwind arbitrary values aren't enabled */
+.aspect-9x16{ position:relative; width:100%; padding-top:177.78%; }
+.aspect-9x16 > *{ position:absolute; inset:0; width:100%; height:100%; }
+
+/* Footer details */
+footer details > summary{ cursor:pointer; }
+footer details[open] > summary{ color:var(--nlp-accent-dark); }
