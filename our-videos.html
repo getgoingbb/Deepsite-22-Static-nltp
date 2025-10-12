@@ -6,7 +6,6 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-  <!-- Connection hints for YouTube -->
   <link rel="preconnect" href="https://www.youtube-nocookie.com" crossorigin>
   <link rel="preconnect" href="https://img.youtube.com" crossorigin>
   <link rel="dns-prefetch" href="//www.youtube-nocookie.com">
@@ -17,7 +16,7 @@
   <link rel="canonical" href="https://neverleavetheplayground.com/our-videos.html" />
 
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="/site.css" />
+  <link rel="stylesheet" href="/site.css?v=2" />
 </head>
 <body class="bg-white text-gray-900">
   <header class="border-b bg-white">
@@ -35,86 +34,70 @@
   <main class="max-w-7xl mx-auto px-4 py-10">
     <h1 class="text-3xl md:text-4xl font-extrabold mb-8">Our Videos</h1>
 
-    <!-- Program Explained (optional repeat) -->
     <section class="mx-auto max-w-3xl my-10">
       <div class="video-frame aspect-video">
-        <iframe
-          src="https://www.youtube-nocookie.com/embed/jVHU7yVxdeg"
-          title="Never Leave The Playground — Program Explained"
-          loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
+        <iframe src="https://www.youtube-nocookie.com/embed/jVHU7yVxdeg" title="Program Explained" loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
       </div>
     </section>
 
-    <!-- Client Stories -->
     <section id="client-stories" class="my-12">
       <h2 class="text-2xl md:text-3xl font-bold mb-4">Client Stories</h2>
       <div class="grid md:grid-cols-2 gap-6">
         <div>
           <div class="video-frame aspect-video">
-            <iframe
-              src="https://www.youtube-nocookie.com/embed/L3_bOVK-Dq8"
-              title="Client Testimonial — Never Leave The Playground"
-              loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen></iframe>
+            <iframe src="https://www.youtube-nocookie.com/embed/L3_bOVK-Dq8" title="Client Testimonial" loading="lazy"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
           </div>
           <p class="mt-2 text-sm text-gray-600">How playful movement improved daily balance and confidence.</p>
         </div>
         <div>
           <div class="video-frame aspect-video">
-            <iframe
-              src="https://www.youtube-nocookie.com/embed/zLR0H7i1ZlI"
-              title="Client Testimonial — Never Leave The Playground"
-              loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen></iframe>
+            <iframe src="https://www.youtube-nocookie.com/embed/zLR0H7i1ZlI" title="Client Testimonial" loading="lazy"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
           </div>
           <p class="mt-2 text-sm text-gray-600">Real-world results from simple, consistent practice.</p>
         </div>
       </div>
     </section>
+
+    <section id="programs" class="my-12">
+      <h2 class="text-2xl md:text-3xl font-bold mb-4">Programs & Videos</h2>
+      <div class="grid sm:grid-cols-2 gap-4">
+        <a class="card block" href="https://neverleavetheplayground.com/public-videos/" rel="noopener">
+          <h3 class="font-semibold">Public Videos</h3>
+          <p class="text-sm text-gray-600 mt-1">Intro lessons and practice videos.</p>
+        </a>
+        <a class="card block" href="mailto:info@neverleavetheplayground.com">
+          <h3 class="font-semibold">Workshops & Coaching</h3>
+          <p class="text-sm text-gray-600 mt-1">Booking info and curriculum options.</p>
+        </a>
+      </div>
+    </section>
   </main>
 
-  <!-- JSON-LD list of videos -->
   <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@type":"ItemList",
-    "itemListElement":[
-      {
-        "@type":"VideoObject",
-        "position":1,
-        "name":"Client Testimonial — Never Leave The Playground",
-        "description":"How playful movement improved daily balance and confidence.",
-        "thumbnailUrl":["https://img.youtube.com/vi/L3_bOVK-Dq8/hqdefault.jpg"],
-        "uploadDate":"2025-01-01",
-        "embedUrl":"https://www.youtube-nocookie.com/embed/L3_bOVK-Dq8"
-      },
-      {
-        "@type":"VideoObject",
-        "position":2,
-        "name":"Client Testimonial — Never Leave The Playground",
-        "description":"Real-world results from simple, consistent practice.",
-        "thumbnailUrl":["https://img.youtube.com/vi/zLR0H7i1ZlI/hqdefault.jpg"],
-        "uploadDate":"2025-01-01",
-        "embedUrl":"https://www.youtube-nocookie.com/embed/zLR0H7i1ZlI"
-      }
-    ]
-  }
+  {"@context":"https://schema.org","@type":"ItemList","itemListElement":[
+    {"@type":"VideoObject","position":1,"name":"Client Testimonial — Never Leave The Playground",
+     "description":"How playful movement improved daily balance and confidence.",
+     "thumbnailUrl":["https://img.youtube.com/vi/L3_bOVK-Dq8/hqdefault.jpg"],
+     "uploadDate":"2025-01-01","embedUrl":"https://www.youtube-nocookie.com/embed/L3_bOVK-Dq8"},
+    {"@type":"VideoObject","position":2,"name":"Client Testimonial — Never Leave The Playground",
+     "description":"Real-world results from simple, consistent practice.",
+     "thumbnailUrl":["https://img.youtube.com/vi/zLR0H7i1ZlI/hqdefault.jpg"],
+     "uploadDate":"2025-01-01","embedUrl":"https://www.youtube-nocookie.com/embed/zLR0H7i1ZlI"}
+  ]}
   </script>
 
-  <!-- Footer (same across pages) -->
   <footer class="border-t mt-16">
     <div class="max-w-7xl mx-auto px-4 py-10 grid md:grid-cols-4 gap-8 text-sm text-gray-700 nlp-copy">
       <div>
         <p class="font-semibold text-gray-900">Never Leave The Playground</p>
         <p class="mt-2">Playful, step-by-step movement for better balance, coordination, and confidence at any age.</p>
-        <p class="mt-3">
-          Stephen is also a master potter —
-          <a class="underline hover:no-underline" href="https://stephen.jepsonpotteryvideos.com/" rel="noopener">see his teaching work</a>.
-        </p>
+        <p class="mt-3">Stephen is also a master potter — <a class="underline hover:no-underline" href="https://stephen.jepsonpotteryvideos.com/" rel="noopener">see his teaching work</a>.</p>
       </div>
       <nav aria-label="Primary footer links">
         <p class="font-semibold text-gray-900">Explore</p>

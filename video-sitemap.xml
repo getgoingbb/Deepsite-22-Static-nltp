@@ -3,7 +3,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 
-  <!-- Program Explained on the home page -->
   <url>
     <loc>https://neverleavetheplayground.com/index.html</loc>
     <video:video>
@@ -12,9 +11,14 @@
       <video:description>Short overview of Stephen Jepson’s playful movement method and who it helps.</video:description>
       <video:player_loc allow_embed="yes">https://www.youtube.com/embed/jVHU7yVxdeg</video:player_loc>
     </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/m6KrVBWtE_0/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Program Explained by Stephen</video:title>
+      <video:description>Stephen explains the Never Leave The Playground program and progression.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube.com/embed/m6KrVBWtE_0?start=36</video:player_loc>
+    </video:video>
   </url>
 
-  <!-- Testimonials on our-videos.html -->
   <url>
     <loc>https://neverleavetheplayground.com/our-videos.html</loc>
     <video:video>
