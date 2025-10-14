@@ -1,19 +1,13 @@
+Never Leave The Playground — Full Site Bundle (v5)
+Upload everything to your site root.
 
-Never Leave The Playground — Option 2 (no Tailwind CDN) — v4
-Updated: 2025-10-13T18:57:29
+Key files
+- site-v5.css  (primary stylesheet; pages link to this)
+- site.css     (alias, in case an old page still references it)
+- index.html, our-videos.html (+ folder route), science.html (+ folder route), activities.html (+ folder route), news.html (+ folder route)
+- robots.txt, sitemap.xml, video-sitemap.xml
 
-What's in this ZIP:
-- site.css            (Tailwind-lite utilities + component polish; includes "Version: v4" banner)
-- index.html          (links /site.css?v=4)
-- our-videos.html     (links /site.css?v=4)
-- science.html        (links /site.css?v=4)
-- video-sitemap.xml   (convenience copy)
-- robots.txt          (convenience copy)
-
-Deploy steps:
-1) Upload/replace these files at your site root.
-2) Visit https://neverleavetheplayground.com/site.css?v=4 and confirm it shows the v4 banner and utility classes (.px-4, .grid, .md\:grid-cols-2).
-3) Hard refresh each page (Shift+Reload).
-
-Suggested commit message:
-"v4: Remove Tailwind CDN; use Tailwind-lite site.css; update HTML to /site.css?v=4; add video sitemap + robots"
+After upload
+1) Visit /site-v5.css — confirm it loads (shows “Version: v5” comment).
+2) Hard refresh your pages (Shift+Reload). If CSS still doesn’t load, ensure your HTML <head> includes: <link rel="stylesheet" href="site-v5.css" />
+3) If your server requires absolute paths, change to href="/site-v5.css".

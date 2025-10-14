@@ -1,33 +1,31 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
-    <loc>https://neverleavetheplayground.com/index.html</loc>
+    <loc>https://neverleavetheplayground.com/</loc>
     <video:video>
       <video:thumbnail_loc>https://img.youtube.com/vi/jVHU7yVxdeg/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>Never Leave The Playground — Program Explained</video:title>
-      <video:description>Short overview of Stephen Jepson’s playful movement method and who it helps.</video:description>
+      <video:title>Program Explained</video:title>
+      <video:description>Overview of Stephen Jepson’s playful movement method and who it helps.</video:description>
       <video:player_loc allow_embed="yes">https://www.youtube.com/embed/jVHU7yVxdeg</video:player_loc>
     </video:video>
     <video:video>
       <video:thumbnail_loc>https://img.youtube.com/vi/m6KrVBWtE_0/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Program Explained by Stephen</video:title>
-      <video:description>Stephen explains the Never Leave The Playground program and progression.</video:description>
+      <video:description>Stephen explains progression and benefits with a science-based approach.</video:description>
       <video:player_loc allow_embed="yes">https://www.youtube.com/embed/m6KrVBWtE_0?start=36</video:player_loc>
     </video:video>
   </url>
   <url>
-    <loc>https://neverleavetheplayground.com/our-videos.html</loc>
+    <loc>https://neverleavetheplayground.com/our-videos</loc>
     <video:video>
       <video:thumbnail_loc>https://img.youtube.com/vi/L3_bOVK-Dq8/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>Client Testimonial — Never Leave The Playground</video:title>
+      <video:title>Client Testimonial</video:title>
       <video:description>How playful movement improved daily balance and confidence.</video:description>
       <video:player_loc allow_embed="yes">https://www.youtube.com/embed/L3_bOVK-Dq8</video:player_loc>
     </video:video>
     <video:video>
       <video:thumbnail_loc>https://img.youtube.com/vi/zLR0H7i1ZlI/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>Client Testimonial — Never Leave The Playground</video:title>
+      <video:title>Client Testimonial</video:title>
       <video:description>Real-world results from simple, consistent practice.</video:description>
       <video:player_loc allow_embed="yes">https://www.youtube.com/embed/zLR0H7i1ZlI</video:player_loc>
     </video:video>

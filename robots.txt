@@ -1,6 +1,4 @@
-
 User-agent: *
 Allow: /
-
 Sitemap: https://neverleavetheplayground.com/sitemap.xml
 Sitemap: https://neverleavetheplayground.com/video-sitemap.xml
