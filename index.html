@@ -11,7 +11,17 @@
   <title>Never Leave The Playground — Playful Movement for Life</title>
   <meta name="description" content="Playful movement that rebuilds balance, coordination, and confidence at any age — grounded in science and designed to be fun." />
   <link rel="canonical" href="https://neverleavetheplayground.com/" />
-  <link rel="stylesheet" href="site-v5.css" />
+  <link rel="stylesheet" href="/site-v6.css" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DMGBC1N1RX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-DMGBC1N1RX');
+  </script>
+
 
 </head>
 <body class="bg-white text-gray-900">
@@ -37,6 +47,7 @@
     </div>
   </header>
 
+
   <main>
     <section class="max-w-7xl mx-auto px-4 py-12">
       <div class="grid md:grid-cols-2 gap-8 items-center">
@@ -55,51 +66,8 @@
         </div>
       </div>
     </section>
-
-    <section id="program-explained" class="mx-auto max-w-3xl my-10 px-4 nlp-copy">
-      <h2 class="text-2xl md:text-3xl font-bold mb-3">Program Explained by Stephen</h2>
-      <p>This clip walks through the core ideas — why playful drills progress from simple to challenging and how they help balance, coordination, and confidence.</p>
-      <div class="video-frame aspect-video mt-4">
-        <iframe src="https://www.youtube-nocookie.com/embed/m6KrVBWtE_0?start=36" title="Program Explained by Stephen" loading="lazy"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
-      </div>
-    </section>
-
-    <section class="max-w-7xl mx-auto px-4 py-10 grid md:grid-cols-3 gap-6">
-      <div class="card"><h3 class="font-semibold mb-2">Balance & Coordination</h3><p class="text-gray-700 text-sm">Playful drills that challenge both sides of the body improve stability and control.</p></div>
-      <div class="card"><h3 class="font-semibold mb-2">Cognitive Fitness</h3><p class="text-gray-700 text-sm">Learning new skills and hand–eye patterns builds attention, memory, and mental agility.</p></div>
-      <div class="card"><h3 class="font-semibold mb-2">Accessible & Fun</h3><p class="text-gray-700 text-sm">Minimal gear. Indoor or outdoor. Small, consistent sessions that add up.</p></div>
-    </section>
-
-    <section id="client-story" class="mx-auto max-w-3xl my-10 px-4 nlp-copy">
-      <h3 class="text-xl font-semibold mb-2">Client Story</h3>
-      <div class="video-frame aspect-video">
-        <iframe src="https://www.youtube-nocookie.com/embed/L3_bOVK-Dq8" title="Client Testimonial" loading="lazy"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
-      </div>
-      <p class="mt-2 text-sm text-gray-600">How playful movement improved daily balance and confidence.</p>
-    </section>
-
-    <section class="max-w-7xl mx-auto px-4 py-10">
-      <h3 class="text-xl font-semibold mb-4">Explore</h3>
-      <div class="grid md:grid-cols-3 gap-4">
-        <a class="card" href="/science">Why It Works (Science)</a>
-        <a class="card" href="/activities">Activities</a>
-        <a class="card" href="/our-videos">More Client Stories</a>
-      </div>
-    </section>
-
-    <section id="contact" class="max-w-7xl mx-auto px-4 py-12 nlp-copy">
-      <h2 class="text-2xl md:text-3xl font-bold mb-4">Get in touch</h2>
-      <p class="text-gray-700 mb-4">Questions, speaking, or workshops? We’d love to help.</p>
-      <div class="flex flex-wrap gap-3">
-        <a class="btn" href="mailto:info@neverleavetheplayground.com">Email Us</a>
-        <a class="btn" style="background:#111827" href="https://playgrounds.neverleavetheplayground.com/" rel="noopener">Find a Playground Near You</a>
-      </div>
-    </section>
   </main>
+
 
   <footer class="border-t mt-16">
     <div class="max-w-7xl mx-auto px-4 py-10 grid md:grid-cols-4 gap-8 text-sm text-gray-700 nlp-copy">
@@ -151,7 +119,7 @@
     document.getElementById('footer-year').textContent = new Date().getFullYear();
     const navToggle=document.getElementById('navToggle'), mobileNav=document.getElementById('mobileNav');
     if(navToggle && mobileNav){
-      navToggle.addEventListener('click', ()=>{
+      navToggle.addEventListener('click', ()=> {
         const nowHidden = mobileNav.classList.toggle('hidden');
         navToggle.setAttribute('aria-expanded', String(!nowHidden));
       });

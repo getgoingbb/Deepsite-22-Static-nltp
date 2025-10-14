@@ -9,9 +9,19 @@
   <link rel="dns-prefetch" href="//www.youtube-nocookie.com">
   <link rel="dns-prefetch" href="//img.youtube.com">
   <title>Our Videos — Never Leave The Playground</title>
-  <meta name="description" content="Watch program overviews and client stories from Never Leave The Playground." />
+  <meta name="description" content="Watch program overviews, client stories, and purchase training videos from Never Leave The Playground." />
   <link rel="canonical" href="https://neverleavetheplayground.com/our-videos" />
-  <link rel="stylesheet" href="site-v5.css" />
+  <link rel="stylesheet" href="/site-v6.css" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DMGBC1N1RX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-DMGBC1N1RX');
+  </script>
+
 
 </head>
 <body class="bg-white text-gray-900">
@@ -36,6 +46,7 @@
       <a class="block py-2" href="#contact">Contact</a>
     </div>
   </header>
+
 
   <main class="max-w-7xl mx-auto px-4 py-10">
     <h1 class="text-3xl md:text-4xl font-extrabold mb-8">Our Videos</h1>
@@ -67,7 +78,55 @@
         </div>
       </div>
     </section>
+    <section id="featured-training" class="my-12">
+      <h2 class="text-2xl md:text-3xl font-bold mb-4">Featured Training Videos</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <article class="card">
+          <a class="block" href="PURCHASE_LINK_VIDEO_1" rel="noopener">
+            <img src="https://img.youtube.com/vi/jVHU7yVxdeg/hqdefault.jpg" alt="Training Video — Balance & Coordination Basics" />
+            <h3 class="font-semibold mt-3">Balance & Coordination Basics</h3>
+            <p class="text-sm text-gray-600 mt-1">Foundational drills to rebuild steadiness and control. Ideal starting point.</p>
+            <p class="text-sm text-gray-900 mt-2"><strong>$19</strong> • HD download</p>
+            <span class="btn mt-3 inline-flex">Buy / Learn more</span>
+          </a>
+        </article>
+        <article class="card">
+          <a class="block" href="PURCHASE_LINK_VIDEO_2" rel="noopener">
+            <img src="https://img.youtube.com/vi/m6KrVBWtE_0/hqdefault.jpg" alt="Training Video — Agility & Cognitive Drills" />
+            <h3 class="font-semibold mt-3">Agility & Cognitive Drills</h3>
+            <p class="text-sm text-gray-600 mt-1">Progressions that challenge hand–eye patterns and attention.</p>
+            <p class="text-sm text-gray-900 mt-2"><strong>$29</strong> • HD download</p>
+            <span class="btn mt-3 inline-flex">Buy / Learn more</span>
+          </a>
+        </article>
+      </div>
+    </section>
   </main>
+  <script type="application/ld+json">
+  {{
+    "@context":"https://schema.org",
+    "@type":"ItemList",
+    "itemListElement":[
+      {{
+        "@type":"Product",
+        "name":"Balance & Coordination Basics",
+        "image":["https://img.youtube.com/vi/jVHU7yVxdeg/hqdefault.jpg"],
+        "description":"Foundational drills to rebuild steadiness and control.",
+        "brand":{{"@type":"Brand","name":"Never Leave The Playground"}},
+        "offers":{{"@type":"Offer","price":"19.00","priceCurrency":"USD","url":"PURCHASE_LINK_VIDEO_1","availability":"https://schema.org/InStock"}}
+      }},
+      {{
+        "@type":"Product",
+        "name":"Agility & Cognitive Drills",
+        "image":["https://img.youtube.com/vi/m6KrVBWtE_0/hqdefault.jpg"],
+        "description":"Progressions that challenge hand–eye patterns and attention.",
+        "brand":{{"@type":"Brand","name":"Never Leave The Playground"}},
+        "offers":{{"@type":"Offer","price":"29.00","priceCurrency":"USD","url":"PURCHASE_LINK_VIDEO_2","availability":"https://schema.org/InStock"}}
+      }}
+    ]
+  }}
+  </script>
+
 
   <footer class="border-t mt-16">
     <div class="max-w-7xl mx-auto px-4 py-10 grid md:grid-cols-4 gap-8 text-sm text-gray-700 nlp-copy">
@@ -119,7 +178,7 @@
     document.getElementById('footer-year').textContent = new Date().getFullYear();
     const navToggle=document.getElementById('navToggle'), mobileNav=document.getElementById('mobileNav');
     if(navToggle && mobileNav){
-      navToggle.addEventListener('click', ()=>{
+      navToggle.addEventListener('click', ()=> {
         const nowHidden = mobileNav.classList.toggle('hidden');
         navToggle.setAttribute('aria-expanded', String(!nowHidden));
       });

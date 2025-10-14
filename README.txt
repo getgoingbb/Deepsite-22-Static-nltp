@@ -1,13 +1,13 @@
-Never Leave The Playground — Full Site Bundle (v5)
-Upload everything to your site root.
+Never Leave The Playground — Full Site Bundle (v6)
+Upload everything to site root.
 
-Key files
-- site-v5.css  (primary stylesheet; pages link to this)
-- site.css     (alias, in case an old page still references it)
-- index.html, our-videos.html (+ folder route), science.html (+ folder route), activities.html (+ folder route), news.html (+ folder route)
-- robots.txt, sitemap.xml, video-sitemap.xml
+Changes in v6
+- ABSOLUTE stylesheet path (/site-v6.css) on every page to fix subfolder CSS loading
+- Google Analytics (GA4) added to <head> with Measurement ID: G-DMGBC1N1RX
+- "Featured Training Videos" section added to /our-videos (replace PURCHASE_LINK_... placeholders)
+- robots.txt + sitemaps included
 
-After upload
-1) Visit /site-v5.css — confirm it loads (shows “Version: v5” comment).
-2) Hard refresh your pages (Shift+Reload). If CSS still doesn’t load, ensure your HTML <head> includes: <link rel="stylesheet" href="site-v5.css" />
-3) If your server requires absolute paths, change to href="/site-v5.css".
+Post-upload checks
+1) Visit /site-v6.css (should load; shows v6 header)
+2) View Source on a subpage (e.g., /our-videos) and confirm: <link rel="stylesheet" href="/site-v6.css" />
+3) Replace product links with your actual checkout URLs.

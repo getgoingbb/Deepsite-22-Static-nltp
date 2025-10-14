@@ -11,7 +11,17 @@
   <title>Science-Backed Benefits — Never Leave The Playground</title>
   <meta name="description" content="Why playful movement works: balance, cognition, and quality of life — with practical next steps." />
   <link rel="canonical" href="https://neverleavetheplayground.com/science" />
-  <link rel="stylesheet" href="site-v5.css" />
+  <link rel="stylesheet" href="/site-v6.css" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DMGBC1N1RX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-DMGBC1N1RX');
+  </script>
+
 
 </head>
 <body class="bg-white text-gray-900">
@@ -37,6 +47,7 @@
     </div>
   </header>
 
+
   <main class="max-w-3xl mx-auto px-4 py-10 nlp-copy">
     <h1 class="text-3xl md:text-4xl font-extrabold mb-6">Why Playful Movement Works</h1>
     <p>Regular physical activity improves thinking skills and lowers the risk of cognitive decline. Learning new, coordinated skills builds brain connectivity. Exercise also supports people with Parkinson’s — improving gait, balance, and quality of life.</p>
@@ -58,6 +69,7 @@
       <a class="btn" href="https://playgrounds.neverleavetheplayground.com/" rel="noopener">Find a Playground Near You</a>
     </section>
   </main>
+
 
   <footer class="border-t mt-16">
     <div class="max-w-7xl mx-auto px-4 py-10 grid md:grid-cols-4 gap-8 text-sm text-gray-700 nlp-copy">
@@ -109,7 +121,7 @@
     document.getElementById('footer-year').textContent = new Date().getFullYear();
     const navToggle=document.getElementById('navToggle'), mobileNav=document.getElementById('mobileNav');
     if(navToggle && mobileNav){
-      navToggle.addEventListener('click', ()=>{
+      navToggle.addEventListener('click', ()=> {
         const nowHidden = mobileNav.classList.toggle('hidden');
         navToggle.setAttribute('aria-expanded', String(!nowHidden));
       });
