@@ -12,7 +12,7 @@
   <title>News — Never Leave The Playground</title>
   <meta name="description" content="Latest updates and features from Never Leave The Playground." />
   <link rel="canonical" href="https://neverleavetheplayground.com/news" />
-  <link rel="stylesheet" href="/site.css?v=7.1" />
+  <link rel="stylesheet" href="/site.css?v=7.4" />
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-DMGBC1N1RX"></script>
@@ -98,7 +98,7 @@
     document.getElementById('footer-year').textContent = new Date().getFullYear();
     const navToggle=document.getElementById('navToggle'), mobileNav=document.getElementById('mobileNav');
     if(navToggle && mobileNav){
-      navToggle.addEventListener('click', ()=> {
+      navToggle.addEventListener('click', ()=>{ 
         const nowHidden = mobileNav.classList.toggle('hidden');
         navToggle.setAttribute('aria-expanded', String(!nowHidden));
       });

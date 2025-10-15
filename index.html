@@ -12,7 +12,7 @@
   <title>Never Leave The Playground — Playful Movement for Life</title>
   <meta name="description" content="Playful movement that rebuilds balance, coordination, and confidence at any age — grounded in science and designed to be fun." />
   <link rel="canonical" href="https://neverleavetheplayground.com/" />
-  <link rel="stylesheet" href="/site.css?v=7.1" />
+  <link rel="stylesheet" href="/site.css?v=7.4" />
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-DMGBC1N1RX"></script>
@@ -119,7 +119,7 @@
     document.getElementById('footer-year').textContent = new Date().getFullYear();
     const navToggle=document.getElementById('navToggle'), mobileNav=document.getElementById('mobileNav');
     if(navToggle && mobileNav){
-      navToggle.addEventListener('click', ()=> {
+      navToggle.addEventListener('click', ()=>{ 
         const nowHidden = mobileNav.classList.toggle('hidden');
         navToggle.setAttribute('aria-expanded', String(!nowHidden));
       });

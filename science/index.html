@@ -12,7 +12,7 @@
   <title>Science-Backed Benefits — Never Leave The Playground</title>
   <meta name="description" content="Why playful movement works: balance, cognition, and quality of life — with practical next steps." />
   <link rel="canonical" href="https://neverleavetheplayground.com/science" />
-  <link rel="stylesheet" href="/site.css?v=7.1" />
+  <link rel="stylesheet" href="/site.css?v=7.4" />
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-DMGBC1N1RX"></script>
@@ -62,7 +62,7 @@
     <section id="parkinsons" class="my-8">
       <h2 class="text-2xl font-bold">Parkinson’s & Neurological Support</h2>
       <ul class="list-disc pl-4">
-        <li>Exercise upregulates neurotrophic factors and supports better motor and non-motor outcomes.</li>
+        <li>Exercise supports better motor and non-motor outcomes.</li>
         <li>Balance and coordination drills can complement medical care (talk to your clinician first).</li>
       </ul>
     </section>
@@ -108,7 +108,7 @@
     document.getElementById('footer-year').textContent = new Date().getFullYear();
     const navToggle=document.getElementById('navToggle'), mobileNav=document.getElementById('mobileNav');
     if(navToggle && mobileNav){
-      navToggle.addEventListener('click', ()=> {
+      navToggle.addEventListener('click', ()=>{ 
         const nowHidden = mobileNav.classList.toggle('hidden');
         navToggle.setAttribute('aria-expanded', String(!nowHidden));
       });

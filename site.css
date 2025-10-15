@@ -1,6 +1,5 @@
-/* alias to v7.1 */
 
-/*! Never Leave The Playground — CSS v7.1 */
+/*! Never Leave The Playground — CSS v7.4 */
 :root{ --nlp-accent:#2563eb; --nlp-accent-dark:#1e40af; --nlp-ink:#111827; --nlp-muted:#6b7280; --nlp-ring:#60a5fa; --nlp-bg:#f8fafc; }
 *{ box-sizing:border-box }
 html,body{ margin:0; padding:0; background:#fff; color:var(--nlp-ink);
